@@ -1,185 +1,307 @@
-# ISO/IEC 27701:2019 PIMS Gap Assessment Checklist
+# Annex B — PII Processor Controls: Implementation Reference
 
-**Document ID:** PIMS-GAP-001
-**Version:** 1.0 | **Date:** 2025 | **Classification:** Internal
-
----
-
-## How to Use This Checklist
-
-Rate each requirement using the following scale:
-
-| Score | Rating | Description |
-|---|---|---|
-| 0 | Not Implemented | No evidence of requirement being addressed |
-| 1 | Initial | Ad hoc or informal approach; not documented |
-| 2 | Partial | Partially implemented; gaps remain |
-| 3 | Largely Conformant | Implemented and mostly documented; minor gaps |
-| 4 | Fully Conformant | Fully implemented, documented, and evidenced |
-
-**Gap = Any requirement scored 0, 1, or 2**
+| Field | Detail |
+|-------|--------|
+| **Document ID** | PIMS-ANNEXB-B8-001 |
+| **Version** | 2.0 |
+| **Date** | April 2025 |
+| **Standard** | ISO/IEC 27701:2025 — Annex B (B.8) |
+| **Applies To** | PII Processors |
+| **Classification** | Internal |
 
 ---
 
-## Section 1 — PIMS Clause Extensions (Clauses 4–10)
+## B.8 — PII Processor Obligations
 
-### Clause 4 — Context
+This section provides implementation guidance for all Annex B controls applicable to organisations acting as PII Processors.
 
-| Ref | Requirement | Score (0-4) | Evidence / Notes | Gap Owner | Target Date |
-|---|---|---|---|---|---|
-| 4.1 ext | Privacy-specific internal and external issues identified | | | | |
-| 4.2 ext | Privacy-specific interested parties identified (regulators, data subjects, processors) | | | | |
-| 4.3 ext | PIMS scope includes all PII processing activities and applicable regulations | | | | |
-| 4.4 ext | PII Processing Inventory / Record of Processing Activities (ROPA) documented | | | | |
-
-### Clause 5 — Leadership
-
-| Ref | Requirement | Score (0-4) | Evidence / Notes | Gap Owner | Target Date |
-|---|---|---|---|---|---|
-| 5.1 ext | Top management commitment to PIMS demonstrated | | | | |
-| 5.2 ext | Approved Privacy Policy signed by senior management | | | | |
-| 5.3 ext | DPO appointed where required | | | | |
-| 5.3 ext | Privacy roles and responsibilities defined and communicated | | | | |
-
-### Clause 6 — Planning
-
-| Ref | Requirement | Score (0-4) | Evidence / Notes | Gap Owner | Target Date |
-|---|---|---|---|---|---|
-| 6.1 ext | Privacy risk assessment methodology documented | | | | |
-| 6.1 ext | Privacy risk assessment conducted for all PII processing activities | | | | |
-| 6.1 ext | Privacy risk treatment options selected and documented | | | | |
-| 6.1 ext | Statement of Applicability completed for all 49 Annex A/B controls | | | | |
-| 6.2 ext | Measurable Privacy Objectives established and monitored | | | | |
-
-### Clause 7 — Support
-
-| Ref | Requirement | Score (0-4) | Evidence / Notes | Gap Owner | Target Date |
-|---|---|---|---|---|---|
-| 7.2 ext | Staff competence in privacy assessed and evidenced | | | | |
-| 7.3 ext | Privacy awareness programme for all relevant staff | | | | |
-| 7.4 ext | Privacy communications plan (internal and external) in place | | | | |
-| 7.5 ext | Documented information controlled and retained per PIMS requirements | | | | |
-
-### Clause 8 — Operation
-
-| Ref | Requirement | Score (0-4) | Evidence / Notes | Gap Owner | Target Date |
-|---|---|---|---|---|---|
-| 8.1 ext | Documented procedures for all PII processing activities | | | | |
-| 8.1 ext | DPIAs conducted for high-risk processing activities | | | | |
-| 8.1 ext | Consent management procedure in place | | | | |
-| 8.1 ext | Data subject rights (DSAR) procedure in place | | | | |
-| 8.1 ext | Privacy breach response procedure in place | | | | |
-| 8.1 ext | Data retention and disposal policy in place | | | | |
-| 8.1 ext | Third-party processors assessed and bound by appropriate contracts | | | | |
-| 8.1 ext | Cross-border PII transfers documented with transfer mechanisms | | | | |
-| 8.1 ext | Privacy by design embedded in new projects and system changes | | | | |
-
-### Clause 9 — Performance Evaluation
-
-| Ref | Requirement | Score (0-4) | Evidence / Notes | Gap Owner | Target Date |
-|---|---|---|---|---|---|
-| 9.1 ext | Privacy KPIs monitored and reported | | | | |
-| 9.2 ext | Annual PIMS internal audit conducted | | | | |
-| 9.3 ext | PIMS management review conducted at least annually | | | | |
-
-### Clause 10 — Improvement
-
-| Ref | Requirement | Score (0-4) | Evidence / Notes | Gap Owner | Target Date |
-|---|---|---|---|---|---|
-| 10.1 ext | Nonconformities logged and corrective actions tracked | | | | |
-| 10.2 ext | Continual improvement of the PIMS demonstrated | | | | |
+> **Reminder:** A PII Processor is an organisation that processes personal data/PII on behalf of a PII Controller. If you act as both controller AND processor, **both Annex A and Annex B apply** depending on the activity.
 
 ---
 
-## Section 2 — Annex A: PII Controller Controls (31 Controls)
+### B.8.1 — Conditions for Collection and Processing
 
-### A.7 — Conditions for Collection and Processing
+#### B.8.1.1 — Processing only on documented controller instructions
 
-| Control | Requirement | Score (0-4) | Evidence / Notes | Gap Owner |
-|---|---|---|---|---|
-| A.7.2.1 | Lawful basis for processing PII identified and documented | | | |
-| A.7.2.2 | Purposes for PII processing determined and documented | | | |
-| A.7.2.3 | Necessity and proportionality of processing determined | | | |
-| A.7.2.4 | Privacy risk assessed for each processing activity | | | |
-| A.7.2.5 | Privacy impact assessments conducted where required | | | |
-| A.7.2.6 | Joint controller contracts documented | | | |
-| A.7.2.7 | Records of PII processing maintained | | | |
-| A.7.2.8 | Special category PII identified with additional protections applied | | | |
-| A.7.3.1 | Purpose limitation applied — PII used only for stated purposes | | | |
-| A.7.4.1 | Consent obtained where required; records maintained | | | |
-| A.7.4.2 | Consent withdrawal mechanism in place | | | |
-| A.7.4.3 | Consent records linked to processing activities | | | |
+**Requirement:** The processor shall process PII only on the documented, written instructions of the controller.
 
-### A.8 — Obligations to PII Principals
+**Implementation guidance:**
+- Data Processing Agreement (DPA) is the primary source of controller instructions
+- Instructions must be received in writing before processing commences
+- If controller gives verbal instructions, document and confirm in writing
+- Processor must notify controller if instructions appear to infringe applicable law
+- Processor must not act outside the scope of the DPA
 
-| Control | Requirement | Score (0-4) | Evidence / Notes | Gap Owner |
-|---|---|---|---|---|
-| A.8.1.1 | Privacy notice provided to PII principals at point of collection | | | |
-| A.8.1.2 | Privacy notice updated when processing changes | | | |
-| A.8.2.1 | Process to handle access requests (DSARs) in place | | | |
-| A.8.2.2 | DSARs fulfilled within regulatory timeframe | | | |
-| A.8.3.1 | Rectification requests handled | | | |
-| A.8.3.2 | Erasure requests handled (right to be forgotten) | | | |
-| A.8.3.3 | Data portability requests handled | | | |
-| A.8.3.4 | Objection requests handled | | | |
-| A.8.3.5 | Restriction of processing requests handled | | | |
-| A.8.4.1 | Automated decision-making safeguards in place | | | |
-| A.8.4.2 | Profiling safeguards implemented | | | |
-| A.8.5.1 | Data minimisation applied to all PII collection | | | |
-| A.8.5.2 | PII accuracy and quality maintained | | | |
-| A.8.5.3 | PII retained only for as long as necessary | | | |
-| A.8.5.4 | PII securely disposed of at end of retention period | | | |
-| A.8.5.5 | Temporary files and copies identified and controlled | | | |
-| A.8.5.6 | PII transmission encrypted and protected | | | |
-| A.8.5.7 | Anonymisation and pseudonymisation applied where appropriate | | | |
-| A.8.5.8 | Access to PII restricted to authorised individuals | | | |
+**Key DPA provisions:**
+- Subject matter and duration of processing
+- Nature and purpose of processing
+- Type of PII and categories of data subjects
+- Controller's obligations and rights
+- Processor's specific instructions
+
+**Evidence:** Signed DPA with all mandatory provisions; instruction register; email confirmations for ad hoc instructions.
+
+**GDPR mapping:** Art. 28(3)(a)
 
 ---
 
-## Section 3 — Annex B: PII Processor Controls (18 Controls)
+#### B.8.1.2 — Purposes limited to controller instructions
 
-### B.8 — PII Processor Obligations
+**Requirement:** The processor shall process PII only for the purposes specified in the controller's instructions and DPA.
 
-| Control | Requirement | Score (0-4) | Evidence / Notes | Gap Owner |
-|---|---|---|---|---|
-| B.8.1.1 | Written agreement with PII controller in place | | | |
-| B.8.1.2 | Processing performed only per controller instructions | | | |
-| B.8.1.3 | Obligations to assist controller with data subject rights documented | | | |
-| B.8.2.1 | Sub-processors engaged only with controller authorisation | | | |
-| B.8.2.2 | Sub-processors bound by equivalent data protection obligations | | | |
-| B.8.2.3 | Register of sub-processors maintained | | | |
-| B.8.3.1 | PII returned or deleted on contract termination | | | |
-| B.8.3.2 | Evidence of deletion/return provided to controller | | | |
-| B.8.4.1 | Privacy breaches reported to controller within agreed timeframe | | | |
-| B.8.4.2 | Breach records maintained by processor | | | |
-| B.8.5.1 | Cross-border transfers performed only with controller authorisation | | | |
-| B.8.5.2 | Transfer mechanism documented and compliant | | | |
-| B.8.5.3 | Disclosure to third parties limited to controller-authorised recipients | | | |
-| B.8.5.4 | PII not used for processor's own purposes | | | |
-| B.8.5.5 | Processor staff bound by confidentiality obligations | | | |
-| B.8.5.6 | Processor provides controller with necessary information for compliance | | | |
-| B.8.5.7 | Processor supports controller's obligation to conduct DPIAs | | | |
-| B.8.5.8 | Processor notifies controller of any legally binding disclosure requests | | | |
+**Implementation guidance:**
+- Technical access controls limiting use of PII to contracted purposes
+- Staff briefing on purpose limitations
+- Alert process if controller instructs processing that may conflict with applicable law
+
+**Evidence:** System access controls documentation; staff confidentiality training records.
+
+**GDPR mapping:** Art. 28(3)
 
 ---
 
-## Gap Assessment Summary
+#### B.8.1.3 — Marketing and advertising restrictions
 
-| Section | Total Requirements | Score 4 | Score 3 | Score 2 | Score 1 | Score 0 | Gaps (0-2) |
-|---|---|---|---|---|---|---|---|
-| Clause Extensions (4-10) | 28 | | | | | | |
-| Annex A — Controller | 31 | | | | | | |
-| Annex B — Processor | 18 | | | | | | |
-| **Total** | **77** | | | | | | |
+**Requirement:** The processor shall not use PII processed on behalf of a controller for the processor's own marketing or advertising purposes without explicit controller authorisation.
 
-### Priority Action Plan
+**Implementation guidance:**
+- Technical and policy controls preventing PII from being used for own marketing
+- Include prohibition in processor internal policies
+- Audit controls to detect misuse
 
-| Priority | Gap Reference | Requirement | Recommended Action | Owner | Target Date |
-|---|---|---|---|---|---|
-| High | | | | | |
-| High | | | | | |
-| Medium | | | | | |
+**Evidence:** Internal privacy policy; technical controls documentation; staff training.
 
 ---
 
-*ISO/IEC 27701:2019 PIMS Toolkit | Gap Assessment Checklist | PIMS-GAP-001*
+#### B.8.1.4 — Sub-processor engagement
+
+**Requirement:** The processor shall not engage sub-processors without prior specific or general written authorisation from the controller, and shall ensure equivalent DPA obligations are imposed on sub-processors.
+
+**Implementation guidance:**
+- DPA must specify whether general or specific sub-processor authorisation is granted
+- Sub-processor register maintained and provided to controller
+- New sub-processors: notify controller with opportunity to object
+- Sub-processor DPAs must include all equivalent Art. 28 requirements
+- Processor remains liable to controller for sub-processor's compliance
+
+**Evidence:** Sub-processor register; sub-processor DPAs; controller notifications; general authorisation clause in DPA.
+
+**GDPR mapping:** Art. 28(4)
+
+---
+
+### B.8.2 — Privacy Obligations
+
+#### B.8.2.1 — Obligations to PII principals (processor)
+
+**Requirement:** The processor shall provide assistance to the controller to fulfil the controller's obligations to data subjects.
+
+**Implementation guidance:**
+- Technical measures to support DSARs (data exports, deletion, rectification)
+- Forward data subject requests to controller promptly
+- Do not act on data subject requests directly without controller instruction
+- Ensure systems support all data subject rights technically
+
+**Evidence:** DSAR assistance procedure; data portability export capability; deletion mechanism.
+
+**GDPR mapping:** Art. 28(3)(e)
+
+---
+
+#### B.8.2.2 — Legitimate purpose only
+
+**Requirement:** The processor shall only process PII for legitimate purposes as defined in the controller's instructions.
+
+**Implementation guidance:**
+- Regular review of processing activities against DPA scope
+- Change management process for new processing activities (requires controller approval)
+- Technical controls preventing scope creep
+
+**Evidence:** Periodic DPA compliance review records; change management records.
+
+---
+
+### B.8.3 — Privacy by Design and Privacy by Default *(Enhanced in ISO 27701:2025)*
+
+#### B.8.3.1 — Privacy by design (processor standalone) *(NEW in ISO 27701:2025)*
+
+**Requirement:** The processor shall implement privacy by design in its systems, services, and processing operations, aligned to ISO/IEC 31700:2023.
+
+**Why added in 2025:** Processors increasingly design platforms and services used by multiple controllers. Privacy must be embedded in the design of these services, not just in the contractual DPA.
+
+**Implementation guidance (ISO 31700:2023 aligned):**
+- Privacy requirements embedded in product/service architecture from design phase
+- Privacy impact review for all new processing capabilities
+- Pseudonymisation and encryption by default in processor platform
+- Data minimisation in processor system design (only collect what is needed operationally)
+- Separation of processor operational data from controller PII data
+- Audit logging of PII access by processor staff
+
+**Evidence:** System architecture documentation showing privacy controls; Privacy by Design procedure; technical security documentation.
+
+**GDPR mapping:** Art. 25, 32
+
+---
+
+#### B.8.3.2 — Temporary files (processor) *(NEW in ISO 27701:2025)*
+
+**Requirement:** Temporary files created during processing operations shall be identified, managed, and deleted according to defined schedules.
+
+**Implementation guidance:**
+- Map all locations where temporary PII files are created (processing queues, logs, caches, backups, staging areas)
+- Define retention/deletion schedule for each temporary file type
+- Automated deletion where possible
+- Include in DPA: temporary file handling obligations
+
+**Evidence:** Temporary file inventory; automated cleanup schedule; system configuration.
+
+---
+
+#### B.8.3.3 — Return, transfer or disposal of PII (processor)
+
+**Requirement:** At the end of the processing relationship, the processor shall return PII to the controller or securely delete it, as instructed by the controller, and provide evidence of disposal.
+
+**Implementation guidance:**
+- End-of-contract procedure defined in DPA
+- Secure deletion of all PII copies (including backups) within agreed timeframe
+- Deletion certificate issued to controller
+- Evidence retained by processor for defined period
+
+**Evidence:** End-of-contract DPA provisions; deletion certificates; disposal records.
+
+**GDPR mapping:** Art. 28(3)(g)
+
+---
+
+### B.8.4 — Processor Obligations to Controller
+
+#### B.8.4.1 — Assistance for data subject rights
+
+**Requirement:** The processor shall assist the controller in responding to requests from data subjects exercising their rights, by implementing appropriate technical and organisational measures.
+
+**Implementation guidance:**
+- DSAR support: ability to search for and export individual data subject's PII
+- Erasure: ability to delete or irreversibly anonymise specific individual's data
+- Portability: ability to export in machine-readable format
+- Rectification: ability to update specific PII fields
+- Response to controller within agreed service level (typically 5 working days)
+
+**Evidence:** Technical capability documentation; DSAR assistance SLA in DPA; test records.
+
+**GDPR mapping:** Art. 28(3)(e)
+
+---
+
+#### B.8.4.2 — Notification of data subject requests
+
+**Requirement:** The processor shall notify the controller promptly when it receives requests directly from data subjects, without acting on the request without controller instructions.
+
+**Implementation guidance:**
+- Forward DSARs to controller immediately (same day)
+- Do not acknowledge or respond to data subject directly without controller instruction
+- Log all data subject contacts
+
+**Evidence:** Data subject request forwarding procedure; forwarding log.
+
+---
+
+#### B.8.4.3 — Privacy/security breach notification (processor)
+
+**Requirement:** The processor shall notify the controller of any personal data breach without undue delay after becoming aware of it.
+
+**Implementation guidance:**
+- Breach detection procedure (aligned to ISO 27001:2022 incident management)
+- Initial notification to controller as soon as practicable (best practice: within 24 hours)
+- Notification must include available information on: nature of breach, categories/volume of PII, likely consequences, measures taken/proposed
+- Controller then assesses 72-hour regulatory notification obligation
+- Full breach report to follow initial notification
+
+**Evidence:** Breach response procedure; breach notification records; DPA breach notification provision.
+
+**GDPR mapping:** Art. 33 (processor obligation to notify controller)
+
+---
+
+### B.8.5 — Cross-Border Transfers (Processor)
+
+#### B.8.5.1 — Basis for cross-border transfer (processor)
+
+**Requirement:** The processor shall only transfer PII to third countries as authorised by the controller and using approved transfer mechanisms.
+
+**Implementation guidance:**
+- DPA must specify permitted transfer destinations and mechanisms
+- No transfers to non-authorised countries without prior written controller approval
+- If sub-processors are in third countries, adequate safeguards required (SCCs/BCRs)
+- **Transfer Impact Assessment (TIA)** may be required by controller — processor must assist
+
+**Evidence:** DPA transfer provisions; sub-processor DPAs with transfer mechanisms; TIA assistance records.
+
+**GDPR mapping:** Art. 44
+
+---
+
+#### B.8.5.2 — Countries and international organisations
+
+**Requirement:** Transfer destinations shall be documented and restricted to those authorised by the controller in the DPA.
+
+**Evidence:** Transfer register; sub-processor register with countries; DPA authorised destinations list.
+
+---
+
+#### B.8.5.3 — Records of cross-border PII transfers (processor)
+
+**Requirement:** The processor shall maintain records of cross-border PII transfers for the controller and regulatory review.
+
+**Evidence:** Transfer log with dates, destinations, transfer mechanism, volume; Art. 30(2) GDPR records.
+
+**GDPR mapping:** Art. 30(2)
+
+---
+
+### B.8.6 — Audit and Compliance *(Enhanced in ISO 27701:2025)*
+
+#### B.8.6.1 — Audit rights *(NEW standalone control in ISO 27701:2025)*
+
+**Requirement:** The processor shall explicitly support the controller's audit rights, including by making available all information necessary to demonstrate compliance and allowing and contributing to audits.
+
+**Why added in 2025:** GDPR Art. 28(3)(h) mandates audit rights in DPAs but this was not a standalone control in 2019. The 2025 edition elevates this to an explicit Annex B control.
+
+**Implementation guidance:**
+- DPA must include audit rights provision (right to audit with reasonable notice)
+- Processor must maintain compliance documentation available for controller review
+- Third-party audit reports (SOC 2, ISO 27001 certificate) provided to controllers
+- Physical audit access facilitated with reasonable notice
+- Audit support team or DPA point of contact designated
+
+**Evidence:** DPA audit rights clause; ISO 27001 certification; SOC 2 report; audit support procedure.
+
+**GDPR mapping:** Art. 28(3)(h)
+
+---
+
+#### B.8.6.2 — Assistance for regulatory audits *(NEW in ISO 27701:2025)*
+
+**Requirement:** The processor shall assist the controller in facilitating inspections and investigations by supervisory authorities.
+
+**Implementation guidance:**
+- Point of contact for regulatory inspections designated
+- Cooperation procedure defined
+- Relevant records and documentation retrievable within defined timeframe
+- Include in DPA: obligation to cooperate with supervisory authorities
+
+**Evidence:** Regulatory cooperation procedure; DPA cooperation clause; designated contact.
+
+**GDPR mapping:** Art. 31
+
+---
+
+## Version History
+
+| Version | Date | Description |
+|---------|------|-------------|
+| 2.0 | April 2025 | Updated for ISO/IEC 27701:2025 — new controls: B.8.3.1 (Privacy by Design standalone), B.8.3.2 (temporary files), B.8.6.1/B.8.6.2 (audit rights). Replaced wrong gap checklist content from prior commit. Full implementation guidance added. |
+| 1.0 | 2024 | Initial release — ISO/IEC 27701:2019 |
+
+---
+
+*ISO/IEC 27701:2025 PIMS Toolkit | Annex B Implementation Reference | PIMS-ANNEXB-B8-001 | v2.0 | Classification: Internal*
