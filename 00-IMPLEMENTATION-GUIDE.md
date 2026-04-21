@@ -1,149 +1,445 @@
-# ISO/IEC 27701:2019 PIMS Implementation Guide
+# ISO/IEC 27701:2025 PIMS Implementation Guide
 
-**Document ID:** PIMS-GUIDE-001
-**Version:** 1.0 | **Date:** 2025 | **Audience:** PIMS implementers, DPOs, GRC professionals, Privacy practitioners
-
----
-
-## What is ISO/IEC 27701:2019?
-
-ISO/IEC 27701:2019 is an extension to ISO/IEC 27001 and ISO/IEC 27002 for privacy information management. It specifies requirements for establishing, implementing, maintaining, and continually improving a **Privacy Information Management System (PIMS)** as an extension to an existing ISMS.
-
-The standard addresses the processing of **Personally Identifiable Information (PII)** and provides guidance for both:
-- **PII Controllers** — organisations that determine the purpose and means of PII processing
-- **PII Processors** — organisations that process PII on behalf of a controller
-
-**Key facts:**
-- ISO 27701 cannot be implemented standalone — it extends an existing ISO 27001 ISMS
-- Organisations must be certified to ISO 27001 (or working towards it) before certifying to ISO 27701
-- Annex A covers 31 controls specific to PII Controllers
-- Annex B covers 18 controls specific to PII Processors
-- ISO 27701 maps directly to GDPR requirements, making it a recognised compliance tool
+| Field | Detail |
+|-------|--------|
+| **Document ID** | PIMS-IMPL-GUIDE-001 |
+| **Version** | 2.0 |
+| **Date** | April 2025 |
+| **Owner** | Data Protection Officer / PIMS Programme Manager |
+| **Classification** | Public |
+| **Review Date** | April 2026 |
+| **Standard** | ISO/IEC 27701:2025 (supersedes ISO/IEC 27701:2019) |
 
 ---
 
-## Implementation Roadmap
+## 1. Introduction
 
-### Phase 1 — Foundation (Months 1–2)
+### 1.1 Purpose
 
-| Step | Activity | Folder / File |
-|---|---|---|
-| 1.1 | Conduct PIMS gap assessment against all 49 controls and clauses | 01-GAP-ASSESSMENT/ |
-| 1.2 | Define PIMS scope — identify all PII processing activities | 03-CLAUSE4-CONTEXT/PIMS-SCOPE-STATEMENT.md |
-| 1.3 | Build PII Processing Inventory (Record of Processing Activities) | 03-CLAUSE4-CONTEXT/PII-PROCESSING-INVENTORY.md |
-| 1.4 | Identify privacy-specific context and interested parties | 03-CLAUSE4-CONTEXT/ |
-| 1.5 | Map legal and regulatory requirements (GDPR, UAE PDPL, etc.) | 03-CLAUSE4-CONTEXT/LEGAL-REGULATORY-REQUIREMENTS-REGISTER.md |
-| 1.6 | Confirm top management commitment to privacy | 04-CLAUSE5-LEADERSHIP/LEADERSHIP-COMMITMENT-STATEMENT.md |
-| 1.7 | Draft and approve Privacy Policy | 02-PIMS-POLICY/PRIVACY-POLICY.md |
-| 1.8 | Appoint or formalise the DPO role | 04-CLAUSE5-LEADERSHIP/DPO-TERMS-OF-REFERENCE.md |
-| 1.9 | Define PIMS roles and responsibilities | 04-CLAUSE5-LEADERSHIP/PRIVACY-ROLES-RESPONSIBILITIES-RACI.md |
+This guide provides a structured, step-by-step roadmap for implementing a **Privacy Information Management System (PIMS)** in accordance with **ISO/IEC 27701:2025**. It is designed for:
 
-### Phase 2 — Privacy Risk Assessment (Months 2–4)
+- Organisations already certified to **ISO 27001:2022** seeking PIMS certification
+- Organisations transitioning from ISO 27001:2013 + ISO 27701:2019 to the 2025 editions
+- Privacy and GRC practitioners building a PIMS from scratch
+- Data Protection Officers (DPOs) establishing a governance framework
 
-| Step | Activity | Folder / File |
-|---|---|---|
-| 2.1 | Define privacy risk assessment methodology | 05-CLAUSE6-PLANNING/PRIVACY-RISK-ASSESSMENT-METHODOLOGY.md |
-| 2.2 | Conduct privacy risk assessment for all PII processing activities | 05-CLAUSE6-PLANNING/PRIVACY-RISK-REGISTER.md |
-| 2.3 | Determine privacy risk treatment decisions | 05-CLAUSE6-PLANNING/PRIVACY-RISK-TREATMENT-PLAN.md |
-| 2.4 | Complete SoA for all 49 Annex A/B controls | 05-CLAUSE6-PLANNING/STATEMENT-OF-APPLICABILITY.md |
-| 2.5 | Set measurable Privacy Objectives | 02-PIMS-POLICY/PIMS-OBJECTIVES.md |
-| 2.6 | Conduct DPIAs for high-risk processing activities | 07-CLAUSE8-OPERATION/DATA-PROTECTION-IMPACT-ASSESSMENT.md |
+### 1.2 What Is ISO/IEC 27701:2025?
 
-### Phase 3 — Controls Implementation (Months 3–9)
+ISO/IEC 27701:2025 is a **privacy extension to ISO/IEC 27001:2022**. It specifies requirements and provides guidance for establishing, implementing, maintaining, and continually improving a PIMS. The 2025 edition introduces:
 
-| Step | Activity | Folder / File |
-|---|---|---|
-| 3.1 | Implement all applicable Annex A controller controls | 10-ANNEX-A-CONTROLS/ |
-| 3.2 | Implement all applicable Annex B processor controls | 11-ANNEX-B-CONTROLS/ |
-| 3.3 | Establish consent management procedures | 07-CLAUSE8-OPERATION/CONSENT-MANAGEMENT-PROCEDURE.md |
-| 3.4 | Build data subject rights handling capability | 07-CLAUSE8-OPERATION/DATA-SUBJECT-RIGHTS-PROCEDURE.md |
-| 3.5 | Implement privacy breach response procedure | 07-CLAUSE8-OPERATION/PRIVACY-BREACH-RESPONSE-PROCEDURE.md |
-| 3.6 | Establish data retention and disposal policy | 07-CLAUSE8-OPERATION/DATA-RETENTION-AND-DISPOSAL-POLICY.md |
-| 3.7 | Assess third-party processors and review contracts | 07-CLAUSE8-OPERATION/THIRD-PARTY-PRIVACY-ASSESSMENT.md |
-| 3.8 | Document cross-border transfer mechanisms | 07-CLAUSE8-OPERATION/CROSS-BORDER-TRANSFER-PROCEDURE.md |
-| 3.9 | Embed privacy by design into development/change processes | 07-CLAUSE8-OPERATION/PRIVACY-BY-DESIGN-PROCEDURE.md |
-| 3.10 | Publish Privacy Notice for data subjects | 02-PIMS-POLICY/PRIVACY-NOTICE-TEMPLATE.md |
-| 3.11 | Deliver privacy awareness training | 06-CLAUSE7-SUPPORT/PRIVACY-AWARENESS-PROGRAMME.md |
+- **Full alignment with ISO 27001:2022** (High Level Structure / Harmonised Approach)
+- **Expanded Annex A/B controls** aligned to ISO 27002:2022 structure
+- **Enhanced DPIA requirements** with prescriptive trigger criteria
+- **Joint controller provisions** with explicit responsibility allocation
+- **Transfer Impact Assessment (TIA)** for cross-border data transfers
+- **Privacy by Default** as a standalone control (cross-referenced to ISO 31700:2023)
+- **Harmonised terminology** — "personal data" and "PII" used interchangeably
+- **Deeper ISO 29100 alignment** across all 11 privacy principles
 
-### Phase 4 — Operate and Monitor (Months 6–12)
+### 1.3 Key Difference from 2019 Edition
 
-| Step | Activity | Folder / File |
-|---|---|---|
-| 4.1 | Monitor privacy KPIs and metrics | 08-CLAUSE9-PERFORMANCE/PRIVACY-KPI-METRICS-DASHBOARD.md |
-| 4.2 | Conduct PIMS internal audit (minimum annually) | 08-CLAUSE9-PERFORMANCE/PIMS-INTERNAL-AUDIT-PROGRAMME.md |
-| 4.3 | Hold PIMS management review | 08-CLAUSE9-PERFORMANCE/PIMS-MANAGEMENT-REVIEW-TEMPLATE.md |
-| 4.4 | Log and treat nonconformities | 09-CLAUSE10-IMPROVEMENT/NCR-CORRECTIVE-ACTION-REGISTER.md |
-| 4.5 | Track continual improvement | 09-CLAUSE10-IMPROVEMENT/CONTINUAL-IMPROVEMENT-LOG.md |
-
-### Phase 5 — Certification (Months 12–18)
-
-| Step | Activity |
-|---|---|
-| 5.1 | Confirm ISO 27001 certification is in place (prerequisite for ISO 27701) |
-| 5.2 | Select accredited certification body (BSI, DNV, Bureau Veritas, etc.) |
-| 5.3 | Stage 1 audit — PIMS documentation review |
-| 5.4 | Address Stage 1 findings |
-| 5.5 | Stage 2 audit — evidence and implementation review |
-| 5.6 | Address nonconformities raised |
-| 5.7 | ISO 27701 certificate issued — valid 3 years with annual surveillance audits |
+| Aspect | 2019 Edition | 2025 Edition |
+|--------|-------------|-------------|
+| Base standard | ISO 27001:2013 | ISO 27001:2022 |
+| Control structure | Annex A (31) + B (18) = 49 controls | Expanded, ISO 27002:2022-aligned |
+| Privacy by Default | Embedded in Annex A | Standalone explicit control |
+| Joint controllers | Limited | Dedicated provisions |
+| DPIA triggers | General | Prescriptive criteria |
+| Cross-border transfers | Safeguard references | Transfer Impact Assessment (TIA) |
+| Terminology | "PII" primary | "PII" and "personal data" harmonised |
+| ISO 31700 (PbD) | Not referenced | Explicitly cross-referenced |
 
 ---
 
-## Mandatory Documents Checklist
+## 2. Prerequisites
 
-ISO 27701:2019 requires the following documented information as a minimum:
+Before starting PIMS implementation, confirm the following prerequisites:
 
-| # | Document | Clause | Status |
-|---|---|---|---|
-| 1 | PIMS Scope (extension of ISMS scope) | 4.3 extension | [ ] |
-| 2 | Privacy Policy (extension of IS Policy) | 5.2 extension | [ ] |
-| 3 | Privacy Objectives | 6.2 extension | [ ] |
-| 4 | PII Processing Inventory / ROPA | 6.1.2 extension | [ ] |
-| 5 | Privacy Risk Assessment Methodology | 6.1.2 extension | [ ] |
-| 6 | Privacy Risk Assessment Results | 6.1.2 extension | [ ] |
-| 7 | Privacy Risk Treatment Plan | 6.1.3 extension | [ ] |
-| 8 | Statement of Applicability (Annex A/B controls) | 6.1.3(d) extension | [ ] |
-| 9 | DPIA procedure and results (for high-risk processing) | 8.1 extension | [ ] |
-| 10 | Consent records | 8.1 extension | [ ] |
-| 11 | Data Subject Rights procedures and records | 8.1 extension | [ ] |
-| 12 | Privacy Breach Response records | 8.1 extension | [ ] |
-| 13 | Internal audit programme and results | 9.2 extension | [ ] |
-| 14 | Management review results | 9.3 extension | [ ] |
-| 15 | Nonconformities and corrective actions | 10.1 extension | [ ] |
+### 2.1 ISO 27001:2022 Foundation
 
----
+ISO 27701:2025 **extends** ISO 27001:2022. Your organisation must have (or be implementing) an ISMS based on ISO 27001:2022:
 
-## Controller vs Processor: Key Distinction
+- [ ] ISO 27001:2022 ISMS scope defined
+- [ ] Information security risk assessment completed
+- [ ] ISO 27001:2022 Statement of Applicability (SoA) established
+- [ ] Management system documentation in place
+- [ ] Internal audit programme operational
+- [ ] Management review process established
 
-| Aspect | PII Controller | PII Processor |
-|---|---|---|
-| Definition | Determines the purpose and means of PII processing | Processes PII on behalf of a controller |
-| Annex | Annex A (31 controls) | Annex B (18 controls) |
-| Examples | Bank collecting customer data, employer holding HR data | Cloud provider, payroll bureau, marketing agency |
-| Regulatory accountability | Primary accountability to regulators and data subjects | Contractual obligations to controller; some direct obligations |
-| Key obligations | Lawful basis, consent, DSARs, DPIA, privacy notice | Processor agreements, sub-processor management, returning/deleting PII |
+> **Note:** If you are currently on ISO 27001:2013, you must transition to the 2022 edition before or alongside implementing ISO 27701:2025.
+
+### 2.2 Organisational Readiness
+
+- [ ] Senior management commitment to PIMS implementation
+- [ ] Data Protection Officer (DPO) or Privacy Lead appointed
+- [ ] Budget allocated for PIMS programme
+- [ ] Legal/compliance function engaged
+- [ ] Privacy Champion network identified across business units
+
+### 2.3 Regulatory Landscape Confirmed
+
+- [ ] Applicable privacy laws identified (GDPR, UAE PDPL, India DPDPA, UK GDPR, CCPA, etc.)
+- [ ] PII processing activities inventoried (initial ROPA)
+- [ ] Regulatory obligations documented
 
 ---
 
-## How to Use the Worked Examples
+## 3. Implementation Roadmap
 
-The `12-WORKED-EXAMPLE/` folder contains completed versions of key templates using the fictional **Nexus Financial Services Ltd (NFS)** organisation. Use these to understand what a realistic, completed entry looks like before filling in your own templates.
+### Phase 1: Gap Assessment (Weeks 1–3)
 
-> **Do not copy the worked examples verbatim** — they must be tailored to your organisation's specific context, PII processing activities, risks, and regulatory environment.
+**Objective:** Establish current state and identify gaps against ISO 27701:2025.
+
+**Activities:**
+1. Conduct PIMS Gap Assessment using `01-GAP-ASSESSMENT/PIMS-GAP-ASSESSMENT-CHECKLIST.md`
+2. Score each control area using `GAP-ASSESSMENT-SCORING-GUIDE.md`
+3. Identify all PII processing activities (initial ROPA)
+4. Map existing ISMS documents to PIMS extension requirements
+5. Identify joint controller relationships and sub-processor chains
+6. Document the gap assessment findings and remediation priorities
+
+**Key outputs:**
+- Gap Assessment Report with maturity scores per clause
+- Prioritised remediation backlog
+- Initial PII processing inventory (ROPA v0.1)
+- Project charter and resource plan
+
+**Documents to use:**
+- `01-GAP-ASSESSMENT/PIMS-GAP-ASSESSMENT-CHECKLIST.md`
+- `01-GAP-ASSESSMENT/GAP-ASSESSMENT-SCORING-GUIDE.md`
 
 ---
 
-## Glossary of Key Terms
+### Phase 2: Context and Leadership (Weeks 3–5)
 
-| Term | Definition |
-|---|---|
-| PIMS | Privacy Information Management System |
-| PII | Personally Identifiable Information — any information that can identify a natural person directly or indirectly |
-| PII Controller | Organisation that determines the purpose and means of PII processing |
-| PII Processor | Organisation that processes PII on behalf of a controller |
-| PII Principal | The natural person to whom the PII relates (also known as data subject) |
-| DPO | Data Protection Officer — mandatory under GDPR for certain organisations |
-| DPIA | Data Protection Impact Assessment — mandatory for high-risk processing activities |
-| DSAR | Data Subject Access Request — a PII principal's right to access their data |
-| SoA | Statement of Applicability — mandatory document listing all 49 controls with inclusion/exclusion justifications |
-| Lawful basis | Legal grounds for processing PII (consent, contract, legal obligation, vital interests, public task, legitimate inte
+**Objective:** Define PIMS scope, establish governance, and secure leadership commitment.
+
+**Activities:**
+1. Define PIMS scope — specify which PII processing activities are in scope
+2. Conduct context analysis — internal/external issues with privacy lens
+3. Map interested parties — data subjects, regulators, controllers, processors, joint controllers
+4. Identify all applicable legal/regulatory requirements
+5. Issue Leadership Commitment Statement
+6. Formalise DPO Terms of Reference
+7. Establish Privacy RACI matrix
+8. Publish Privacy Acceptable Use Policy
+
+**Key outputs:**
+- PIMS Scope Statement
+- Context and Issues Register (privacy-extended)
+- Interested Parties Register
+- Legal and Regulatory Requirements Register
+- Leadership Commitment Statement
+- DPO Terms of Reference
+- Privacy Roles and RACI Matrix
+
+**Documents to use:**
+- `03-CLAUSE4-CONTEXT/` — all 5 files
+- `04-CLAUSE5-LEADERSHIP/` — all 4 files
+- `02-PIMS-POLICY/PRIVACY-POLICY.md`
+
+---
+
+### Phase 3: Privacy Policy and Objectives (Weeks 4–6)
+
+**Objective:** Establish the top-level Privacy Policy and measurable Privacy Objectives.
+
+**Activities:**
+1. Draft/update the Privacy Policy (extending the Information Security Policy)
+2. Define measurable Privacy Objectives aligned to business context and regulatory requirements
+3. Create external-facing Privacy Notice
+4. Establish Privacy Acceptable Use Policy
+
+**Key outputs:**
+- Privacy Policy (Clause 5.2 extension)
+- Privacy Objectives (Clause 6.2 extension)
+- Privacy Notice (for data subjects)
+
+**Documents to use:**
+- `02-PIMS-POLICY/` — all 3 files
+
+---
+
+### Phase 4: Privacy Risk Assessment and Planning (Weeks 5–8)
+
+**Objective:** Establish the PIMS risk assessment methodology, complete privacy risk assessment, and define the SoA.
+
+**Activities:**
+1. Define Privacy Risk Assessment Methodology (extending ISMS risk methodology)
+2. Conduct Privacy Risk Assessment — identify PII-related risks for all processing activities
+3. Populate Privacy Risk Register
+4. Define Privacy Risk Treatment Plan
+5. Select and justify applicable Annex A/B controls
+6. Produce Statement of Applicability (SoA) for all updated controls
+7. Identify DPIA-mandatory processing activities (using 2025 trigger criteria)
+
+**Key outputs:**
+- Privacy Risk Assessment Methodology
+- Privacy Risk Register
+- Privacy Risk Treatment Plan
+- Statement of Applicability (SoA) — all updated Annex A/B controls
+- DPIA trigger assessment results
+
+**Documents to use:**
+- `05-CLAUSE6-PLANNING/` — all 4 files
+
+> **2025 Update:** The risk assessment must now explicitly address joint controller scenarios and cross-border transfer risks (requiring Transfer Impact Assessments).
+
+---
+
+### Phase 5: Support Structures (Weeks 7–10)
+
+**Objective:** Build the supporting infrastructure for PIMS operation.
+
+**Activities:**
+1. Establish Privacy Competence and Training Register
+2. Launch Privacy Awareness Programme
+3. Develop Privacy Communications Plan (internal and external)
+4. Implement Document Control Procedure for PIMS documents
+5. Create PIMS Document Master List
+
+**Key outputs:**
+- Competence and Training Register
+- Privacy Awareness Programme
+- Privacy Communications Plan
+- PIMS Document Control Procedure
+- PIMS Document Master List
+
+**Documents to use:**
+- `06-CLAUSE7-SUPPORT/` — all 5 files
+
+---
+
+### Phase 6: Operational Controls (Weeks 8–14)
+
+**Objective:** Implement all operational PIMS controls.
+
+**Activities:**
+1. Document all PII processing activities in ROPA
+2. Conduct DPIAs for all high-risk processing activities (using 2025 enhanced template)
+3. Implement Consent Management controls (consent lifecycle: collect, record, withdraw, refresh)
+4. Establish Data Subject Rights procedure (DSAR, erasure, portability, objection, restriction)
+5. Implement Privacy Breach Response procedure
+6. Define Data Retention and Disposal schedules
+7. Conduct Third-Party Privacy Assessments for all processors
+8. Implement Cross-Border Transfer controls (including Transfer Impact Assessments where required)
+9. Embed Privacy by Design and Default into project lifecycle (ISO 31700:2023 aligned)
+
+**Key outputs:**
+- Records of Processing Activities (ROPA)
+- Completed DPIAs for high-risk activities
+- Consent records and consent management process
+- DSAR procedure and tracking mechanism
+- Privacy Breach Response procedure and log
+- Retention schedule and disposal records
+- Processor assessment records and DPAs
+- Transfer mechanism records and TIAs (where applicable)
+- Privacy by Design checklist integrated into SDLC/project management
+
+**Documents to use:**
+- `07-CLAUSE8-OPERATION/` — all 9 files
+- `DPA-TEMPLATE.md` (root)
+- `DATA-SUBJECT-REQUEST-FORM-TEMPLATE.md` (root)
+
+> **2025 Update:** DPIA triggers are now more prescriptive. Review the enhanced DPIA template for mandatory trigger criteria. TIAs are now an explicit requirement for cross-border transfers where adequacy decisions are absent.
+
+---
+
+### Phase 7: Performance Evaluation (Weeks 14–18)
+
+**Objective:** Establish measurement, monitoring, and review mechanisms.
+
+**Activities:**
+1. Define Privacy KPIs and Metrics
+2. Establish Privacy Dashboard / reporting cycle
+3. Plan and conduct PIMS Internal Audit (using updated audit criteria)
+4. Conduct PIMS Management Review
+5. Report performance to senior management
+
+**Key outputs:**
+- Privacy KPI Metrics Dashboard
+- PIMS Internal Audit Programme
+- PIMS Internal Audit Report
+- PIMS Management Review Minutes
+
+**Documents to use:**
+- `08-CLAUSE9-PERFORMANCE/` — all 4 files
+
+---
+
+### Phase 8: Improvement (Ongoing)
+
+**Objective:** Drive continual improvement and manage nonconformities.
+
+**Activities:**
+1. Manage nonconformities and corrective actions (NCR Register)
+2. Log and track continual improvement initiatives
+3. Review and update PIMS documents annually or following significant changes
+4. Re-assess privacy risks following incidents, new processing activities, or regulatory changes
+
+**Key outputs:**
+- NCR and Corrective Action Register
+- Continual Improvement Log
+
+**Documents to use:**
+- `09-CLAUSE10-IMPROVEMENT/` — both files
+
+---
+
+### Phase 9: Certification Readiness (Weeks 18–24)
+
+**Objective:** Prepare for ISO 27701:2025 certification audit.
+
+**Pre-certification checklist:**
+
+**Governance:**
+- [ ] PIMS scope statement approved
+- [ ] Privacy Policy signed by top management
+- [ ] DPO appointed and Terms of Reference signed
+- [ ] RACI matrix published and communicated
+
+**Risk Management:**
+- [ ] Privacy Risk Assessment completed and documented
+- [ ] SoA completed — all controls addressed (include/exclude with justification)
+- [ ] Privacy Risk Treatment Plan implemented and evidenced
+
+**Operational Controls:**
+- [ ] ROPA complete and current
+- [ ] DPIAs completed for all high-risk activities
+- [ ] Consent mechanisms implemented and auditable
+- [ ] DSR procedure tested and evidenced
+- [ ] Breach response procedure tested (tabletop exercise minimum)
+- [ ] All third-party processors assessed and DPAs in place
+- [ ] Transfer mechanisms established for all cross-border transfers
+- [ ] TIAs completed where required
+- [ ] Privacy by Design embedded in project/SDLC process
+
+**Performance:**
+- [ ] Internal PIMS audit completed (covering all clauses + Annex A/B)
+- [ ] Audit findings documented with corrective actions
+- [ ] Management Review completed with privacy agenda items
+- [ ] KPI reporting cycle established
+
+**Documentation:**
+- [ ] All required PIMS documents in place
+- [ ] Document control applied to all PIMS documents
+- [ ] Version history maintained
+- [ ] Records of all key PIMS activities retained
+
+---
+
+## 4. PIMS Document Architecture
+
+### Hierarchy
+
+```
+Level 1:  Privacy Policy (top-level commitment)
+Level 2:  PIMS Procedures and Standards (how we do it)
+Level 3:  Work Instructions and Registers (what we record)
+Level 4:  Records and Evidence (proof it happened)
+```
+
+### Mandatory Documents (ISO 27701:2025)
+
+| Clause | Required Document |
+|--------|------------------|
+| 4.1 / 4.2 | Context analysis and interested parties register |
+| 4.3 | PIMS Scope Statement |
+| 5.1 | Leadership Commitment Statement |
+| 5.2 | Privacy Policy |
+| 6.1 | Privacy Risk Assessment Methodology and Results |
+| 6.2 | Privacy Objectives |
+| 7.2 | Competence records |
+| 7.5 | Documented Information Procedure |
+| 8.1 | PII Processing Activity Records (ROPA) |
+| 8.2 / Annex A | DPIA records (where triggered) |
+| 9.1 | Performance monitoring records |
+| 9.2 | Internal Audit Programme and Reports |
+| 9.3 | Management Review minutes |
+| 10.1 | Corrective action records |
+| Annex A | SoA (including all Annex A and B controls) |
+
+---
+
+## 5. Using the Python Scripts
+
+Three Python GRC automation scripts are included in `13-SCRIPTS/`:
+
+### pims_soa_tracker.py
+
+Tracks SoA control completion status across all updated Annex A/B controls.
+
+```bash
+python 13-SCRIPTS/pims_soa_tracker.py
+```
+
+### pims_gap_checker.py
+
+Automated gap assessment checker — maps your current state against PIMS clause requirements.
+
+```bash
+python 13-SCRIPTS/pims_gap_checker.py
+```
+
+### dpia_risk_scorer.py
+
+DPIA risk scoring tool with threshold alerts. Supports interactive mode and batch CSV processing.
+
+```bash
+# Interactive mode
+python 13-SCRIPTS/dpia_risk_scorer.py
+
+# Demo mode
+python 13-SCRIPTS/dpia_risk_scorer.py --demo
+
+# Batch mode
+python 13-SCRIPTS/dpia_risk_scorer.py --batch input.csv
+```
+
+---
+
+## 6. Worked Examples
+
+The `12-WORKED-EXAMPLE/` folder contains completed examples using the fictional **Nexus Financial Services Ltd (NFS)** organisation. Use these as reference when populating your own PIMS documents.
+
+Available examples:
+- NFS PIMS Scope Statement
+- NFS Privacy Risk Register Entry (3 sample risks)
+- NFS SoA Excerpt (Annex A controller controls)
+- NFS DPIA Entry (customer onboarding analytics)
+- NFS Privacy Breach Log Entry (employee laptop loss)
+
+---
+
+## 7. Certification Pathway
+
+```
+ISO 27001:2022           ISO 27701:2025
+    ISMS          +      PIMS Extension
+      |                       |
+      +----------+------------+
+                 |
+         Combined Audit
+                 |
+         Dual Certification
+     (ISO 27001 + ISO 27701)
+```
+
+ISO 27701:2025 certification is achieved through a **combined audit** with ISO 27001:2022. The certification body audits both the ISMS and the PIMS extension simultaneously.
+
+**Typical timeline:** 12–18 months from initiation to certification (for organisations building from scratch).
+
+**For transition from 27701:2019:** Allow 6–9 months for gap assessment, control updates, and re-audit against the 2025 edition. Transition deadline is typically set by your certification body (commonly 3 years from publication of the 2025 edition).
+
+---
+
+## 8. Version History
+
+| Version | Date | Description |
+|---------|------|-------------|
+| 2.0 | April 2025 | Updated for ISO/IEC 27701:2025 — HLS alignment, DPIA enhancements, TIA, joint controllers, ISO 31700 cross-reference, India DPDPA added |
+| 1.0 | 2024 | Initial release — ISO/IEC 27701:2019 edition |
+
+---
+
+*ISO/IEC 27701:2025 PIMS Toolkit | Implementation Guide | PIMS-IMPL-GUIDE-001 | v2.0 | Classification: Public*
