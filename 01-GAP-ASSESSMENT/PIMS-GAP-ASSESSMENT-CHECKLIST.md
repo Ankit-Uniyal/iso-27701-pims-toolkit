@@ -1,185 +1,422 @@
-# ISO/IEC 27701:2019 PIMS Gap Assessment Checklist
+# PIMS Gap Assessment Checklist
 
-**Document ID:** PIMS-GAP-001
-**Version:** 1.0 | **Date:** 2025 | **Classification:** Internal
+| Field | Detail |
+|-------|--------|
+| **Document ID** | PIMS-GAP-001 |
+| **Version** | 2.0 |
+| **Date** | April 2025 |
+| **Owner** | Data Protection Officer |
+| **Classification** | Confidential — Internal Use |
+| **Review Date** | April 2026 |
+| **Standard** | ISO/IEC 27701:2025 (extends ISO 27001:2022) |
 
 ---
 
-## How to Use This Checklist
+## Purpose
 
-Rate each requirement using the following scale:
+This checklist supports a structured gap assessment against **ISO/IEC 27701:2025** requirements. It covers all clause extensions (Clauses 4–10) and all Annex A/B controls updated for the 2025 edition.
+
+**Rating Scale:**
 
 | Score | Rating | Description |
-|---|---|---|
+|-------|--------|-------------|
 | 0 | Not Implemented | No evidence of requirement being addressed |
-| 1 | Initial | Ad hoc or informal approach; not documented |
-| 2 | Partial | Partially implemented; gaps remain |
-| 3 | Largely Conformant | Implemented and mostly documented; minor gaps |
-| 4 | Fully Conformant | Fully implemented, documented, and evidenced |
+| 1 | Initial | Informal/ad hoc approach exists |
+| 2 | Developing | Partially implemented; incomplete or inconsistent |
+| 3 | Defined | Documented and consistently implemented |
+| 4 | Managed | Measured, monitored with KPIs |
+| 5 | Optimised | Continually improved; best-practice level |
 
-**Gap = Any requirement scored 0, 1, or 2**
-
----
-
-## Section 1 — PIMS Clause Extensions (Clauses 4–10)
-
-### Clause 4 — Context
-
-| Ref | Requirement | Score (0-4) | Evidence / Notes | Gap Owner | Target Date |
-|---|---|---|---|---|---|
-| 4.1 ext | Privacy-specific internal and external issues identified | | | | |
-| 4.2 ext | Privacy-specific interested parties identified (regulators, data subjects, processors) | | | | |
-| 4.3 ext | PIMS scope includes all PII processing activities and applicable regulations | | | | |
-| 4.4 ext | PII Processing Inventory / Record of Processing Activities (ROPA) documented | | | | |
-
-### Clause 5 — Leadership
-
-| Ref | Requirement | Score (0-4) | Evidence / Notes | Gap Owner | Target Date |
-|---|---|---|---|---|---|
-| 5.1 ext | Top management commitment to PIMS demonstrated | | | | |
-| 5.2 ext | Approved Privacy Policy signed by senior management | | | | |
-| 5.3 ext | DPO appointed where required | | | | |
-| 5.3 ext | Privacy roles and responsibilities defined and communicated | | | | |
-
-### Clause 6 — Planning
-
-| Ref | Requirement | Score (0-4) | Evidence / Notes | Gap Owner | Target Date |
-|---|---|---|---|---|---|
-| 6.1 ext | Privacy risk assessment methodology documented | | | | |
-| 6.1 ext | Privacy risk assessment conducted for all PII processing activities | | | | |
-| 6.1 ext | Privacy risk treatment options selected and documented | | | | |
-| 6.1 ext | Statement of Applicability completed for all 49 Annex A/B controls | | | | |
-| 6.2 ext | Measurable Privacy Objectives established and monitored | | | | |
-
-### Clause 7 — Support
-
-| Ref | Requirement | Score (0-4) | Evidence / Notes | Gap Owner | Target Date |
-|---|---|---|---|---|---|
-| 7.2 ext | Staff competence in privacy assessed and evidenced | | | | |
-| 7.3 ext | Privacy awareness programme for all relevant staff | | | | |
-| 7.4 ext | Privacy communications plan (internal and external) in place | | | | |
-| 7.5 ext | Documented information controlled and retained per PIMS requirements | | | | |
-
-### Clause 8 — Operation
-
-| Ref | Requirement | Score (0-4) | Evidence / Notes | Gap Owner | Target Date |
-|---|---|---|---|---|---|
-| 8.1 ext | Documented procedures for all PII processing activities | | | | |
-| 8.1 ext | DPIAs conducted for high-risk processing activities | | | | |
-| 8.1 ext | Consent management procedure in place | | | | |
-| 8.1 ext | Data subject rights (DSAR) procedure in place | | | | |
-| 8.1 ext | Privacy breach response procedure in place | | | | |
-| 8.1 ext | Data retention and disposal policy in place | | | | |
-| 8.1 ext | Third-party processors assessed and bound by appropriate contracts | | | | |
-| 8.1 ext | Cross-border PII transfers documented with transfer mechanisms | | | | |
-| 8.1 ext | Privacy by design embedded in new projects and system changes | | | | |
-
-### Clause 9 — Performance Evaluation
-
-| Ref | Requirement | Score (0-4) | Evidence / Notes | Gap Owner | Target Date |
-|---|---|---|---|---|---|
-| 9.1 ext | Privacy KPIs monitored and reported | | | | |
-| 9.2 ext | Annual PIMS internal audit conducted | | | | |
-| 9.3 ext | PIMS management review conducted at least annually | | | | |
-
-### Clause 10 — Improvement
-
-| Ref | Requirement | Score (0-4) | Evidence / Notes | Gap Owner | Target Date |
-|---|---|---|---|---|---|
-| 10.1 ext | Nonconformities logged and corrective actions tracked | | | | |
-| 10.2 ext | Continual improvement of the PIMS demonstrated | | | | |
+**Compliance Status:** C = Compliant | PC = Partially Compliant | NC = Non-Compliant | NA = Not Applicable
 
 ---
 
-## Section 2 — Annex A: PII Controller Controls (31 Controls)
+## Section 1: Clause 4 — Context of the Organisation
 
-### A.7 — Conditions for Collection and Processing
+### 4.1 Understanding the Organisation and Its Context (PIMS Extension)
 
-| Control | Requirement | Score (0-4) | Evidence / Notes | Gap Owner |
-|---|---|---|---|---|
-| A.7.2.1 | Lawful basis for processing PII identified and documented | | | |
-| A.7.2.2 | Purposes for PII processing determined and documented | | | |
-| A.7.2.3 | Necessity and proportionality of processing determined | | | |
-| A.7.2.4 | Privacy risk assessed for each processing activity | | | |
-| A.7.2.5 | Privacy impact assessments conducted where required | | | |
-| A.7.2.6 | Joint controller contracts documented | | | |
-| A.7.2.7 | Records of PII processing maintained | | | |
-| A.7.2.8 | Special category PII identified with additional protections applied | | | |
-| A.7.3.1 | Purpose limitation applied — PII used only for stated purposes | | | |
-| A.7.4.1 | Consent obtained where required; records maintained | | | |
-| A.7.4.2 | Consent withdrawal mechanism in place | | | |
-| A.7.4.3 | Consent records linked to processing activities | | | |
+| # | Requirement | Score (0–5) | Status | Evidence | Gap / Notes |
+|---|-------------|-------------|--------|----------|-------------|
+| 4.1.1 | Internal and external issues relevant to PII processing identified | | | | |
+| 4.1.2 | Privacy-specific context factors documented (e.g., regulatory environment, PII categories) | | | | |
+| 4.1.3 | Joint controller relationships identified and documented | | | | |
+| 4.1.4 | Context review process established and scheduled | | | | |
 
-### A.8 — Obligations to PII Principals
+### 4.2 Understanding Needs and Expectations of Interested Parties (PIMS Extension)
 
-| Control | Requirement | Score (0-4) | Evidence / Notes | Gap Owner |
-|---|---|---|---|---|
-| A.8.1.1 | Privacy notice provided to PII principals at point of collection | | | |
-| A.8.1.2 | Privacy notice updated when processing changes | | | |
-| A.8.2.1 | Process to handle access requests (DSARs) in place | | | |
-| A.8.2.2 | DSARs fulfilled within regulatory timeframe | | | |
-| A.8.3.1 | Rectification requests handled | | | |
-| A.8.3.2 | Erasure requests handled (right to be forgotten) | | | |
-| A.8.3.3 | Data portability requests handled | | | |
-| A.8.3.4 | Objection requests handled | | | |
-| A.8.3.5 | Restriction of processing requests handled | | | |
-| A.8.4.1 | Automated decision-making safeguards in place | | | |
-| A.8.4.2 | Profiling safeguards implemented | | | |
-| A.8.5.1 | Data minimisation applied to all PII collection | | | |
-| A.8.5.2 | PII accuracy and quality maintained | | | |
-| A.8.5.3 | PII retained only for as long as necessary | | | |
-| A.8.5.4 | PII securely disposed of at end of retention period | | | |
-| A.8.5.5 | Temporary files and copies identified and controlled | | | |
-| A.8.5.6 | PII transmission encrypted and protected | | | |
-| A.8.5.7 | Anonymisation and pseudonymisation applied where appropriate | | | |
-| A.8.5.8 | Access to PII restricted to authorised individuals | | | |
+| # | Requirement | Score (0–5) | Status | Evidence | Gap / Notes |
+|---|-------------|-------------|--------|----------|-------------|
+| 4.2.1 | Data subjects identified as an interested party | | | | |
+| 4.2.2 | Privacy regulators identified with applicable requirements mapped | | | | |
+| 4.2.3 | PII controllers/processors (and joint controllers) with contractual requirements identified | | | | |
+| 4.2.4 | Requirements of all interested parties documented and monitored | | | | |
+
+### 4.3 Determining the Scope of the PIMS
+
+| # | Requirement | Score (0–5) | Status | Evidence | Gap / Notes |
+|---|-------------|-------------|--------|----------|-------------|
+| 4.3.1 | PIMS scope defined — specifying PII processing activities in scope | | | | |
+| 4.3.2 | PIMS scope aligned with ISMS scope | | | | |
+| 4.3.3 | Scope statement addresses role (controller/processor/joint controller) | | | | |
+| 4.3.4 | Scope document maintained and version-controlled | | | | |
+
+### 4.4 PII Processing Inventory
+
+| # | Requirement | Score (0–5) | Status | Evidence | Gap / Notes |
+|---|-------------|-------------|--------|----------|-------------|
+| 4.4.1 | Record of Processing Activities (ROPA) established and current | | | | |
+| 4.4.2 | Processing purposes documented for each activity | | | | |
+| 4.4.3 | Legal basis identified for each processing activity | | | | |
+| 4.4.4 | PII categories and data subjects documented | | | | |
+| 4.4.5 | Third-party recipients and cross-border transfers documented | | | | |
+| 4.4.6 | Retention periods specified for each processing activity | | | | |
 
 ---
 
-## Section 3 — Annex B: PII Processor Controls (18 Controls)
+## Section 2: Clause 5 — Leadership
 
-### B.8 — PII Processor Obligations
+### 5.1 Leadership and Commitment (PIMS Extension)
 
-| Control | Requirement | Score (0-4) | Evidence / Notes | Gap Owner |
-|---|---|---|---|---|
-| B.8.1.1 | Written agreement with PII controller in place | | | |
-| B.8.1.2 | Processing performed only per controller instructions | | | |
-| B.8.1.3 | Obligations to assist controller with data subject rights documented | | | |
-| B.8.2.1 | Sub-processors engaged only with controller authorisation | | | |
-| B.8.2.2 | Sub-processors bound by equivalent data protection obligations | | | |
-| B.8.2.3 | Register of sub-processors maintained | | | |
-| B.8.3.1 | PII returned or deleted on contract termination | | | |
-| B.8.3.2 | Evidence of deletion/return provided to controller | | | |
-| B.8.4.1 | Privacy breaches reported to controller within agreed timeframe | | | |
-| B.8.4.2 | Breach records maintained by processor | | | |
-| B.8.5.1 | Cross-border transfers performed only with controller authorisation | | | |
-| B.8.5.2 | Transfer mechanism documented and compliant | | | |
-| B.8.5.3 | Disclosure to third parties limited to controller-authorised recipients | | | |
-| B.8.5.4 | PII not used for processor's own purposes | | | |
-| B.8.5.5 | Processor staff bound by confidentiality obligations | | | |
-| B.8.5.6 | Processor provides controller with necessary information for compliance | | | |
-| B.8.5.7 | Processor supports controller's obligation to conduct DPIAs | | | |
-| B.8.5.8 | Processor notifies controller of any legally binding disclosure requests | | | |
+| # | Requirement | Score (0–5) | Status | Evidence | Gap / Notes |
+|---|-------------|-------------|--------|----------|-------------|
+| 5.1.1 | Top management demonstrates commitment to PIMS | | | | |
+| 5.1.2 | Privacy Policy approved and communicated by top management | | | | |
+| 5.1.3 | PIMS integrated into organisational processes | | | | |
+| 5.1.4 | Resources allocated to PIMS | | | | |
+| 5.1.5 | Privacy accountability demonstrated at board/executive level | | | | |
+
+### 5.2 Privacy Policy
+
+| # | Requirement | Score (0–5) | Status | Evidence | Gap / Notes |
+|---|-------------|-------------|--------|----------|-------------|
+| 5.2.1 | Privacy Policy established, approved, and communicated | | | | |
+| 5.2.2 | Policy references ISO 27701:2025 and applicable laws | | | | |
+| 5.2.3 | Policy reviewed at least annually | | | | |
+| 5.2.4 | External-facing Privacy Notice available to data subjects | | | | |
+
+### 5.3 Organisational Roles, Responsibilities and Authorities
+
+| # | Requirement | Score (0–5) | Status | Evidence | Gap / Notes |
+|---|-------------|-------------|--------|----------|-------------|
+| 5.3.1 | DPO or equivalent role appointed (where required) | | | | |
+| 5.3.2 | DPO Terms of Reference documented and approved | | | | |
+| 5.3.3 | Privacy RACI matrix defined and communicated | | | | |
+| 5.3.4 | Accountability for joint controller arrangements assigned | | | | |
+| 5.3.5 | Privacy roles communicated to relevant staff | | | | |
+
+---
+
+## Section 3: Clause 6 — Planning
+
+### 6.1 Actions to Address Risks and Opportunities (PIMS Extension)
+
+| # | Requirement | Score (0–5) | Status | Evidence | Gap / Notes |
+|---|-------------|-------------|--------|----------|-------------|
+| 6.1.1 | Privacy risk assessment methodology defined | | | | |
+| 6.1.2 | Privacy risk assessment conducted for all PII processing activities | | | | |
+| 6.1.3 | Privacy risk assessment aligned to ISO 27005:2022 | | | | |
+| 6.1.4 | Joint controller risk scenarios assessed | | | | |
+| 6.1.5 | Cross-border transfer risks assessed (TIA approach) | | | | |
+| 6.1.6 | Privacy Risk Register maintained and current | | | | |
+| 6.1.7 | Privacy Risk Treatment Plan documented and implemented | | | | |
+
+### 6.2 Privacy Objectives
+
+| # | Requirement | Score (0–5) | Status | Evidence | Gap / Notes |
+|---|-------------|-------------|--------|----------|-------------|
+| 6.2.1 | Measurable Privacy Objectives established | | | | |
+| 6.2.2 | Privacy Objectives linked to Privacy Policy | | | | |
+| 6.2.3 | Progress against Privacy Objectives monitored and reported | | | | |
+
+### 6.3 Statement of Applicability (SoA)
+
+| # | Requirement | Score (0–5) | Status | Evidence | Gap / Notes |
+|---|-------------|-------------|--------|----------|-------------|
+| 6.3.1 | SoA produced covering all updated Annex A controls | | | | |
+| 6.3.2 | SoA produced covering all updated Annex B controls | | | | |
+| 6.3.3 | Justification provided for included/excluded controls | | | | |
+| 6.3.4 | SoA aligned with ISMS SoA | | | | |
+
+---
+
+## Section 4: Clause 7 — Support
+
+### 7.1 Resources and Competence
+
+| # | Requirement | Score (0–5) | Status | Evidence | Gap / Notes |
+|---|-------------|-------------|--------|----------|-------------|
+| 7.1.1 | Privacy competence requirements defined for all relevant roles | | | | |
+| 7.1.2 | Competence and Training Register maintained | | | | |
+| 7.1.3 | Privacy training delivered to all relevant staff | | | | |
+| 7.1.4 | Specialised privacy training for DPO and privacy leads | | | | |
+
+### 7.2 Awareness
+
+| # | Requirement | Score (0–5) | Status | Evidence | Gap / Notes |
+|---|-------------|-------------|--------|----------|-------------|
+| 7.2.1 | Privacy Awareness Programme established | | | | |
+| 7.2.2 | Annual privacy awareness campaign delivered | | | | |
+| 7.2.3 | Role-specific privacy guidance available | | | | |
+| 7.2.4 | Awareness effectiveness measured | | | | |
+
+### 7.3 Communication
+
+| # | Requirement | Score (0–5) | Status | Evidence | Gap / Notes |
+|---|-------------|-------------|--------|----------|-------------|
+| 7.3.1 | Privacy Communications Plan documented | | | | |
+| 7.3.2 | Internal privacy communications defined and scheduled | | | | |
+| 7.3.3 | External privacy communications (Privacy Notice) current and accessible | | | | |
+
+### 7.4 Documented Information
+
+| # | Requirement | Score (0–5) | Status | Evidence | Gap / Notes |
+|---|-------------|-------------|--------|----------|-------------|
+| 7.4.1 | Document Control Procedure for PIMS documents in place | | | | |
+| 7.4.2 | All mandatory PIMS documents created and approved | | | | |
+| 7.4.3 | PIMS Document Master List maintained | | | | |
+| 7.4.4 | Version control and change management applied | | | | |
+
+---
+
+## Section 5: Clause 8 — Operation
+
+### 8.1 Operational Planning and Control
+
+| # | Requirement | Score (0–5) | Status | Evidence | Gap / Notes |
+|---|-------------|-------------|--------|----------|-------------|
+| 8.1.1 | PII processing activity procedure documented | | | | |
+| 8.1.2 | Lawful basis verified and documented for all processing | | | | |
+| 8.1.3 | Purpose limitation controls implemented | | | | |
+| 8.1.4 | Data minimisation controls implemented | | | | |
+
+### 8.2 Data Protection Impact Assessment (DPIA)
+
+| # | Requirement (2025 Enhanced) | Score (0–5) | Status | Evidence | Gap / Notes |
+|---|-------------|-------------|--------|----------|-------------|
+| 8.2.1 | DPIA procedure and trigger criteria defined (per 2025 criteria) | | | | |
+| 8.2.2 | DPIA conducted for all high-risk processing activities | | | | |
+| 8.2.3 | DPIA template covers all required elements (description, necessity, risks, mitigations) | | | | |
+| 8.2.4 | Regulatory consultation process defined for high residual risk DPIAs | | | | |
+| 8.2.5 | DPIA review and update schedule established | | | | |
+| 8.2.6 | DPO consulted on all DPIAs | | | | |
+
+### 8.3 Consent Management
+
+| # | Requirement | Score (0–5) | Status | Evidence | Gap / Notes |
+|---|-------------|-------------|--------|----------|-------------|
+| 8.3.1 | Consent Management Procedure documented | | | | |
+| 8.3.2 | Consent collection mechanism meets legal validity requirements | | | | |
+| 8.3.3 | Consent records maintained (who, what, when, how) | | | | |
+| 8.3.4 | Consent withdrawal mechanism implemented | | | | |
+| 8.3.5 | Consent refresh process for long-duration processing | | | | |
+
+### 8.4 Data Subject Rights
+
+| # | Requirement | Score (0–5) | Status | Evidence | Gap / Notes |
+|---|-------------|-------------|--------|----------|-------------|
+| 8.4.1 | Data Subject Rights Procedure covers all applicable rights | | | | |
+| 8.4.2 | DSAR intake and tracking process implemented | | | | |
+| 8.4.3 | Response timelines defined and monitored (e.g., 30-day GDPR deadline) | | | | |
+| 8.4.4 | Right to erasure ("right to be forgotten") process implemented | | | | |
+| 8.4.5 | Data portability capability established | | | | |
+| 8.4.6 | Right to object/restriction handling defined | | | | |
+
+### 8.5 Privacy Breach Response
+
+| # | Requirement | Score (0–5) | Status | Evidence | Gap / Notes |
+|---|-------------|-------------|--------|----------|-------------|
+| 8.5.1 | Privacy Breach Response Procedure documented | | | | |
+| 8.5.2 | Breach detection and triage process implemented | | | | |
+| 8.5.3 | Regulatory notification process (72-hour GDPR rule) defined | | | | |
+| 8.5.4 | Data subject notification process defined | | | | |
+| 8.5.5 | Breach Log maintained with all incidents recorded | | | | |
+| 8.5.6 | Post-breach review and lessons learned process | | | | |
+
+### 8.6 Data Retention and Disposal
+
+| # | Requirement | Score (0–5) | Status | Evidence | Gap / Notes |
+|---|-------------|-------------|--------|----------|-------------|
+| 8.6.1 | Retention schedules defined for all PII categories | | | | |
+| 8.6.2 | Secure disposal procedures implemented (physical and digital) | | | | |
+| 8.6.3 | Disposal records maintained | | | | |
+| 8.6.4 | Retention review triggers defined | | | | |
+
+### 8.7 Third-Party / Processor Management
+
+| # | Requirement | Score (0–5) | Status | Evidence | Gap / Notes |
+|---|-------------|-------------|--------|----------|-------------|
+| 8.7.1 | Third-Party Privacy Assessment procedure documented | | | | |
+| 8.7.2 | Pre-engagement privacy assessment conducted for all processors | | | | |
+| 8.7.3 | Data Processing Agreements (DPAs) in place for all processors | | | | |
+| 8.7.4 | Sub-processor controls documented and DPAs in place | | | | |
+| 8.7.5 | Ongoing processor monitoring programme in place | | | | |
+
+### 8.8 Cross-Border Data Transfers
+
+| # | Requirement (2025 Enhanced) | Score (0–5) | Status | Evidence | Gap / Notes |
+|---|-------------|-------------|--------|----------|-------------|
+| 8.8.1 | All cross-border transfers identified and documented | | | | |
+| 8.8.2 | Transfer mechanism selected for each transfer (adequacy/SCCs/BCRs etc.) | | | | |
+| 8.8.3 | Transfer Impact Assessment (TIA) conducted where required | | | | |
+| 8.8.4 | TIA documented and approved | | | | |
+| 8.8.5 | Cross-border transfer register maintained | | | | |
+
+### 8.9 Privacy by Design and Default
+
+| # | Requirement (2025 Enhanced) | Score (0–5) | Status | Evidence | Gap / Notes |
+|---|-------------|-------------|--------|----------|-------------|
+| 8.9.1 | Privacy by Design and Default procedure documented (ISO 31700:2023 aligned) | | | | |
+| 8.9.2 | Privacy review embedded in project/SDLC lifecycle | | | | |
+| 8.9.3 | Privacy by Default applied — maximum privacy settings as default | | | | |
+| 8.9.4 | Privacy architecture review conducted for new systems | | | | |
+| 8.9.5 | PbD evidence maintained for new processing activities | | | | |
+
+---
+
+## Section 6: Clause 9 — Performance Evaluation
+
+### 9.1 Monitoring, Measurement, Analysis and Evaluation
+
+| # | Requirement | Score (0–5) | Status | Evidence | Gap / Notes |
+|---|-------------|-------------|--------|----------|-------------|
+| 9.1.1 | Privacy KPIs and metrics defined | | | | |
+| 9.1.2 | Privacy KPI reporting cycle established | | | | |
+| 9.1.3 | KPI dashboard updated and reviewed by management | | | | |
+| 9.1.4 | Privacy incidents, DSARs, and complaints tracked as KPIs | | | | |
+
+### 9.2 Internal Audit
+
+| # | Requirement | Score (0–5) | Status | Evidence | Gap / Notes |
+|---|-------------|-------------|--------|----------|-------------|
+| 9.2.1 | PIMS Internal Audit Programme established | | | | |
+| 9.2.2 | PIMS audit covers all clauses and Annex A/B controls | | | | |
+| 9.2.3 | PIMS auditors competent in privacy and ISO 27701:2025 | | | | |
+| 9.2.4 | Audit findings documented and corrective actions assigned | | | | |
+| 9.2.5 | Audit independence maintained | | | | |
+
+### 9.3 Management Review
+
+| # | Requirement | Score (0–5) | Status | Evidence | Gap / Notes |
+|---|-------------|-------------|--------|----------|-------------|
+| 9.3.1 | PIMS Management Review conducted at least annually | | | | |
+| 9.3.2 | Privacy performance data reviewed (KPIs, incidents, audits) | | | | |
+| 9.3.3 | Management Review minutes document decisions and actions | | | | |
+| 9.3.4 | PIMS improvements actioned following management review | | | | |
+
+---
+
+## Section 7: Clause 10 — Improvement
+
+| # | Requirement | Score (0–5) | Status | Evidence | Gap / Notes |
+|---|-------------|-------------|--------|----------|-------------|
+| 10.1 | Nonconformity and corrective action process established | | | | |
+| 10.2 | NCR Register maintained with all nonconformities recorded | | | | |
+| 10.3 | Root cause analysis conducted for significant nonconformities | | | | |
+| 10.4 | Corrective action effectiveness verified | | | | |
+| 10.5 | Continual Improvement Log maintained | | | | |
+| 10.6 | Improvement initiatives linked to privacy objectives | | | | |
+
+---
+
+## Section 8: Annex A — PII Controller Controls (ISO 27701:2025)
+
+### A.7 Conditions for Collection and Processing
+
+| Ref | Control | Score (0–5) | Status | Evidence | Gap / Notes |
+|-----|---------|-------------|--------|----------|-------------|
+| A.7.2.1 | Identify and document the purposes of processing | | | | |
+| A.7.2.2 | Identify lawful basis for processing | | | | |
+| A.7.2.3 | Determine when and how consent is to be obtained | | | | |
+| A.7.2.4 | Obtain and record consent (consent lifecycle managed) | | | | |
+| A.7.2.5 | Privacy impact assessment (DPIA) conducted for high-risk processing | | | | |
+| A.7.2.6 | Contracts with PII processors include required privacy obligations | | | | |
+| A.7.2.7 | Joint controller responsibilities documented and agreed | | | | |
+| A.7.2.8 | Privacy by default applied — maximum privacy settings as default | | | | |
+| A.7.3.1 | PII limited to what is necessary (data minimisation) | | | | |
+| A.7.3.2 | Accuracy of PII maintained | | | | |
+| A.7.3.3 | PII not used beyond original purpose (purpose limitation) | | | | |
+| A.7.3.4 | PII disposal controls — secure erasure when no longer required | | | | |
+| A.7.3.5 | Retention schedule implemented and enforced | | | | |
+| A.7.4.1 | Transfer mechanisms established for cross-border transfers | | | | |
+| A.7.4.2 | Transfer Impact Assessment conducted where adequacy decision absent | | | | |
+| A.7.4.3 | Records of all cross-border transfers maintained | | | | |
+
+### A.8 Obligations to PII Principals
+
+| Ref | Control | Score (0–5) | Status | Evidence | Gap / Notes |
+|-----|---------|-------------|--------|----------|-------------|
+| A.8.1.1 | Obligations to data subjects determined and documented | | | | |
+| A.8.2.1 | Privacy notice provided — accessible, clear, accurate | | | | |
+| A.8.2.2 | Privacy notice covers all required elements | | | | |
+| A.8.2.3 | Privacy notice updated when processing activities change | | | | |
+| A.8.3.1 | Rights of data subjects to access their PII supported | | | | |
+| A.8.3.2 | Rights to rectification/correction supported | | | | |
+| A.8.3.3 | Right to erasure supported | | | | |
+| A.8.3.4 | Right to object supported | | | | |
+| A.8.3.5 | Right to data portability supported | | | | |
+| A.8.3.6 | Right to restriction of processing supported | | | | |
+| A.8.4.1 | Consent withdrawal mechanism available | | | | |
+| A.8.5.1 | Automated decision-making rights addressed | | | | |
+| A.8.5.2 | Data subject complaint handling process implemented | | | | |
+
+---
+
+## Section 9: Annex B — PII Processor Controls (ISO 27701:2025)
+
+| Ref | Control | Score (0–5) | Status | Evidence | Gap / Notes |
+|-----|---------|-------------|--------|----------|-------------|
+| B.8.1.1 | Processing only on documented instructions from controller | | | | |
+| B.8.1.2 | Obligations to PII controller documented in contract (DPA) | | | | |
+| B.8.1.3 | Sub-processor engagement restrictions followed | | | | |
+| B.8.1.4 | Sub-processor DPAs in place with equivalent obligations | | | | |
+| B.8.2.1 | Assistance to controller for DPIA obligations | | | | |
+| B.8.2.2 | Assistance to controller for data subject rights | | | | |
+| B.8.2.3 | Privacy breach notification to controller within agreed timeframe | | | | |
+| B.8.3.1 | PII returned or deleted at end of contract | | | | |
+| B.8.3.2 | Record of PII return/deletion maintained | | | | |
+| B.8.4.1 | Audit rights granted to controller in DPA | | | | |
+| B.8.4.2 | Assistance provided for regulatory/supervisory audits | | | | |
+| B.8.5.1 | Cross-border transfer safeguards implemented per controller instructions | | | | |
+| B.8.5.2 | Transfer restrictions followed — no transfers without controller authorisation | | | | |
 
 ---
 
 ## Gap Assessment Summary
 
-| Section | Total Requirements | Score 4 | Score 3 | Score 2 | Score 1 | Score 0 | Gaps (0-2) |
-|---|---|---|---|---|---|---|---|
-| Clause Extensions (4-10) | 28 | | | | | | |
-| Annex A — Controller | 31 | | | | | | |
-| Annex B — Processor | 18 | | | | | | |
-| **Total** | **77** | | | | | | |
+| Section | Max Score | Achieved | % | Rating |
+|---------|-----------|----------|---|--------|
+| Clause 4 — Context | | | | |
+| Clause 5 — Leadership | | | | |
+| Clause 6 — Planning | | | | |
+| Clause 7 — Support | | | | |
+| Clause 8 — Operation | | | | |
+| Clause 9 — Performance | | | | |
+| Clause 10 — Improvement | | | | |
+| Annex A — PII Controller | | | | |
+| Annex B — PII Processor | | | | |
+| **TOTAL** | | | | |
 
-### Priority Action Plan
-
-| Priority | Gap Reference | Requirement | Recommended Action | Owner | Target Date |
-|---|---|---|---|---|---|
-| High | | | | | |
-| High | | | | | |
-| Medium | | | | | |
+**Overall Maturity Level:** ______ / 5
 
 ---
 
-*ISO/IEC 27701:2019 PIMS Toolkit | Gap Assessment Checklist | PIMS-GAP-001*
+## Priority Remediation Plan
+
+| Priority | Gap Area | Current Score | Target Score | Owner | Target Date |
+|----------|----------|---------------|--------------|-------|-------------|
+| 1 | | | | | |
+| 2 | | | | | |
+| 3 | | | | | |
+
+---
+
+## Version History
+
+| Version | Date | Description |
+|---------|------|-------------|
+| 2.0 | April 2025 | Updated for ISO/IEC 27701:2025 — TIA controls, joint controller provisions, enhanced DPIA triggers, Privacy by Default standalone control, ISO 31700 alignment |
+| 1.0 | 2024 | Initial release — ISO/IEC 27701:2019 |
+
+---
+
+*ISO/IEC 27701:2025 PIMS Toolkit | PIMS Gap Assessment Checklist | PIMS-GAP-001 | v2.0 | Classification: Confidential*
