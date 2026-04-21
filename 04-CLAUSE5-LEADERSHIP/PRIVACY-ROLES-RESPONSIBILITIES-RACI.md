@@ -1,105 +1,169 @@
-# Data Protection Officer — Terms of Reference
+# Privacy Roles and Responsibilities — RACI Matrix
 
-**Document ID:** PIMS-LDR-002
-**Version:** 1.0 | **Classification:** Internal | **Date:** 2025
-**Owner:** Chief Executive Officer | **Review Date:** Annual
+**Document ID:** PIMS-LDR-003  
+**Version:** 1.1  
+**Date:** 2025-01-01  
+**Owner:** Data Protection Officer  
+**Classification:** Internal  
+**Review Date:** 2026-01-01
 
 ---
 
 ## 1. Purpose
 
-This document establishes the formal Terms of Reference for the Data Protection Officer (DPO) of [Organisation Name]. It defines the DPO's role, responsibilities, authority, resources, and reporting lines in accordance with ISO/IEC 27701:2019, GDPR Article 37-39, and applicable privacy regulations.
+This RACI matrix defines the roles and responsibilities for Privacy Information Management System (PIMS) activities across the organisation. It ensures clear accountability for privacy obligations under ISO/IEC 27701:2019, GDPR, and applicable data protection regulations.
 
 ---
 
-## 2. DPO Identity and Contact
+## 2. RACI Key
 
-| Attribute | Detail |
-|---|---|
-| DPO Name | [Full Name] |
-| Title | Data Protection Officer |
-| Department | [Risk / Legal / Compliance / Dedicated Privacy] |
-| Email | dpo@organisation.com |
-| Phone | [Contact number] |
-| Appointment Date | [Date] |
+| Code | Definition |
+|------|-----------|
+| **R** | **Responsible** — Person(s) who perform the task |
+| **A** | **Accountable** — Person ultimately answerable for the outcome (only one per row) |
+| **C** | **Consulted** — Person(s) who provide input or expertise |
+| **I** | **Informed** — Person(s) kept up to date on progress/decisions |
 
 ---
 
-## 3. Mandatory Appointment Basis
+## 3. Roles Reference
 
-| Regulation | Basis for Appointment |
-|---|---|
-| GDPR Art. 37 | Large-scale systematic monitoring / special categories processing |
-| UK GDPR | As GDPR |
-| UAE PDPL | Large-scale PII processing |
-| DIFC DP Law 2020 | DIFC-registered entity |
-| Voluntary | Corporate governance best practice |
-
----
-
-## 4. DPO Responsibilities
-
-**4.1 Compliance Monitoring** — Monitor compliance with GDPR, UK GDPR, UAE PDPL, and all applicable privacy laws. Conduct regular privacy reviews. Maintain PIMS programme.
-
-**4.2 DPIA Advice** — Advise on whether a DPIA is required for new/changed processing activities. Review and sign off all DPIAs. Advise on risk treatment.
-
-**4.3 Senior Management Advice** — Provide regular privacy briefings to senior management and Board. Advise on privacy risks, regulatory changes, and PIMS performance. Escalate material risks.
-
-**4.4 Supervisory Authority Liaison** — Act as primary contact for ICO, UAE Data Office, DIFC Commissioner, and all other supervisory authorities. Manage regulatory enquiries, investigations, and breach notifications.
-
-**4.5 Data Subject Rights** — Oversee the DSR procedure. Review complex DSARs. Handle escalated data subject complaints.
-
-**4.6 Privacy Risk Management** — Maintain the Privacy Risk Register. Advise on risk treatment. Report to Risk Committee.
-
-**4.7 Training and Awareness** — Develop and oversee privacy awareness programme. Ensure mandatory training completion. Provide specialist training for high-risk roles.
-
-**4.8 Third-Party Management** — Review and approve Data Processing Agreements. Oversee third-party processor register and due diligence. Review cross-border transfer mechanisms.
-
-**4.9 PIMS Management** — Maintain all PIMS documentation. Conduct or commission annual PIMS internal audit. Prepare management review pack.
+| Role Code | Role Title |
+|-----------|-----------|
+| CEO | Chief Executive Officer |
+| DPO | Data Protection Officer |
+| CISO | Chief Information Security Officer |
+| CTO | Chief Technology Officer |
+| Legal | Legal Counsel / Compliance Officer |
+| HR | Human Resources Manager |
+| IT | IT/Systems Administrator |
+| BU | Business Unit / Process Owners |
+| Proc | Procurement / Vendor Management |
+| Audit | Internal Audit |
+| Board | Board of Directors |
 
 ---
 
-## 5. DPO Authority and Independence
+## 4. RACI Matrix — PIMS Core Activities
 
-Per GDPR Article 38(3) and ISO 27701:2019:
+### 4.1 Governance and Leadership
 
-- DPO **must not** be dismissed or penalised for performing their tasks
-- DPO **reports directly** to the highest management level (CEO / Board)
-- DPO **must not** receive instructions regarding exercise of their tasks
-- DPO **has access** to all PII processing activities, systems, premises, and information needed
-- DPO **may** perform other tasks with no conflict of interest
+| Activity | ISO 27701 Ref | CEO | DPO | CISO | Legal | HR | Board |
+|----------|--------------|-----|-----|------|-------|----|----|
+| Establish PIMS scope and policy | 5.1, 5.2 | A | R | C | C | I | I |
+| Issue Leadership Commitment Statement | 5.1 | R | C | I | I | I | A |
+| Appoint / designate DPO | 5.3.2 | A | R | I | C | I | I |
+| Define PIMS objectives | 5.2 | A | R | C | C | I | I |
+| Provide PIMS resources | 7.1 | A | R | C | I | C | I |
+| Conduct Management Review | 9.3 | A | R | C | C | I | I |
+| Approve Statement of Applicability | 6.1.3 | A | R | C | C | I | I |
 
-**Conflict of interest assessment:** No conflict identified — DPO does not determine purposes or means of PII processing.
+### 4.2 Risk Management
+
+| Activity | ISO 27701 Ref | DPO | CISO | Legal | BU | Audit | CEO |
+|----------|--------------|-----|------|-------|----|----|-----|
+| Conduct privacy risk assessment | 6.1.2 | A | R | C | C | I | I |
+| Maintain privacy risk register | 6.1.2 | A | R | C | C | I | I |
+| Develop risk treatment plan | 6.1.3 | A | R | C | C | I | I |
+| Approve risk treatment decisions | 6.1.3 | C | R | C | I | I | A |
+| Monitor residual risks | 6.1.2 | A | R | I | I | C | I |
+
+### 4.3 PII Processing and Operations
+
+| Activity | ISO 27701 Ref | DPO | BU | IT | Legal | CTO | Proc |
+|----------|--------------|-----|----|----|-------|-----|------|
+| Maintain ROPA / PII inventory | 7.2.8 | A | R | C | C | I | I |
+| Conduct DPIA | 7.2.5 | A | R | C | C | C | I |
+| Manage consent mechanisms | 7.3.3 | A | R | R | C | C | I |
+| Handle data subject requests | 7.3.4 | A | R | C | C | I | I |
+| Manage data retention and disposal | 7.4.6 | A | R | R | C | C | I |
+| Assess third-party processors | 8.5 | A | C | I | C | I | R |
+| Manage cross-border transfers | 7.5 | A | C | I | R | I | I |
+| Implement privacy by design | 7.4.1 | C | C | R | I | A | I |
+
+### 4.4 Incident and Breach Management
+
+| Activity | ISO 27701 Ref | DPO | IT | CISO | Legal | CEO | Comm |
+|----------|--------------|-----|----|------|-------|-----|------|
+| Detect and identify privacy incidents | 6.1.2 | I | R | A | I | I | I |
+| Assess severity and impact | 8.2 | A | C | R | C | I | I |
+| Notify supervisory authority (if required) | GDPR Art.33 | A | I | C | R | I | I |
+| Notify affected individuals (if required) | GDPR Art.34 | A | I | I | R | C | R |
+| Contain and remediate breach | 8.2 | A | R | R | C | I | I |
+| Document breach and lessons learned | 8.2 | A | R | C | C | I | I |
+
+### 4.5 Awareness, Training and Competence
+
+| Activity | ISO 27701 Ref | DPO | HR | CISO | BU | IT |
+|----------|--------------|-----|----|----|----|----|
+| Define training requirements | 7.3 | A | R | C | C | I |
+| Deliver privacy awareness programme | 7.3 | A | R | C | C | I |
+| Conduct role-specific privacy training | 7.3 | A | R | C | R | I |
+| Maintain competence records | 7.3 | C | A | I | I | I |
+| Update training content annually | 7.3 | A | R | C | I | I |
+
+### 4.6 Document Control and Records
+
+| Activity | ISO 27701 Ref | DPO | IT | BU | Audit |
+|----------|--------------|-----|----|----|-------|
+| Maintain document master list | 7.5.3 | A | R | I | I |
+| Approve and release controlled documents | 7.5.2 | A | I | C | I |
+| Archive superseded documents | 7.5.3 | C | R | I | A |
+| Conduct document review cycle | 7.5.3 | A | C | C | I |
+
+### 4.7 Audit and Performance Monitoring
+
+| Activity | ISO 27701 Ref | DPO | Audit | CISO | CEO | BU |
+|----------|--------------|-----|-------|------|-----|----|
+| Plan PIMS internal audit programme | 9.2 | C | A | C | I | I |
+| Execute internal audits | 9.2 | I | R | C | I | C |
+| Report audit findings | 9.2 | C | R | I | I | A |
+| Track corrective actions | 10.1 | A | R | C | I | C |
+| Measure PIMS KPIs / metrics | 9.1 | A | C | R | I | I |
+| Prepare management review inputs | 9.3 | A | C | R | I | I |
+
+### 4.8 Supplier and Third-Party Management
+
+| Activity | ISO 27701 Ref | DPO | Proc | Legal | BU | IT |
+|----------|--------------|-----|------|-------|----|----|
+| Screen suppliers for privacy compliance | 8.5 | A | R | C | C | I |
+| Negotiate Data Processing Agreements | 8.5 | C | I | A | I | I |
+| Conduct supplier privacy assessments | 8.5 | A | R | C | C | I |
+| Monitor ongoing supplier compliance | 8.5 | A | C | I | R | I |
+| Terminate non-compliant supplier access | 8.5 | C | I | I | R | A |
 
 ---
 
-## 6. DPO Resources
+## 5. Key Contacts
 
-| Resource | Detail |
-|---|---|
-| Time allocation | [X% FTE or full-time] |
-| Annual budget | [Amount] |
-| Staff support | [Privacy team members] |
-| Technology | [DSAR system / GRC platform / privacy management tool] |
-| Training | Annual CPD; IAPP conferences; external legal counsel access |
-| Senior access | Direct line to CEO; quarterly Board privacy report |
-
----
-
-## 7. DPO Key Performance Indicators
-
-| KPI | Target | Measurement |
-|---|---|---|
-| DSAR fulfilment rate (on time) | 100% | DSAR tracking log — monthly |
-| Breach notification compliance (within 72h) | 100% | Breach register — per incident |
-| DPIA completion (high-risk activities) | 100% | DPIA register — quarterly |
-| Privacy training completion | 100% (min 95% at any point) | Training records — quarterly |
-| Privacy risk treatment on-time rate | 95% | Risk register — monthly |
+| Role | Name | Email | Department |
+|------|------|-------|-----------|
+| DPO | [DPO Name] | dpo@organisation.com | Compliance |
+| CISO | [CISO Name] | ciso@organisation.com | IT Security |
+| Legal Counsel | [Legal Name] | legal@organisation.com | Legal |
+| HR Manager | [HR Name] | hr@organisation.com | Human Resources |
+| IT Admin Lead | [IT Name] | it@organisation.com | IT |
+| Internal Audit Lead | [Audit Name] | audit@organisation.com | Internal Audit |
 
 ---
 
-**Signed by CEO:** ________________________________ | **Date:** ________________
+## 6. Review and Maintenance
+
+This RACI matrix shall be reviewed:
+- Annually as part of the PIMS management review cycle
+- When significant organisational changes occur (restructuring, new business units, M&A)
+- Following a major privacy incident where accountability gaps were identified
+- When new privacy regulations impose additional role requirements
 
 ---
 
-*ISO/IEC 27701:2019 PIMS Toolkit | DPO Terms of Reference | PIMS-LDR-002*
+## 7. Record of Changes
+
+| Version | Date | Author | Change Description |
+|---------|------|--------|--------------------|
+| 1.0 | 2025-01-01 | DPO | Initial release |
+| 1.1 | 2025-01-01 | DPO | Corrected content (previous version contained DPO ToR content in error) |
+
+---
+
+*ISO/IEC 27701:2019 PIMS Toolkit | Privacy Roles and Responsibilities RACI | PIMS-LDR-003*
