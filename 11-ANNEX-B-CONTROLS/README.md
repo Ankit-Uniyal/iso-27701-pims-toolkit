@@ -32,7 +32,7 @@ Annex B extends the controls of ISO/IEC 27002:2022 with processor-specific priva
 | Sub-processor chain | Basic | **Enhanced sub-processor controls and DPA requirements** |
 | Breach notification | Brief | **More prescriptive — timelines and content specified** |
 | Cross-border transfers | Basic | **Explicit controls for transfer safeguards per controller instructions** |
-| Audit rights | Referenced in DPA | **Explicit Annex B control — B.8.4.1** |
+| Audit rights | Referenced in DPA | **Explicit Annex B control — B.8.6.1** |
 | Temporary files | Not explicit | **New control — B.8.3.2** |
 | Return/disposal at contract end | Partial | **Explicit — B.8.3.3** |
 
@@ -62,11 +62,11 @@ Annex B extends the controls of ISO/IEC 27002:2022 with processor-specific priva
 | B.8.4.3 | Privacy/security breach notification | Breach notification to controller without undue delay (per agreed timeline in DPA); include required details | Art. 33 |
 | **B.8.5 — Cross-Border Transfers (Processor)** *(Enhanced 2025)* | | | |
 | B.8.5.1 | Basis for cross-border transfers | Transfers only per controller instructions and approved transfer mechanisms | Art. 44 |
-| B.8.5.2 | Countries and international organisations | Transfer destinations documented; restrictions followed; no unauthorised transfers | Art. 44–49 |
+| B.8.5.2 | Countries and international organisations | Transfer destinations documented; restrictions followed; no unauthorised transfers | Art. 44-49 |
 | B.8.5.3 | Records of cross-border PII transfers | Transfer register maintained; evidence available for controller and supervisory authority | Art. 30(2) |
 | **B.8.6 — Audit and Compliance (NEW/Enhanced 2025)** | | | |
-| B.8.6.1 | Audit rights | Controller audit rights explicitly supported; third-party audit reports provided | Art. 28(3)(h) |
-| B.8.6.2 | Assistance for regulatory audits | Assistance provided to controller for supervisory authority inspections and investigations | Art. 31 |
+| B.8.6.1 | Audit rights *(NEW standalone 2025)* | Controller audit rights explicitly supported; third-party audit reports provided | Art. 28(3)(h) |
+| B.8.6.2 | Assistance for regulatory audits *(NEW 2025)* | Assistance provided to controller for supervisory authority inspections and investigations | Art. 31 |
 
 ---
 
@@ -120,7 +120,7 @@ If your organisation is acting as a PII Processor, your PIMS must demonstrate:
 
 | Document | Location |
 |---------|---------|
-| B8-PROCESSOR-OBLIGATIONS.md | This folder |
+| ANNEX-B-PII-PROCESSOR-CONTROLS.md | This folder — full B.8 implementation reference |
 | Statement of Applicability (Annex B) | `05-CLAUSE6-PLANNING/STATEMENT-OF-APPLICABILITY.md` |
 | DPA Template | `DPA-TEMPLATE.md` (root) |
 | Privacy Breach Response | `07-CLAUSE8-OPERATION/PRIVACY-BREACH-RESPONSE-PROCEDURE.md` |
@@ -134,9 +134,10 @@ If your organisation is acting as a PII Processor, your PIMS must demonstrate:
 
 | Version | Date | Description |
 |---------|------|-------------|
+| 2.1 | April 2025 | Fixed Related Documents table — corrected filename reference to ANNEX-B-PII-PROCESSOR-CONTROLS.md |
 | 2.0 | April 2025 | Updated for ISO/IEC 27701:2025 — new controls: B.8.3.1 (Privacy by Design standalone), B.8.3.2 (temporary files), enhanced B.8.5 (cross-border), B.8.6 (audit rights), sub-processor enhancements |
 | 1.0 | 2024 | Initial release — ISO/IEC 27701:2019 |
 
 ---
 
-*ISO/IEC 27701:2025 PIMS Toolkit | Annex B — PII Processor Controls | PIMS-ANNEXB-README-001 | v2.0 | Classification: Public*
+*ISO/IEC 27701:2025 PIMS Toolkit | Annex B — PII Processor Controls | PIMS-ANNEXB-README-001 | v2.1 | Classification: Public*
