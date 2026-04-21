@@ -3,7 +3,7 @@
 | Field | Detail |
 |-------|--------|
 | **Document ID** | PIMS-ANNEXA-README-001 |
-| **Version** | 2.0 |
+| **Version** | 2.1 |
 | **Date** | April 2025 |
 | **Standard** | ISO/IEC 27701:2025 — Annex A |
 | **Applies To** | Organisations acting as PII Controllers |
@@ -107,7 +107,7 @@ The 2025 edition updated and expanded Annex A to align with **ISO 27002:2022** a
 ## How to Use This Folder
 
 1. **Review** the control index above to understand all applicable Annex A controls
-2. **Reference** the detailed control files (A7 and A8) for implementation guidance
+2. **Reference** the detailed control file (ANNEX-A-PII-CONTROLLER-CONTROLS.md) for implementation guidance
 3. **Complete** the Statement of Applicability (SoA) at `05-CLAUSE6-PLANNING/STATEMENT-OF-APPLICABILITY.md`
 4. **Evidence** implementation in your operational procedures (`07-CLAUSE8-OPERATION/`)
 5. **Monitor** control implementation via the Gap Assessment Checklist (`01-GAP-ASSESSMENT/`)
@@ -118,8 +118,7 @@ The 2025 edition updated and expanded Annex A to align with **ISO 27002:2022** a
 
 | Document | Location |
 |---------|---------|
-| A7-CONDITIONS-FOR-COLLECTION-USE.md | This folder |
-| A8-OBLIGATIONS-TO-PII-PRINCIPALS.md | This folder |
+| ANNEX-A-PII-CONTROLLER-CONTROLS.md | This folder — full A.7–A.8 implementation reference |
 | Statement of Applicability | `05-CLAUSE6-PLANNING/STATEMENT-OF-APPLICABILITY.md` |
 | DPIA Template | `07-CLAUSE8-OPERATION/DATA-PROTECTION-IMPACT-ASSESSMENT.md` |
 | Consent Management Procedure | `07-CLAUSE8-OPERATION/CONSENT-MANAGEMENT-PROCEDURE.md` |
@@ -134,9 +133,10 @@ The 2025 edition updated and expanded Annex A to align with **ISO 27002:2022** a
 
 | Version | Date | Description |
 |---------|------|-------------|
+| 2.1 | April 2025 | Fixed Related Documents table — corrected file reference to ANNEX-A-PII-CONTROLLER-CONTROLS.md (removed non-existent A7 and A8 file references) |
 | 2.0 | April 2025 | Updated for ISO/IEC 27701:2025 — new controls A.7.2.7 (joint controllers), A.7.2.8 (Privacy by Default), A.7.4 (de-identification), A.7.5 (disclosure), A.8.2.6 (automated decisions), TIA, ISO 31700 reference |
 | 1.0 | 2024 | Initial release — ISO/IEC 27701:2019 |
 
 ---
 
-*ISO/IEC 27701:2025 PIMS Toolkit | Annex A — PII Controller Controls | PIMS-ANNEXA-README-001 | v2.0 | Classification: Public*
+*ISO/IEC 27701:2025 PIMS Toolkit | Annex A — PII Controller Controls | PIMS-ANNEXA-README-001 | v2.1 | Classification: Public*
