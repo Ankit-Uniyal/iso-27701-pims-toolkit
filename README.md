@@ -43,6 +43,7 @@
 |---|--------------|----------|
 | — | README.md | This file — full index and navigation guide |
 | — | 00-IMPLEMENTATION-GUIDE.md | How to use this toolkit; PIMS implementation roadmap (2025 edition) |
+| — | TRANSITION-GUIDE-2019-TO-2025.md | Transition guide: ISO 27701:2019 → 2025 — new controls, changes, gap analysis |
 | 1 | 01-GAP-ASSESSMENT/ | Updated PIMS gap assessment checklist (2025 controls) |
 | 2 | 02-PIMS-POLICY/ | Privacy Policy, PIMS Objectives, Privacy Notice |
 | 3 | 03-CLAUSE4-CONTEXT/ | Context, interested parties, PIMS scope, legal register |
@@ -64,6 +65,7 @@
 | File | Purpose |
 |------|---------|
 | 00-IMPLEMENTATION-GUIDE.md | Step-by-step PIMS implementation roadmap (2025 edition) |
+| TRANSITION-GUIDE-2019-TO-2025.md | Guide for transitioning from ISO 27701:2019 to 2025 |
 
 ### Gap Assessment — 01-GAP-ASSESSMENT/
 
@@ -152,26 +154,25 @@
 
 | # | File | Purpose |
 |---|------|---------|
-| 1 | README.md | Annex A overview — PII Controller controls (2025 edition) |
-| 2 | A7-CONDITIONS-FOR-COLLECTION-USE.md | Controls A.7.2–A.7.4 (Lawfulness, purpose, minimisation) |
-| 3 | A8-OBLIGATIONS-TO-PII-PRINCIPALS.md | Controls A.8.1–A.8.5 (DSARs, consent, correction, erasure) |
+| 1 | README.md | Annex A overview — PII Controller control index (2025 edition) |
+| 2 | ANNEX-A-PII-CONTROLLER-CONTROLS.md | Full A.7–A.8 implementation reference with guidance and evidence |
 
 ### Annex B — PII Processor Controls — 11-ANNEX-B-CONTROLS/
 
 | # | File | Purpose |
 |---|------|---------|
-| 1 | README.md | Annex B overview — PII Processor controls (2025 edition) |
-| 2 | B8-PROCESSOR-OBLIGATIONS.md | Controls B.8.1–B.8.5 (Processor-specific obligations) |
+| 1 | README.md | Annex B overview — PII Processor control index (2025 edition) |
+| 2 | ANNEX-B-PII-PROCESSOR-CONTROLS.md | Full B.8 implementation reference with guidance and evidence |
 
 ### Worked Example — Nexus Financial Services — 12-WORKED-EXAMPLE/
 Fictional implementation reference — completed templates for educational use only.
 
 | # | File | What It Shows |
 |---|------|--------------|
-| 1 | README.md | NFS org profile and PIMS file index |
+| 1 | README.md | NFS org profile, gap scores, risk summary and file index |
 | 2 | NFS-PIMS-SCOPE-STATEMENT.md | Completed PIMS Scope Statement |
 | 3 | NFS-PRIVACY-RISK-REGISTER-ENTRY.md | Three populated privacy risk register entries |
-| 4 | NFS-SOA-EXCERPT.md | Completed SoA excerpt (Annex A controller controls) |
+| 4 | NFS-SOA-EXCERPT.md | Completed SoA excerpt (Annex A + B controls, 2025 edition) |
 | 5 | NFS-DPIA-ENTRY.md | Completed DPIA for a sample PII processing activity |
 | 6 | NFS-BREACH-LOG-ENTRY.md | Completed privacy breach log entry |
 
@@ -179,8 +180,8 @@ Fictional implementation reference — completed templates for educational use o
 
 | File | Purpose |
 |------|---------|
-| pims_soa_tracker.py | SoA tracker — updated controls with progress reporting |
-| pims_gap_checker.py | Automated PIMS gap assessment checker |
+| pims_soa_tracker.py | SoA tracker — all 2025 controls with progress reporting, CSV export |
+| pims_gap_checker.py | Automated PIMS gap assessment checker with demo mode and priority ranking |
 | dpia_risk_scorer.py | DPIA risk scoring and threshold alert tool |
 
 ---
@@ -218,6 +219,7 @@ Fictional implementation reference — completed templates for educational use o
 | DATA-SUBJECT-REQUEST-FORM-TEMPLATE.md | Data Subject Access Request (DSAR) form |
 | SUPPLIER-PRIVACY-QUESTIONNAIRE.md | Third-party supplier privacy due diligence questionnaire |
 | COOKIE-CONSENT-MANAGEMENT-GUIDE.md | Cookie consent and Consent Management Platform (CMP) guide |
+| TRANSITION-GUIDE-2019-TO-2025.md | Complete transition guide from 2019 to 2025 edition |
 
 ---
 
@@ -240,6 +242,7 @@ This toolkit cross-maps ISO 27701:2025 controls to:
 
 | Version | Date | Changes |
 |---------|------|---------|
+| 2.1 | April 2025 | Fixed file reference errors — Annex A/B now correctly reference ANNEX-A-PII-CONTROLLER-CONTROLS.md and ANNEX-B-PII-PROCESSOR-CONTROLS.md |
 | 2.0 | April 2025 | Updated to ISO/IEC 27701:2025 — HLS alignment, expanded controls, DPIA enhancements, TIA, joint controller provisions, ISO 31700 cross-reference |
 | 1.0 | 2024 | Initial release — ISO/IEC 27701:2019 edition |
 
@@ -249,4 +252,4 @@ This toolkit cross-maps ISO 27701:2025 controls to:
 
 *See [00-IMPLEMENTATION-GUIDE.md](00-IMPLEMENTATION-GUIDE.md) for the full implementation roadmap.*
 
-*ISO/IEC 27701:2025 PIMS Toolkit | README | PIMS-README-001 | v2.0 | Classification: Public*
+*ISO/IEC 27701:2025 PIMS Toolkit | README | PIMS-README-001 | v2.1 | Classification: Public*
