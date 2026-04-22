@@ -356,6 +356,7 @@ This checklist supports a structured gap assessment against **ISO/IEC 27701:2025
 | A.8.3.5 | Right to data portability supported | | | | |
 | A.8.3.6 | Right to restriction of processing supported | | | | |
 | A.8.4.1 | Consent withdrawal mechanism available | | | | |
+| A.8.4.2 | Consent refresh process implemented — consent re-obtained on material processing changes (NEW in ISO 27701:2025) | | | | |
 | A.8.5.1 | Automated decision-making rights addressed | | | | |
 | A.8.5.2 | Data subject complaint handling process implemented | | | | |
 
