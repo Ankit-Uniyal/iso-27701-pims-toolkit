@@ -1,7 +1,7 @@
 # Data Processing Agreement Template
 
 **Document ID:** PIMS-SUP-012  
-**Version:** 1.0 | **Date:** 2025-01-01  
+**Version:** 2.0 | **Date:** April 2025
 **Classification:** Template — Legal Review Required
 
 > **IMPORTANT:** This is a template for reference purposes only. It does not constitute legal advice. All DPAs should be reviewed by qualified legal counsel before execution. This template is drafted for UK/EU GDPR compliance but should be adapted for applicable local law.
@@ -243,5 +243,5 @@ Signature: _______________________
 
 ---
 
-*ISO/IEC 27701:2019 PIMS Toolkit | Data Processing Agreement Template | PIMS-SUP-012*  
+*ISO/IEC 27701:2025 PIMS Toolkit | Data Processing Agreement Template | PIMS-SUP-012 | v2.0 | Classification: Template — Legal Review Required*
 *This template requires legal review before use.*
