@@ -78,4 +78,4 @@ NFS Marketing team proposes implementing an automated lead scoring algorithm wit
 ---
 
 *Worked example. NFS is a fictional organisation.*  
-*ISO/IEC 27701:2019 PIMS Toolkit | NFS DPIA Entry — Lead Scoring | NFS-DPIA-2025-004*
+*ISO/IEC 27701:2025 PIMS Toolkit | NFS DPIA Entry — Lead Scoring | NFS-DPIA-2025-004*
