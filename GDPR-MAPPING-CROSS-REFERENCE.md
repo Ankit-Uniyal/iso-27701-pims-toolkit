@@ -124,11 +124,10 @@ This document cross-references **ISO/IEC 27701:2025** clauses and Annex A/B cont
 |-------------|------------|-------------------------------|
 | Art. 44 | General principle for transfers | A.7.5.1 (basis for transfers), B.8.5.1 |
 | Art. 45 | Adequacy decision | CROSS-BORDER-TRANSFER-PROCEDURE (adequacy decision tracking) |
-| Art. 46 | Appropriate safeguards (SCCs, BCRs) | A.7.4.3, B.8.5.1 (transfer mechanism selection) |
+| Art. 46 | Appropriate safeguards (SCCs, BCRs, EU-US Data Privacy Framework) | A.7.5.1 (basis for PII transfers — includes TIA where no adequacy); B.8.5.1 (transfer mechanism selection) |
 | Art. 47 | Binding Corporate Rules | CROSS-BORDER-TRANSFER-PROCEDURE (BCR process) |
 | Art. 49 | Derogations | CROSS-BORDER-TRANSFER-PROCEDURE (derogation basis documented) |
-| *Transfer Impact Assessment (TIA)* | EDPB requirement — post Schrems II | **NEW in 27701:2025** — TIA required where no adequacy decision (A.7.4.1, CROSS-BORDER-TRANSFER-PROCEDURE) |
-
+| *Transfer Impact Assessment (TIA)* | EDPB requirement — post Schrems II | **NEW in 27701:2025** — TIA | *Transfer Impact Assessment (TIA)* | EDPB requirement — post Schrems II | **NEW in 27701:2025** — TIA required where no adequacy decision (A.7.5.1, CROSS-BORDER-TRANSFER-PROCEDURE) |
 ---
 
 ## Part 10: GDPR vs. ISO 27701:2025 — Overall Compliance Value
