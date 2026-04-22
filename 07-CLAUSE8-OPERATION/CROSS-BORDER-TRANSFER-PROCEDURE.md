@@ -40,6 +40,7 @@ PII may only be transferred to third countries where one of the following safegu
 | Mechanism | Basis | When to Use |
 |-----------|-------|-------------|
 | **Adequacy Decision** | Art. 45 GDPR | Destination country/territory has been deemed adequate by the European Commission (or relevant authority) |
+| **EU-US Data Privacy Framework (DPF)** | Art. 45 GDPR — adequacy decision adopted July 2023 | Transfers to US organisations certified under the DPF — no TIA required; verify DPF certification at the DPF list (dataprivacyframework.gov) |
 | **Standard Contractual Clauses (SCCs)** | Art. 46(2)(c) GDPR | No adequacy decision; use EDPB-approved SCCs (updated 2021 set) — **TIA required** |
 | **Binding Corporate Rules (BCRs)** | Art. 47 GDPR | Intra-group transfers; BCRs approved by supervisory authority — **TIA review required** |
 | **Approved Codes of Conduct / Certification** | Art. 46(2)(e)(f) GDPR | Sector-specific approved codes or ISO 27701 certification schemes — **TIA may be required** |
