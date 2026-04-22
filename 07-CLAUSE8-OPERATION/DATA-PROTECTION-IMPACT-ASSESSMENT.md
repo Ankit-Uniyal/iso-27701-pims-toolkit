@@ -1,185 +1,351 @@
-# ISO/IEC 27701:2019 PIMS Gap Assessment Checklist
+# Data Protection Impact Assessment (DPIA) Template
 
-**Document ID:** PIMS-GAP-001
-**Version:** 1.0 | **Date:** 2025 | **Classification:** Internal
+| Field | Detail |
+|---|---|
+| **Document ID** | PIMS-OPS-002 |
+| **Version** | 2.0 |
+| **Date** | April 2025 |
+| **Owner** | Data Protection Officer |
+| **Classification** | Confidential — Internal Use |
+| **Review Date** | April 2026 |
+| **Standard** | ISO/IEC 27701:2025 — Clause A.7.2.5; GDPR Art. 35-36 |
 
 ---
 
-## How to Use This Checklist
+## Purpose
 
-Rate each requirement using the following scale:
+This template is used to conduct a Data Protection Impact Assessment (DPIA) for processing activities that are likely to result in a high risk to the rights and freedoms of data subjects.
 
-| Score | Rating | Description |
+ISO/IEC 27701:2025 (control A.7.2.5) requires DPIAs for high-risk processing, with prescriptive trigger criteria. GDPR Art. 35 requires DPIAs before commencing high-risk processing. This template satisfies both requirements.
+
+**How to use this template:**
+1. Complete the Screening (Section 1) to confirm a DPIA is required.
+2. Work through Sections 2-7 with the process owner, IT, and Legal.
+3. Obtain DPO sign-off (Section 8) before the processing activity commences or continues.
+4. File the completed DPIA in the DPIA Register and link it in the ROPA.
+
+---
+
+## PART A - DPIA SCREENING
+
+### Section 1: DPIA Trigger Criteria (ISO 27701:2025 A.7.2.5)
+
+A DPIA is **mandatory** if ANY of the following triggers apply:
+
+| # | Trigger | Applies? |
 |---|---|---|
-| 0 | Not Implemented | No evidence of requirement being addressed |
-| 1 | Initial | Ad hoc or informal approach; not documented |
-| 2 | Partial | Partially implemented; gaps remain |
-| 3 | Largely Conformant | Implemented and mostly documented; minor gaps |
-| 4 | Fully Conformant | Fully implemented, documented, and evidenced |
+| T1 | Systematic or large-scale profiling / evaluation of personal aspects | Yes / No |
+| T2 | Large-scale processing of special category data | Yes / No |
+| T3 | Systematic monitoring of publicly accessible areas | Yes / No |
+| T4 | Novel or innovative technology (AI/ML, facial recognition, IoT, biometrics) | Yes / No |
+| T5 | Automated decision-making producing legal or similarly significant effects | Yes / No |
+| T6 | Processing that could deny individuals access to services or rights | Yes / No |
+| T7 | Cross-matching datasets from two or more sources unexpectedly | Yes / No |
+| T8 | Processing of vulnerable individuals (children, employees, patients) | Yes / No |
+| T9 | Cross-border transfer without adequacy decision (TIA also required) | Yes / No |
+| T10 | Scoring or ranking individuals based on personal data | Yes / No |
+| T11 | High-volume processing not otherwise captured above | Yes / No |
+| T12 | Supervisory authority has listed this processing as always requiring DPIA | Yes / No |
 
-**Gap = Any requirement scored 0, 1, or 2**
+**Screening Outcome:** One or more triggers = DPIA required. Proceed to Part B.
 
----
-
-## Section 1 — PIMS Clause Extensions (Clauses 4–10)
-
-### Clause 4 — Context
-
-| Ref | Requirement | Score (0-4) | Evidence / Notes | Gap Owner | Target Date |
-|---|---|---|---|---|---|
-| 4.1 ext | Privacy-specific internal and external issues identified | | | | |
-| 4.2 ext | Privacy-specific interested parties identified (regulators, data subjects, processors) | | | | |
-| 4.3 ext | PIMS scope includes all PII processing activities and applicable regulations | | | | |
-| 4.4 ext | PII Processing Inventory / Record of Processing Activities (ROPA) documented | | | | |
-
-### Clause 5 — Leadership
-
-| Ref | Requirement | Score (0-4) | Evidence / Notes | Gap Owner | Target Date |
-|---|---|---|---|---|---|
-| 5.1 ext | Top management commitment to PIMS demonstrated | | | | |
-| 5.2 ext | Approved Privacy Policy signed by senior management | | | | |
-| 5.3 ext | DPO appointed where required | | | | |
-| 5.3 ext | Privacy roles and responsibilities defined and communicated | | | | |
-
-### Clause 6 — Planning
-
-| Ref | Requirement | Score (0-4) | Evidence / Notes | Gap Owner | Target Date |
-|---|---|---|---|---|---|
-| 6.1 ext | Privacy risk assessment methodology documented | | | | |
-| 6.1 ext | Privacy risk assessment conducted for all PII processing activities | | | | |
-| 6.1 ext | Privacy risk treatment options selected and documented | | | | |
-| 6.1 ext | Statement of Applicability completed for all 49 Annex A/B controls | | | | |
-| 6.2 ext | Measurable Privacy Objectives established and monitored | | | | |
-
-### Clause 7 — Support
-
-| Ref | Requirement | Score (0-4) | Evidence / Notes | Gap Owner | Target Date |
-|---|---|---|---|---|---|
-| 7.2 ext | Staff competence in privacy assessed and evidenced | | | | |
-| 7.3 ext | Privacy awareness programme for all relevant staff | | | | |
-| 7.4 ext | Privacy communications plan (internal and external) in place | | | | |
-| 7.5 ext | Documented information controlled and retained per PIMS requirements | | | | |
-
-### Clause 8 — Operation
-
-| Ref | Requirement | Score (0-4) | Evidence / Notes | Gap Owner | Target Date |
-|---|---|---|---|---|---|
-| 8.1 ext | Documented procedures for all PII processing activities | | | | |
-| 8.1 ext | DPIAs conducted for high-risk processing activities | | | | |
-| 8.1 ext | Consent management procedure in place | | | | |
-| 8.1 ext | Data subject rights (DSAR) procedure in place | | | | |
-| 8.1 ext | Privacy breach response procedure in place | | | | |
-| 8.1 ext | Data retention and disposal policy in place | | | | |
-| 8.1 ext | Third-party processors assessed and bound by appropriate contracts | | | | |
-| 8.1 ext | Cross-border PII transfers documented with transfer mechanisms | | | | |
-| 8.1 ext | Privacy by design embedded in new projects and system changes | | | | |
-
-### Clause 9 — Performance Evaluation
-
-| Ref | Requirement | Score (0-4) | Evidence / Notes | Gap Owner | Target Date |
-|---|---|---|---|---|---|
-| 9.1 ext | Privacy KPIs monitored and reported | | | | |
-| 9.2 ext | Annual PIMS internal audit conducted | | | | |
-| 9.3 ext | PIMS management review conducted at least annually | | | | |
-
-### Clause 10 — Improvement
-
-| Ref | Requirement | Score (0-4) | Evidence / Notes | Gap Owner | Target Date |
-|---|---|---|---|---|---|
-| 10.1 ext | Nonconformities logged and corrective actions tracked | | | | |
-| 10.2 ext | Continual improvement of the PIMS demonstrated | | | | |
+**Screening completed by:** ___________________________
+**Date:** _______________
+**DPO consulted:** Yes / No
 
 ---
 
-## Section 2 — Annex A: PII Controller Controls (31 Controls)
+## PART B - FULL DPIA
 
-### A.7 — Conditions for Collection and Processing
+### Section 2: Processing Activity Description
 
-| Control | Requirement | Score (0-4) | Evidence / Notes | Gap Owner |
+| Field | Detail |
+|---|---|
+| **DPIA Reference** | DPIA-[YYYY]-[NNN] |
+| **DPIA Date** | |
+| **DPIA Author** | |
+| **Processing Activity Name** | |
+| **ROPA Reference** | |
+| **Related Project / System** | |
+| **Processing Status** | New / Existing / Significant Change |
+| **Processing Commencement Date** | |
+| **DPO Assigned** | |
+
+#### 2.1 Description of Processing Activity
+
+[Enter detailed description of the processing activity - what data is processed, by whom, how, and for what purpose]
+
+#### 2.2 Nature of Processing
+
+| Field | Detail |
+|---|---|
+| **Operations** | Collection / Storage / Use / Disclosure / Erasure / Other |
+| **Frequency** | Continuous / Regular / One-off / Ad hoc |
+| **Duration** | |
+| **Geographic Scope** | |
+| **Systems / Applications Involved** | |
+| **Third Parties Involved** | |
+
+#### 2.3 Purpose(s) and Legal Basis
+
+| Purpose | Legal Basis (GDPR Art. 6) | Additional Condition (Art. 9 if special category) |
+|---|---|---|
+| | | |
+| | | |
+
+#### 2.4 Categories of PII
+
+| Data Category | Special Category? | Volume / Scale | Sensitivity |
+|---|---|---|---|
+| | Yes / No | | Low / Medium / High |
+| | Yes / No | | Low / Medium / High |
+| | Yes / No | | Low / Medium / High |
+
+#### 2.5 Categories of Data Subjects
+
+| Data Subject Category | Vulnerable? | Estimated Volume |
+|---|---|---|
+| | Yes / No | |
+| | Yes / No | |
+
+#### 2.6 Recipients and Third Parties
+
+| Recipient | Role | Country | DPA in Place? |
+|---|---|---|---|
+| | Controller / Processor / Joint Controller | | Yes / No |
+| | Controller / Processor / Joint Controller | | Yes / No |
+
+#### 2.7 Joint Controller Arrangements (ISO 27701:2025 A.7.2.7)
+
+| Field | Detail |
+|---|---|
+| Joint Controller identified? | Yes / No |
+| Joint Controller name | |
+| Joint Controller Agreement (JCA) in place? | Yes / No / In progress |
+| JCA Reference | |
+| Responsibilities allocated in JCA? | Yes / No |
+
+---
+
+### Section 3: Necessity and Proportionality Assessment
+
+| Assessment Area | Finding | Notes |
+|---|---|---|
+| Purpose is specific, explicit and legitimate | Yes / No | |
+| Processing is necessary and proportionate to purpose | Yes / No | |
+| Less privacy-invasive alternative considered | Yes / No | |
+| Data minimisation applied to all data fields | Yes / Partial / No | |
+| Pseudonymisation or anonymisation considered | Yes / No | |
+| Retention period defined | Yes / No | Period: |
+| Privacy by Default applied (A.7.2.8) | Yes / No | |
+
+#### 3.1 Data Subject Rights Feasibility
+
+| Right | Technically Feasible? | Procedure in Place? | Notes |
+|---|---|---|---|
+| Access (DSAR) | Yes / No | Yes / No | |
+| Rectification | Yes / No | Yes / No | |
+| Erasure | Yes / No | Yes / No | |
+| Restriction | Yes / No | Yes / No | |
+| Portability | Yes / No | Yes / No | |
+| Objection | Yes / No | Yes / No | |
+| Automated decision-making (Art. 22) | Yes / No / N/A | Yes / No / N/A | |
+
+---
+
+### Section 4: Privacy Risk Assessment
+
+**Scoring: Risk Score = Likelihood (1-5) x Impact (1-5)**
+
+**Likelihood Scale:**
+
+| Score | Level | Description |
+|---|---|---|
+| 1 | Very Low | Unlikely; strong controls in place; no precedent |
+| 2 | Low | Could occur; partial controls; limited history |
+| 3 | Medium | Might occur periodically; moderate controls |
+| 4 | High | Likely to occur; weak controls; recurring issues |
+| 5 | Very High | Almost certain; minimal controls; active threat |
+
+**Impact Scale (Harm to Individuals):**
+
+| Score | Level | Description |
+|---|---|---|
+| 1 | Negligible | No real harm to individuals; inconvenience only |
+| 2 | Minor | Temporary embarrassment or minor data quality issue |
+| 3 | Moderate | Discrimination, financial loss, reputational damage |
+| 4 | Major | Identity theft, employment consequences, serious financial harm |
+| 5 | Severe | Physical danger, severe discrimination, major financial ruin |
+
+**Risk Rating Thresholds:**
+
+| Score Range | Rating | Required Action |
+|---|---|---|
+| 20-25 | CRITICAL | Halt/suspend processing; immediate DPO escalation; mandatory treatment |
+| 12-19 | HIGH | Documented treatment plan within 30 days; DPO informed |
+| 6-11 | MEDIUM | Treatment plan required; review at next management meeting |
+| 2-5 | LOW | Accept with monitoring; review annually |
+| 1 | MINIMAL | Accept; note in register; no further action |
+
+#### 4.1 Risk Register for This Processing Activity
+
+| Risk ID | Risk Description | Threat Source | Likelihood (1-5) | Impact (1-5) | Score | Rating | Proposed Mitigation | Residual L | Residual I | Residual Score | Residual Rating |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| DPIA-R01 | | | | | | | | | | | |
+| DPIA-R02 | | | | | | | | | | | |
+| DPIA-R03 | | | | | | | | | | | |
+| DPIA-R04 | | | | | | | | | | | |
+| DPIA-R05 | | | | | | | | | | | |
+
+*(Add rows as needed. Use common threat categories: unauthorised access, unlawful processing, inaccuracy, excessive retention, cross-border violations, third-party failures, rights failures, consent failures, automated decision-making risks, physical threats)*
+
+---
+
+### Section 5: Controls and Mitigations
+
+| Control # | Type | Description | Addresses Risk(s) | Owner | Target Date | Status |
+|---|---|---|---|---|---|---|
+| C01 | Technical | | | | | Implemented / Planned |
+| C02 | Organisational | | | | | Implemented / Planned |
+| C03 | Technical | | | | | Implemented / Planned |
+| C04 | Contractual | | | | | Implemented / Planned |
+| C05 | Organisational | | | | | Implemented / Planned |
+
+*(Add rows as needed)*
+
+#### 5.1 Privacy by Design and Default Checklist (A.7.2.8 / ISO 31700:2023)
+
+| Check | Confirmed? | Notes |
+|---|---|---|
+| Data minimisation applied in system design - only necessary fields collected | Yes / No | |
+| Privacy settings default to most protective option for users | Yes / No | |
+| Marketing and analytics tracking off by default | Yes / No | |
+| Third-party sharing off by default | Yes / No | |
+| Pseudonymisation or anonymisation applied where possible | Yes / No | |
+| Encryption at rest and in transit implemented | Yes / No | |
+| Access controls and audit logging in place | Yes / No | |
+| Data subject rights technically supported in the system | Yes / No | |
+
+---
+
+### Section 6: Consultation
+
+#### 6.1 Internal Consultation
+
+| Stakeholder | Consulted? | Date | Key Feedback / Concerns |
+|---|---|---|---|
+| Data Protection Officer | Yes / No | | |
+| IT / Security | Yes / No | | |
+| Legal / Compliance | Yes / No | | |
+| Business / Process Owner | Yes / No | | |
+| HR (if employee data involved) | Yes / No / N/A | | |
+| Procurement (if third parties involved) | Yes / No / N/A | | |
+
+#### 6.2 Data Subject Consultation
+
+| Question | Response |
+|---|---|
+| Were data subjects or their representatives consulted? | Yes / No |
+| If no, justification for not consulting | |
+| If yes, summary of outcomes | |
+
+#### 6.3 Supervisory Authority Prior Consultation (GDPR Art. 36)
+
+| Question | Response |
+|---|---|
+| After applying all controls, does HIGH or CRITICAL residual risk remain? | Yes / No |
+| If yes - prior consultation with supervisory authority is REQUIRED before processing commences | Consultation initiated / Not yet initiated |
+| Supervisory Authority (e.g., ICO, CNIL, etc.) | |
+| SA Reference Number | |
+| Consultation outcome / date | |
+
+---
+
+### Section 7: DPIA Outcome and Recommendation
+
+#### 7.1 Overall Residual Risk Summary
+
+| Risk ID | Risk Description | Residual Score | Residual Rating | Acceptable? |
 |---|---|---|---|---|
-| A.7.2.1 | Lawful basis for processing PII identified and documented | | | |
-| A.7.2.2 | Purposes for PII processing determined and documented | | | |
-| A.7.2.3 | Necessity and proportionality of processing determined | | | |
-| A.7.2.4 | Privacy risk assessed for each processing activity | | | |
-| A.7.2.5 | Privacy impact assessments conducted where required | | | |
-| A.7.2.6 | Joint controller contracts documented | | | |
-| A.7.2.7 | Records of PII processing maintained | | | |
-| A.7.2.8 | Special category PII identified with additional protections applied | | | |
-| A.7.3.1 | Purpose limitation applied — PII used only for stated purposes | | | |
-| A.7.4.1 | Consent obtained where required; records maintained | | | |
-| A.7.4.2 | Consent withdrawal mechanism in place | | | |
-| A.7.4.3 | Consent records linked to processing activities | | | |
+| DPIA-R01 | | | | Yes / No |
+| DPIA-R02 | | | | Yes / No |
+| DPIA-R03 | | | | Yes / No |
 
-### A.8 — Obligations to PII Principals
+#### 7.2 Recommendation
 
-| Control | Requirement | Score (0-4) | Evidence / Notes | Gap Owner |
+| Outcome | Decision |
+|---|---|
+| **PROCEED** - All residual risks are acceptable; all controls implemented or planned with firm dates | |
+| **PROCEED WITH CONDITIONS** - Processing may commence only once the conditions listed below are met | |
+| **DO NOT PROCEED** - Critical/High residual risks remain that cannot be adequately mitigated | |
+
+**Selected recommendation:** ___________________________
+
+**Conditions for proceeding (if applicable):**
+
+| # | Condition / Outstanding Control | Owner | Deadline |
+|---|---|---|---|
+| 1 | | | |
+| 2 | | | |
+| 3 | | | |
+
+---
+
+### Section 8: DPO Review and Sign-Off
+
+| Field | Detail |
+|---|---|
+| **DPO Name** | |
+| **DPO Review Date** | |
+| **DPO Decision** | Approved / Approved with conditions / Rejected |
+| **DPO Conditions (if any)** | |
+| **DPO Signature** | ___________________________ |
+| **Date of Sign-Off** | |
+
+> The DPO must be consulted on ALL DPIAs. Where the DPO's recommendations are not followed, the controller must document its reasons (GDPR Art. 35(2)).
+
+---
+
+### Section 9: Review and Monitoring
+
+DPIAs must be reviewed when:
+- The processing activity changes materially
+- A privacy breach occurs related to this activity
+- Regulatory guidance changes relevant to this type of processing
+- At least every **3 years** for ongoing high-risk processing activities
+
+| Review Date | Reviewer | Material Changes Noted | DPIA Update Required? | Outcome |
 |---|---|---|---|---|
-| A.8.1.1 | Privacy notice provided to PII principals at point of collection | | | |
-| A.8.1.2 | Privacy notice updated when processing changes | | | |
-| A.8.2.1 | Process to handle access requests (DSARs) in place | | | |
-| A.8.2.2 | DSARs fulfilled within regulatory timeframe | | | |
-| A.8.3.1 | Rectification requests handled | | | |
-| A.8.3.2 | Erasure requests handled (right to be forgotten) | | | |
-| A.8.3.3 | Data portability requests handled | | | |
-| A.8.3.4 | Objection requests handled | | | |
-| A.8.3.5 | Restriction of processing requests handled | | | |
-| A.8.4.1 | Automated decision-making safeguards in place | | | |
-| A.8.4.2 | Profiling safeguards implemented | | | |
-| A.8.5.1 | Data minimisation applied to all PII collection | | | |
-| A.8.5.2 | PII accuracy and quality maintained | | | |
-| A.8.5.3 | PII retained only for as long as necessary | | | |
-| A.8.5.4 | PII securely disposed of at end of retention period | | | |
-| A.8.5.5 | Temporary files and copies identified and controlled | | | |
-| A.8.5.6 | PII transmission encrypted and protected | | | |
-| A.8.5.7 | Anonymisation and pseudonymisation applied where appropriate | | | |
-| A.8.5.8 | Access to PII restricted to authorised individuals | | | |
+| | | | Yes / No | |
+| | | | Yes / No | |
 
 ---
 
-## Section 3 — Annex B: PII Processor Controls (18 Controls)
+### Section 10: DPIA Register Entry
 
-### B.8 — PII Processor Obligations
+Upon completion, record this DPIA in the central DPIA Register:
 
-| Control | Requirement | Score (0-4) | Evidence / Notes | Gap Owner |
-|---|---|---|---|---|
-| B.8.1.1 | Written agreement with PII controller in place | | | |
-| B.8.1.2 | Processing performed only per controller instructions | | | |
-| B.8.1.3 | Obligations to assist controller with data subject rights documented | | | |
-| B.8.2.1 | Sub-processors engaged only with controller authorisation | | | |
-| B.8.2.2 | Sub-processors bound by equivalent data protection obligations | | | |
-| B.8.2.3 | Register of sub-processors maintained | | | |
-| B.8.3.1 | PII returned or deleted on contract termination | | | |
-| B.8.3.2 | Evidence of deletion/return provided to controller | | | |
-| B.8.4.1 | Privacy breaches reported to controller within agreed timeframe | | | |
-| B.8.4.2 | Breach records maintained by processor | | | |
-| B.8.5.1 | Cross-border transfers performed only with controller authorisation | | | |
-| B.8.5.2 | Transfer mechanism documented and compliant | | | |
-| B.8.5.3 | Disclosure to third parties limited to controller-authorised recipients | | | |
-| B.8.5.4 | PII not used for processor's own purposes | | | |
-| B.8.5.5 | Processor staff bound by confidentiality obligations | | | |
-| B.8.5.6 | Processor provides controller with necessary information for compliance | | | |
-| B.8.5.7 | Processor supports controller's obligation to conduct DPIAs | | | |
-| B.8.5.8 | Processor notifies controller of any legally binding disclosure requests | | | |
+| Field | Detail |
+|---|---|
+| DPIA Reference | |
+| Processing Activity Name | |
+| ROPA Reference | |
+| DPIA Completion Date | |
+| DPO Sign-off Date | |
+| Outcome | Proceed / Proceed with conditions / Do not proceed |
+| Conditions Outstanding | |
+| Next Review Date | |
+| Location of Full DPIA Document | |
 
 ---
 
-## Gap Assessment Summary
+## Version History
 
-| Section | Total Requirements | Score 4 | Score 3 | Score 2 | Score 1 | Score 0 | Gaps (0-2) |
-|---|---|---|---|---|---|---|---|
-| Clause Extensions (4-10) | 28 | | | | | | |
-| Annex A — Controller | 31 | | | | | | |
-| Annex B — Processor | 18 | | | | | | |
-| **Total** | **77** | | | | | | |
-
-### Priority Action Plan
-
-| Priority | Gap Reference | Requirement | Recommended Action | Owner | Target Date |
-|---|---|---|---|---|---|
-| High | | | | | |
-| High | | | | | |
-| Medium | | | | | |
+| Version | Date | Description |
+|---|---|---|
+| 2.0 | April 2025 | Full rewrite for ISO/IEC 27701:2025 - prescriptive trigger criteria (A.7.2.5), joint controller section (A.7.2.7), Privacy by Default checklist (A.7.2.8), ISO 31700:2023 alignment, 5x5 risk matrix aligned with Privacy Risk Assessment Methodology (PIMS-PLN-003), GDPR Art. 36 regulatory consultation threshold, TIA cross-reference for cross-border transfers |
+| 1.0 | 2024 | Initial release - ISO/IEC 27701:2019 |
 
 ---
 
-*ISO/IEC 27701:2019 PIMS Toolkit | Gap Assessment Checklist | PIMS-GAP-001*
+*ISO/IEC 27701:2025 PIMS Toolkit | Data Protection Impact Assessment Template | PIMS-OPS-002 | v2.0 | Classification: Confidential*
