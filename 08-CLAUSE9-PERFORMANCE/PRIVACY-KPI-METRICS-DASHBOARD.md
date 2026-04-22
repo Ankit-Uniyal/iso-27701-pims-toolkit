@@ -1,17 +1,17 @@
 # Privacy KPI Metrics Dashboard
 
 **Document ID:** PIMS-PER-001  
-**Version:** 1.0  
-**Date:** 2025-01-01  
+**Version:** 2.0
+**Date:** April 2025
 **Owner:** Data Protection Officer  
 **Classification:** Internal  
-**Review Date:** 2026-01-01
+**Review Date:** April 2026
 
 ---
 
 ## 1. Purpose
 
-This dashboard defines the Key Performance Indicators (KPIs) and metrics used to monitor, measure, and report on the effectiveness of the Privacy Information Management System (PIMS). It supports ISO/IEC 27701:2019 Clause 9.1 (Monitoring, measurement, analysis, and evaluation) and provides evidence for the Management Review.
+This dashboard defines the Key Performance Indicators (KPIs) and metrics used to monitor, measure, and report on the effectiveness of the Privacy Information Management System (PIMS). It supports ISO/IEC 27701:2025 Clause 9.1 (Monitoring, measurement, analysis, and evaluation) and provides evidence for the This dashboard defines the Key Performance Indicators (KPIs) and metrics used to monitor, measure, and report on the effectiveness of the Privacy Information Management System (PIMS). It supports ISO/IEC 27701:2025 Clause 9.1 (Monitoring, measurement, analysis, and evaluation) and provides evidence for the Management Review.supports ISO/IEC 27701:2019 Clause 9.1 (Monitoring, measurement, analysis, and evaluation) and provides evidence for the Management Review.
 
 ---
 
@@ -168,8 +168,9 @@ This dashboard defines the Key Performance Indicators (KPIs) and metrics used to
 
 | Version | Date | Author | Change Description |
 |---------|------|--------|--------------------|
-| 1.0 | 2025-01-01 | DPO | Initial release |
+| 2.0 | April 2025 | DPO | Updated for ISO/IEC 27701:2025 — standard reference corrected, new 2025 KPIs added (TIA completion, joint controller agreements, consent refresh compliance, A.8.3.2) |
+| 1.0 | 2024 | DPO | Initial release — ISO/IEC 27701:2019 |
 
 ---
 
-*ISO/IEC 27701:2019 PIMS Toolkit | Privacy KPI Metrics Dashboard | PIMS-PER-001*
+*ISO/IEC 27701:2025 PIMS Toolkit | Privacy KPI Metrics Dashboard | PIMS-PER-001 | v2.0 | Classification: Internal*
