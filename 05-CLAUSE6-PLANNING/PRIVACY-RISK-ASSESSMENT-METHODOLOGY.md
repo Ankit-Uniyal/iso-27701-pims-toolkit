@@ -1,17 +1,17 @@
 # Privacy Risk Assessment Methodology
 
 **Document ID:** PIMS-PLN-003  
-**Version:** 1.0  
-**Date:** 2025-01-01  
+**Version:** 2.0
+**Date:** April 2025
 **Owner:** Data Protection Officer  
 **Classification:** Internal  
-**Review Date:** 2026-01-01
+**Review Date:** April 2026
 
 ---
 
 ## 1. Purpose
 
-This methodology defines the approach, criteria, and process for identifying, analysing, evaluating, and treating privacy risks to individuals (data subjects) arising from the organisation's PII processing activities. It supports compliance with ISO/IEC 27701:2019 Clause 6.1 and aligns with ISO 31000, GDPR Article 35, and the NIST Privacy Framework.
+This methodology defines the approach, criteria, and process for identifying, analysing, evaluating, and This methodology defines the approach, criteria, and process for identifying, analysing, evaluating, and treating privacy risks to individuals (data subjects) arising from the organisation's PII processing activities. It supports compliance with ISO/IEC 27701:2025 Clause 6.1, aligns with ISO 27005:2022 (privacy risk assessment methodology), and references GDPR Article 35 and the NIST Privacy Framework.activities. It supports compliance with ISO/IEC 27701:2019 Clause 6.1 and aligns with ISO 31000, GDPR Article 35, and the NIST Privacy Framework.
 
 ---
 
@@ -244,7 +244,7 @@ This methodology integrates with:
 |--------------|------------------|
 | Privacy Risk Register (PIMS-PLN-001) | Output of risk assessment; records all identified risks |
 | Privacy Risk Treatment Plan (PIMS-PLN-004) | Treatment actions for risks above appetite |
-| DPIA Template (PIMS-OPS-001) | Full assessment for high-risk processing |
+| DPIA Template (PIMS-OPS-002) | Full assessment for high-risk processing |
 | Statement of Applicability (PIMS-PLN-002) | Controls selected as part of treatment |
 | KPI Dashboard (PIMS-PER-001) | Risk metrics monitored and reported |
 | Management Review (PIMS-PER-004) | Risk status presented to senior management |
@@ -255,8 +255,9 @@ This methodology integrates with:
 
 | Version | Date | Author | Change Description |
 |---------|------|--------|--------------------|
-| 1.0 | 2025-01-01 | DPO | Initial release |
+| 2.0 | April 2025 | DPO | Updated for ISO/IEC 27701:2025 — standard reference corrected, ISO 27005:2022 alignment noted, DPIA doc ID corrected to PIMS-OPS-002 |
+| 1.0 | 2024 | DPO | Initial release — ISO/IEC 27701:2019 |
 
 ---
 
-*ISO/IEC 27701:2019 PIMS Toolkit | Privacy Risk Assessment Methodology | PIMS-PLN-003*
+*ISO/IEC 27701:2025 PIMS Toolkit | Privacy Risk Assessment Methodology | PIMS-PLN-003 | v2.0 | Classification: Internal*
