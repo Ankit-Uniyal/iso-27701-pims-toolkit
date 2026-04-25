@@ -2,8 +2,8 @@
 """
 dpia_risk_scorer.py
 ===================
-DPIA Risk Scorer for ISO/IEC 27701:2019 PIMS Toolkit
-
+DPIA Risk Scorer for ISO/IEC 27701:2025 PIMS Toolkit
+h
 Calculates privacy risk scores for DPIA entries based on likelihood
 and impact ratings, determines risk level, and provides treatment
 recommendations aligned to the Privacy Risk Assessment Methodology
@@ -18,7 +18,7 @@ Requirements:
     Python 3.8+
     No external dependencies required (uses only stdlib)
 
-ISO/IEC 27701:2019 PIMS Toolkit
+ISO/IEC 27701:2025 PIMS Toolkit
 Author: PIMS Toolkit Project
 License: MIT
 """
@@ -272,7 +272,7 @@ def print_assessment_summary(assessment: DPIAAssessment):
 def interactive_dpia_scorer():
     """Run interactive DPIA risk scoring session."""
     print("\n" + "="*60)
-    print("  ISO/IEC 27701:2019 DPIA Risk Scorer — Interactive Mode")
+    print("  ISO/IEC 27701:2025 DPIA Risk Scorer — Interactive Mode")
     print("="*60)
     
     # DPIA metadata
@@ -460,7 +460,7 @@ def process_batch_csv(input_file: str, output_file: Optional[str] = None):
 def demo_mode():
     """Run a demonstration with sample DPIA risks."""
     print("\n" + "="*60)
-    print("  ISO/IEC 27701:2019 DPIA Risk Scorer — Demo Mode")
+    print("  ISO/IEC 27701:2025 DPIA Risk Scorer — Demo Mode")
     print("="*60)
     print("  Fictional Organisation: Nexus Financial Services Ltd")
     print("  Project: Salesforce CRM Migration")
@@ -504,7 +504,7 @@ def demo_mode():
 def main():
     """Main entry point with argument parsing."""
     parser = argparse.ArgumentParser(
-        description="ISO/IEC 27701:2019 DPIA Risk Scorer",
+        description="ISO/IEC 27701:2025 DPIA Risk Scorer",
         epilog="Part of the PIMS Toolkit — github.com/Ankit-Uniyal/iso-27701-pims-toolkit"
     )
     
