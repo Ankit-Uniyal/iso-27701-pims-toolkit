@@ -1,4 +1,4 @@
-# Contributing to the ISO/IEC 27701:2019 PIMS Toolkit
+# Contributing to the ISO/IEC 27701:2025 PIMS Toolkit
 
 Thank you for your interest in contributing to this toolkit! This project aims to be the most comprehensive, practical, and freely available ISO 27701 implementation resource for privacy and GRC professionals worldwide.
 
@@ -35,7 +35,7 @@ All documents must meet the following standards:
 - Include a document header with: Document ID, Version, Date, Owner, Classification, Review Date
 - Use consistent heading levels (## for sections, ### for subsections)
 - Include a Record of Changes table at the end
-- Include the footer citation: *ISO/IEC 27701:2019 PIMS Toolkit | [Document Name] | [Document ID]*
+- Include the footer citation: *ISO/IEC 27701:2025 PIMS Toolkit | [Document Name] | [Document ID]*
 
 ### Document IDs
 Follow the existing convention:
@@ -68,7 +68,7 @@ Follow the existing convention:
 
 This toolkit is used by real organisations for real compliance purposes. All contributors must:
 
-- Verify factual claims against the ISO/IEC 27701:2019 standard (available from ISO.org)
+- Verify factual claims against the ISO/IEC 27701:2025 standard (available from ISO.org)
 - Verify regulatory references against current legislation (GDPR, PECR, etc.)
 - Do not include legal advice — include appropriate disclaimers on legal/contractual templates
 - Do not claim to represent official ISO guidance
@@ -107,4 +107,4 @@ Thank you for helping make privacy compliance more accessible!
 
 ---
 
-*ISO/IEC 27701:2019 PIMS Toolkit | Contributing Guidelines | PIMS-SUP-016*
+*ISO/IEC 27701:2025 PIMS Toolkit | Contributing Guidelines | PIMS-SUP-016*
