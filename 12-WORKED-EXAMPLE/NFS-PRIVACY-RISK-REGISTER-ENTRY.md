@@ -103,4 +103,4 @@
 ---
 
 *Worked example. NFS is a fictional organisation.*  
-*ISO/IEC 27701:2019 PIMS Toolkit | NFS Privacy Risk Register Entries | NFS-PIMS-PLN-001*
+*ISO/IEC 27701:2025 PIMS Toolkit | NFS Privacy Risk Register Entries | NFS-PIMS-PLN-001*
