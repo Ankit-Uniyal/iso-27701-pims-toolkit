@@ -49,4 +49,4 @@
 
 ---
 
-*ISO/IEC 27701:2019 PIMS Toolkit | Privacy Communications Plan | PIMS-SUP-003*
+*ISO/IEC 27701:2025 PIMS Toolkit | Privacy Communications Plan | PIMS-SUP-003*
