@@ -11,7 +11,7 @@
 
 ## 1. Purpose
 
-This log captures improvement opportunities and enhancement initiatives for the PIMS. It supports ISO/IEC 27701:2019 Clause 10.2 and demonstrates proactive improvement beyond mere compliance.
+This log captures improvement opportunities and enhancement initiatives for the PIMS. It supports ISO/IEC 27701:2025 Clause 10.2 and demonstrates proactive improvement beyond mere compliance.
 
 ---
 
@@ -159,4 +159,4 @@ Ideas may come from: Management review conclusions, staff suggestions, audit obs
 
 ---
 
-*ISO/IEC 27701:2019 PIMS Toolkit | Continual Improvement Log | PIMS-IMP-002*
+*ISO/IEC 27701:2025 PIMS Toolkit | Continual Improvement Log | PIMS-IMP-002*
