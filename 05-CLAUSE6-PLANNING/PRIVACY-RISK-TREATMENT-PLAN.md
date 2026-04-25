@@ -243,4 +243,4 @@ Any residual risk remaining after treatment shall be formally documented in the 
 
 ---
 
-*ISO/IEC 27701:2019 PIMS Toolkit | Privacy Risk Treatment Plan | PIMS-PLN-004*
+*ISO/IEC 27701:2025 PIMS Toolkit | Privacy Risk Treatment Plan | PIMS-PLN-004*
