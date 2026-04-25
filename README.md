@@ -215,6 +215,11 @@ Fictional implementation reference — completed templates for educational use o
 |------|---------|
 | GDPR-MAPPING-CROSS-REFERENCE.md | ISO 27701:2025 ↔ GDPR Articles cross-reference |
 | UAE-PDPL-ALIGNMENT-GUIDE.md | UAE Personal Data Protection Law alignment guide |
+| INDIA-DPDPA-ALIGNMENT-GUIDE.md | India DPDPA 2023 alignment guide — cross-mapping to ISO 27701:2025 | 
+| NIST-PRIVACY-FRAMEWORK-MAPPING.md | NIST Privacy Framework 1.0 to ISO 27701:2025 full cross-mapping across 5 Core Functions | 
+| CERTIFICATION-READINESS-CHECKLIST.md | 45-item pre-certification checklist for ISO 27701:2025 Stage 1/2 readiness | 
+| PRIVACY-GOVERNANCE-TEMPLATES.md | DPO appointment letter template + board-level quarterly privacy report | 
+| CONSENT-WITHDRAWAL-FORM-TEMPLATE.md | Structured consent withdrawal form template (GDPR Art. 7(3), ISO 27701 A.7.2.4) |
 | DPA-TEMPLATE.md | Data Processing Agreement template (controller–processor) |
 | DATA-SUBJECT-REQUEST-FORM-TEMPLATE.md | Data Subject Access Request (DSAR) form |
 | SUPPLIER-PRIVACY-QUESTIONNAIRE.md | Third-party supplier privacy due diligence questionnaire |
@@ -244,6 +249,7 @@ This toolkit cross-maps ISO 27701:2025 controls to:
 |---------|------|---------|
 | 2.2 | April 2025 | Comprehensive audit and fix — replaced incorrect placeholder content in 11 files with correct docs; completed THIRD-PARTY-PRIVACY-ASSESSMENT.md; fixed all ISO/IEC 27701:2019 body/footer refs to 2025; fixed dpia_risk_scorer.py version refs |
 | 2.3 | April 2025 | Final deep audit — fixed wrong content in GAP-ASSESSMENT-SCORING-GUIDE (was showing checklist, now proper scoring guide PIMS-SCR-001); updated ISO/IEC 27701:2019 → 2025 in 17 additional files (body text, footer citations, document titles, contributing guidelines) — all 63 files now fully consistent with 2025 edition |
+| 2.4 | April 2025 | Readiness gap-fill — added 11 new files: 13-SCRIPTS/README.md (quickstart + sample CSVs); 5 NFS worked examples (ROPA, DSR log, Third-Party Assessment, Consent Record, Internal Audit); India DPDPA 2023 alignment guide; NIST Privacy Framework 1.0 mapping; Certification Readiness Checklist; Privacy Governance Templates (DPO letter + Board report); Consent Withdrawal Form |
 | 2.1 | April 2025 | Fixed file reference errors — Annex A/B now correctly reference ANNEX-A-PII-CONTROLLER-CONTROLS.md and ANNEX-B-PII-PROCESSOR-CONTROLS.md |
 | 2.0 | April 2025 | Updated to ISO/IEC 27701:2025 — HLS alignment, expanded controls, DPIA enhancements, TIA, joint controller provisions, ISO 31700 cross-reference |
 | 1.0 | 2024 | Initial release — ISO/IEC 27701:2019 edition |
