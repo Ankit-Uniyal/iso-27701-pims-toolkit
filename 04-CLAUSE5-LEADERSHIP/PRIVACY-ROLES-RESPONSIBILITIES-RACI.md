@@ -11,7 +11,7 @@
 
 ## 1. Purpose
 
-This RACI matrix defines the roles and responsibilities for Privacy Information Management System (PIMS) activities across the organisation. It ensures clear accountability for privacy obligations under ISO/IEC 27701:2019, GDPR, and applicable data protection regulations.
+This RACI matrix defines the roles and responsibilities for Privacy Information Management System (PIMS) activities across the organisation. It ensures clear accountability for privacy obligations under ISO/IEC 27701:2025, GDPR, and applicable data protection regulations.
 
 ---
 
@@ -166,4 +166,4 @@ This RACI matrix shall be reviewed:
 
 ---
 
-*ISO/IEC 27701:2019 PIMS Toolkit | Privacy Roles and Responsibilities RACI | PIMS-LDR-003*
+*ISO/IEC 27701:2025 PIMS Toolkit | Privacy Roles and Responsibilities RACI | PIMS-LDR-003*
