@@ -4,7 +4,7 @@
 **Version:** 1.0 | **Date:** 2025-01-01  
 **Owner:** DPO / Procurement | **Classification:** Internal
 
-> **Usage:** Send this questionnaire to prospective and existing suppliers before or during onboarding, and at each contract renewal. Supports ISO/IEC 27701:2019 Clause 8.5 (Third-party management) and GDPR Article 28.
+> **Usage:** Send this questionnaire to prospective and existing suppliers before or during onboarding, and at each contract renewal. Supports ISO/IEC 27701:2025 Clause 8.5 (Third-party management) and GDPR Article 28.
 
 ---
 
@@ -156,4 +156,4 @@ See THIRD-PARTY-PRIVACY-ASSESSMENT.md for scoring thresholds and rating definiti
 
 ---
 
-*ISO/IEC 27701:2019 PIMS Toolkit | Supplier Privacy Questionnaire | PIMS-SUP-014*
+*ISO/IEC 27701:2025 PIMS Toolkit | Supplier Privacy Questionnaire | PIMS-SUP-014*
