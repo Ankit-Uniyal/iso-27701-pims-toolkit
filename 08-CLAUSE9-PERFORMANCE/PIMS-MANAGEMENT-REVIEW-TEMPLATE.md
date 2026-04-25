@@ -31,7 +31,7 @@
 
 ## 1. Purpose
 
-This Annual PIMS Management Review fulfils ISO/IEC 27701:2019 Clause 9.3. It ensures top management reviews the suitability, adequacy, and effectiveness of the PIMS and makes decisions on improvement actions and resource allocation.
+This Annual PIMS Management Review fulfils ISO/IEC 27701:2025 Clause 9.3. It ensures top management reviews the suitability, adequacy, and effectiveness of the PIMS and makes decisions on improvement actions and resource allocation.
 
 ---
 
@@ -177,4 +177,4 @@ This Annual PIMS Management Review fulfils ISO/IEC 27701:2019 Clause 9.3. It ens
 
 ---
 
-*ISO/IEC 27701:2019 PIMS Toolkit | PIMS Management Review Template | PIMS-PER-004*
+*ISO/IEC 27701:2025 PIMS Toolkit | PIMS Management Review Template | PIMS-PER-004*
