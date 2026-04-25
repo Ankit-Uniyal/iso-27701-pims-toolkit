@@ -8,7 +8,7 @@
 
 ## 1. Purpose
 
-This document establishes the formal Terms of Reference for the Data Protection Officer (DPO) of [Organisation Name]. It defines the DPO's role, responsibilities, authority, resources, and reporting lines in accordance with ISO/IEC 27701:2019, GDPR Article 37-39, and applicable privacy regulations.
+This document establishes the formal Terms of Reference for the Data Protection Officer (DPO) of [Organisation Name]. It defines the DPO's role, responsibilities, authority, resources, and reporting lines in accordance with ISO/IEC 27701:2025, GDPR Article 37-39, and applicable privacy regulations.
 
 ---
 
@@ -61,7 +61,7 @@ This document establishes the formal Terms of Reference for the Data Protection 
 
 ## 5. DPO Authority and Independence
 
-Per GDPR Article 38(3) and ISO 27701:2019:
+Per GDPR Article 38(3) and ISO 27701:2025:
 
 - DPO **must not** be dismissed or penalised for performing their tasks
 - DPO **reports directly** to the highest management level (CEO / Board)
@@ -102,4 +102,4 @@ Per GDPR Article 38(3) and ISO 27701:2019:
 
 ---
 
-*ISO/IEC 27701:2019 PIMS Toolkit | DPO Terms of Reference | PIMS-LDR-002*
+*ISO/IEC 27701:2025 PIMS Toolkit | DPO Terms of Reference | PIMS-LDR-002*
