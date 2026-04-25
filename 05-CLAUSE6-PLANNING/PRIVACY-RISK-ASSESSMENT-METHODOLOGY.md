@@ -11,7 +11,7 @@
 
 ## 1. Purpose
 
-This methodology defines the approach, criteria, and process for identifying, analysing, evaluating, and This methodology defines the approach, criteria, and process for identifying, analysing, evaluating, and treating privacy risks to individuals (data subjects) arising from the organisation's PII processing activities. It supports compliance with ISO/IEC 27701:2025 Clause 6.1, aligns with ISO 27005:2022 (privacy risk assessment methodology), and references GDPR Article 35 and the NIST Privacy Framework.activities. It supports compliance with ISO/IEC 27701:2019 Clause 6.1 and aligns with ISO 31000, GDPR Article 35, and the NIST Privacy Framework.
+This methodology defines the approach, criteria, and process for identifying, analysing, evaluating, and This methodology defines the approach, criteria, and process for identifying, analysing, evaluating, and treating privacy risks to individuals (data subjects) arising from the organisation's PII processing activities. It supports compliance with ISO/IEC 27701:2025 Clause 6.1, aligns with ISO 27005:2022 (privacy risk assessment methodology), and references GDPR Article 35 and the NIST Privacy Framework.activities. It supports compliance with ISO/IEC 27701:2025 Clause 6.1 and aligns with ISO 31000, GDPR Article 35, and the NIST Privacy Framework.
 
 ---
 
@@ -256,7 +256,7 @@ This methodology integrates with:
 | Version | Date | Author | Change Description |
 |---------|------|--------|--------------------|
 | 2.0 | April 2025 | DPO | Updated for ISO/IEC 27701:2025 — standard reference corrected, ISO 27005:2022 alignment noted, DPIA doc ID corrected to PIMS-OPS-002 |
-| 1.0 | 2024 | DPO | Initial release — ISO/IEC 27701:2019 |
+| 1.0 | 2024 | DPO | Initial release — ISO/IEC 27701:2025 |
 
 ---
 
