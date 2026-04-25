@@ -11,7 +11,7 @@
 
 ## 1. Purpose
 
-This register records all Non-Conformities (NCs) identified within the PIMS, together with root cause analysis, corrective actions, and effectiveness verification. It supports ISO/IEC 27701:2019 Clause 10.1.
+This register records all Non-Conformities (NCs) identified within the PIMS, together with root cause analysis, corrective actions, and effectiveness verification. It supports ISO/IEC 27701:2025 Clause 10.1.
 
 ---
 
@@ -141,4 +141,4 @@ NCs may be identified from: Internal PIMS audits, external/certification audits,
 
 ---
 
-*ISO/IEC 27701:2019 PIMS Toolkit | NCR and Corrective Action Register | PIMS-IMP-001*
+*ISO/IEC 27701:2025 PIMS Toolkit | NCR and Corrective Action Register | PIMS-IMP-001*
