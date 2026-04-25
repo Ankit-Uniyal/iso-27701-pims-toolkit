@@ -57,7 +57,7 @@
 ## 2. Audit Background
 
 ### 2.1 Audit Objectives
-- Verify conformance with ISO/IEC 27701:2019 Clause [X]
+- Verify conformance with ISO/IEC 27701:2025 Clause [X]
 - Assess compliance with GDPR Article [X]
 - Evaluate the effectiveness of [specific controls]
 - Follow up on findings from [previous audit reference] (if applicable)
@@ -69,7 +69,7 @@
 **Out of Scope:** [List what is explicitly excluded and why]
 
 ### 2.3 Audit Criteria
-- ISO/IEC 27701:2019
+- ISO/IEC 27701:2025
 - GDPR (EU) 2016/679
 - [Other applicable regulations]
 - Organisation's PIMS policies and procedures (version [X])
@@ -165,4 +165,4 @@
 
 ---
 
-*ISO/IEC 27701:2019 PIMS Toolkit | PIMS Internal Audit Report Template | PIMS-PER-003*
+*ISO/IEC 27701:2025 PIMS Toolkit | PIMS Internal Audit Report Template | PIMS-PER-003*
