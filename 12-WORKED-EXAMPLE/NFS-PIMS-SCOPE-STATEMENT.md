@@ -117,4 +117,4 @@ The PIMS covers PII processing in connection with the following activities, loca
 ---
 
 *Worked example for illustrative purposes. NFS is fictional.*  
-*ISO/IEC 27701:2019 PIMS Toolkit | NFS PIMS Scope Statement | NFS-PIMS-CTX-001*
+*ISO/IEC 27701:2025 PIMS Toolkit | NFS PIMS Scope Statement | NFS-PIMS-CTX-001*
