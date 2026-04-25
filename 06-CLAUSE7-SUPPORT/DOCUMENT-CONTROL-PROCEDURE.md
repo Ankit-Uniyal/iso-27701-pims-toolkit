@@ -7,7 +7,7 @@
 
 ## Purpose
 
-This procedure establishes how [Organisation Name] creates, approves, maintains, controls, and disposes of PIMS documented information, in accordance with ISO/IEC 27701:2019 Clause 7.5 (extension).
+This procedure establishes how [Organisation Name] creates, approves, maintains, controls, and disposes of PIMS documented information, in accordance with ISO/IEC 27701:2025 Clause 7.5 (extension).
 
 ---
 
@@ -85,4 +85,4 @@ Version history must be maintained within each document.
 
 ---
 
-*ISO/IEC 27701:2019 PIMS Toolkit | Document Control Procedure | PIMS-SUP-004*
+*ISO/IEC 27701:2025 PIMS Toolkit | Document Control Procedure | PIMS-SUP-004*
