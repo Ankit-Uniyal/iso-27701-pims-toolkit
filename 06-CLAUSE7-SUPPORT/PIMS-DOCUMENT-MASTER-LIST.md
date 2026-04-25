@@ -11,13 +11,13 @@
 
 ## 1. Purpose
 
-This Document Master List provides a centralised inventory of all documents and records that form part of the Privacy Information Management System (PIMS) established under ISO/IEC 27701:2019. It enables document control, version tracking, and demonstrates compliance with Clause 7.5 (Documented Information).
+This Document Master List provides a centralised inventory of all documents and records that form part of the Privacy Information Management System (PIMS) established under ISO/IEC 27701:2025. It enables document control, version tracking, and demonstrates compliance with Clause 7.5 (Documented Information).
 
 ---
 
 ## 2. Scope
 
-Covers all mandatory and supporting documented information required by ISO/IEC 27701:2019 for both PII Controller and PII Processor roles, including policies, procedures, templates, registers, and records.
+Covers all mandatory and supporting documented information required by ISO/IEC 27701:2025 for both PII Controller and PII Processor roles, including policies, procedures, templates, registers, and records.
 
 ---
 
@@ -184,4 +184,4 @@ Covers all mandatory and supporting documented information required by ISO/IEC 2
 
 ---
 
-*ISO/IEC 27701:2019 PIMS Toolkit | PIMS Document Master List | PIMS-DOC-701-027*
+*ISO/IEC 27701:2025 PIMS Toolkit | PIMS Document Master List | PIMS-DOC-701-027*
