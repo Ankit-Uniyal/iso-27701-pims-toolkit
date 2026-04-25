@@ -45,4 +45,4 @@
 
 ---
 
-*ISO/IEC 27701:2019 PIMS Toolkit | Competence and Training Register | PIMS-SUP-001*
+*ISO/IEC 27701:2025 PIMS Toolkit | Competence and Training Register | PIMS-SUP-001*
