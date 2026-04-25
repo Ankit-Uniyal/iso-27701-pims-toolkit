@@ -3,7 +3,6 @@
 dpia_risk_scorer.py
 ===================
 DPIA Risk Scorer for ISO/IEC 27701:2025 PIMS Toolkit
-h
 Calculates privacy risk scores for DPIA entries based on likelihood
 and impact ratings, determines risk level, and provides treatment
 recommendations aligned to the Privacy Risk Assessment Methodology
