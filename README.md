@@ -57,10 +57,14 @@
 | 11 | 11-ANNEX-B-CONTROLS/ | PII Processor controls reference guide (2025 edition) |
 | 12 | 12-WORKED-EXAMPLE/ | Fictional NFS PIMS implementation examples |
 | 13 | 13-SCRIPTS/ | Python GRC automation scripts |
+| 14 | 14-CROSS-MAPPING/ | Regulatory cross-mapping: GDPR, UAE PDPL, India DPDPA, NIST, Transition Guide |
+| 15 | 15-SUPPLEMENTARY-TEMPLATES/ | Standalone templates: DPA, DSAR form, DPO letter, certification checklist, supplier questionnaire |
 
 ## Clause-by-Clause File Index
 
 ### Implementation Guide (Root)
+| 14 | 14-CROSS-MAPPING/ | Regulatory cross-mapping: GDPR, UAE PDPL, India DPDPA, NIST, Transition Guide |
+| 15 | 15-SUPPLEMENTARY-TEMPLATES/ | Standalone templates: DPA, DSAR form, DPO letter, certification checklist, supplier questionnaire |
 
 | File | Purpose |
 |------|---------|
@@ -209,22 +213,31 @@ Fictional implementation reference — completed templates for educational use o
 
 ---
 
-## Supplementary Resources (Root Level)
+## Supplementary Resources — Now in Dedicated Folders
+
+All supplementary files have been reorganised into two dedicated folders for easier navigation:
+
+**[14-CROSS-MAPPING/](14-CROSS-MAPPING/)** — Regulatory cross-mapping and alignment guides
 
 | File | Purpose |
 |------|---------|
-| GDPR-MAPPING-CROSS-REFERENCE.md | ISO 27701:2025 ↔ GDPR Articles cross-reference |
-| UAE-PDPL-ALIGNMENT-GUIDE.md | UAE Personal Data Protection Law alignment guide |
-| INDIA-DPDPA-ALIGNMENT-GUIDE.md | India DPDPA 2023 alignment guide — cross-mapping to ISO 27701:2025 | 
-| NIST-PRIVACY-FRAMEWORK-MAPPING.md | NIST Privacy Framework 1.0 to ISO 27701:2025 full cross-mapping across 5 Core Functions | 
-| CERTIFICATION-READINESS-CHECKLIST.md | 45-item pre-certification checklist for ISO 27701:2025 Stage 1/2 readiness | 
-| PRIVACY-GOVERNANCE-TEMPLATES.md | DPO appointment letter template + board-level quarterly privacy report | 
-| CONSENT-WITHDRAWAL-FORM-TEMPLATE.md | Structured consent withdrawal form template (GDPR Art. 7(3), ISO 27701 A.7.2.4) |
-| DPA-TEMPLATE.md | Data Processing Agreement template (controller–processor) |
-| DATA-SUBJECT-REQUEST-FORM-TEMPLATE.md | Data Subject Access Request (DSAR) form |
-| SUPPLIER-PRIVACY-QUESTIONNAIRE.md | Third-party supplier privacy due diligence questionnaire |
-| COOKIE-CONSENT-MANAGEMENT-GUIDE.md | Cookie consent and Consent Management Platform (CMP) guide |
-| TRANSITION-GUIDE-2019-TO-2025.md | Complete transition guide from 2019 to 2025 edition |
+| [GDPR-MAPPING-CROSS-REFERENCE.md](14-CROSS-MAPPING/GDPR-MAPPING-CROSS-REFERENCE.md) | ISO 27701:2025 ↔ GDPR Articles cross-reference |
+| [UAE-PDPL-ALIGNMENT-GUIDE.md](14-CROSS-MAPPING/UAE-PDPL-ALIGNMENT-GUIDE.md) | UAE Personal Data Protection Law alignment guide |
+| [INDIA-DPDPA-ALIGNMENT-GUIDE.md](14-CROSS-MAPPING/INDIA-DPDPA-ALIGNMENT-GUIDE.md) | India DPDPA 2023 alignment guide — cross-mapping to ISO 27701:2025 |
+| [NIST-PRIVACY-FRAMEWORK-MAPPING.md](14-CROSS-MAPPING/NIST-PRIVACY-FRAMEWORK-MAPPING.md) | NIST Privacy Framework 1.0 to ISO 27701:2025 full cross-mapping across 5 Core Functions |
+| [TRANSITION-GUIDE-2019-TO-2025.md](14-CROSS-MAPPING/TRANSITION-GUIDE-2019-TO-2025.md) | Complete transition guide from 2019 to 2025 edition |
+
+**[15-SUPPLEMENTARY-TEMPLATES/](15-SUPPLEMENTARY-TEMPLATES/)** — Standalone templates and checklists
+
+| File | Purpose |
+|------|---------|
+| [CERTIFICATION-READINESS-CHECKLIST.md](15-SUPPLEMENTARY-TEMPLATES/CERTIFICATION-READINESS-CHECKLIST.md) | 45-item pre-certification checklist for ISO 27701:2025 Stage 1/2 readiness |
+| [PRIVACY-GOVERNANCE-TEMPLATES.md](15-SUPPLEMENTARY-TEMPLATES/PRIVACY-GOVERNANCE-TEMPLATES.md) | DPO appointment letter template + board-level quarterly privacy report |
+| [CONSENT-WITHDRAWAL-FORM-TEMPLATE.md](15-SUPPLEMENTARY-TEMPLATES/CONSENT-WITHDRAWAL-FORM-TEMPLATE.md) | Structured consent withdrawal form template (GDPR Art. 7(3), ISO 27701 A.7.2.4) |
+| [DPA-TEMPLATE.md](15-SUPPLEMENTARY-TEMPLATES/DPA-TEMPLATE.md) | Data Processing Agreement template (controller–processor) |
+| [DATA-SUBJECT-REQUEST-FORM-TEMPLATE.md](15-SUPPLEMENTARY-TEMPLATES/DATA-SUBJECT-REQUEST-FORM-TEMPLATE.md) | Data Subject Access Request (DSAR) form |
+| [SUPPLIER-PRIVACY-QUESTIONNAIRE.md](15-SUPPLEMENTARY-TEMPLATES/SUPPLIER-PRIVACY-QUESTIONNAIRE.md) | Third-party supplier privacy due diligence questionnaire |
+| [COOKIE-CONSENT-MANAGEMENT-GUIDE.md](15-SUPPLEMENTARY-TEMPLATES/COOKIE-CONSENT-MANAGEMENT-GUIDE.md) | Cookie consent and Consent Management Platform (CMP) guide |
 
 ---
 
