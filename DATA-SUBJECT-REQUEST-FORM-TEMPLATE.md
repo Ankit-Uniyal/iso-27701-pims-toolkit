@@ -136,4 +136,4 @@ By submitting this form, I confirm that:
 
 ---
 
-*ISO/IEC 27701:2019 PIMS Toolkit | Data Subject Request Form Template | PIMS-SUP-013*
+*ISO/IEC 27701:2025 PIMS Toolkit | Data Subject Request Form Template | PIMS-SUP-013*
