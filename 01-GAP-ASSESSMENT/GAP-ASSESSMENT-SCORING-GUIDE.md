@@ -1,185 +1,207 @@
-# ISO/IEC 27701:2019 PIMS Gap Assessment Checklist
+# Gap Assessment Scoring Guide
 
-**Document ID:** PIMS-GAP-001
-**Version:** 1.0 | **Date:** 2025 | **Classification:** Internal
+**Document ID:** PIMS-SCR-001  
+**Version:** 1.0  
+**Date:** 2025-01-01  
+**Owner:** Data Protection Officer  
+**Classification:** Internal  
+**Review Date:** 2026-01-01
 
 ---
 
-## How to Use This Checklist
+## 1. Purpose
 
-Rate each requirement using the following scale:
+This Scoring Guide provides interpretive guidance for completing the ISO/IEC 27701:2025 PIMS Gap Assessment Checklist (PIMS-GAP-001). It defines scoring criteria, rating bands, prioritisation logic, and roadmap-building instructions to enable organisations to translate raw gap scores into an actionable remediation plan.
+
+---
+
+## 2. Scope
+
+This guide applies to all personnel conducting or reviewing a PIMS gap assessment against ISO/IEC 27701:2025, including internal audit teams, external consultants, and implementation leads.
+
+---
+
+## 3. Scoring Scale
+
+Rate each ISO/IEC 27701:2025 requirement using the following five-point scale:
 
 | Score | Rating | Description |
-|---|---|---|
-| 0 | Not Implemented | No evidence of requirement being addressed |
-| 1 | Initial | Ad hoc or informal approach; not documented |
-| 2 | Partial | Partially implemented; gaps remain |
-| 3 | Largely Conformant | Implemented and mostly documented; minor gaps |
-| 4 | Fully Conformant | Fully implemented, documented, and evidenced |
-
-**Gap = Any requirement scored 0, 1, or 2**
+|-------|--------|-------------|
+| 0 | Not Implemented | No evidence of the requirement being addressed. Policy, process, and records are absent. |
+| 1 | Initial | Ad hoc or informal approach; not documented or consistently applied. |
+| 2 | Partial | Partially implemented; documented in some areas but significant gaps remain. |
+| 3 | Largely Conformant | Mostly implemented and documented; minor gaps or inconsistencies exist. |
+| 4 | Full Conformant | Fully implemented, documented, reviewed, and evidenced. Meets the requirement completely. |
 
 ---
 
-## Section 1 — PIMS Clause Extensions (Clauses 4–10)
+## 4. Scoring Guidance by Rating
 
-### Clause 4 — Context
+### Score 0 — Not Implemented
+- No policy, procedure, record, or activity exists to address the requirement.
+- Evidence: No documents found; staff unaware of the requirement.
+- **Action required:** Treat as critical gap; prioritise implementation immediately.
 
-| Ref | Requirement | Score (0-4) | Evidence / Notes | Gap Owner | Target Date |
-|---|---|---|---|---|---|
-| 4.1 ext | Privacy-specific internal and external issues identified | | | | |
-| 4.2 ext | Privacy-specific interested parties identified (regulators, data subjects, processors) | | | | |
-| 4.3 ext | PIMS scope includes all PII processing activities and applicable regulations | | | | |
-| 4.4 ext | PII Processing Inventory / Record of Processing Activities (ROPA) documented | | | | |
+### Score 1 — Initial
+- Some awareness or informal activity exists but it is undocumented and inconsistent.
+- Evidence: Verbal confirmation only; no written procedure or log.
+- **Action required:** Formalise and document the approach; assign owner and target date.
 
-### Clause 5 — Leadership
+### Score 2 — Partial
+- A documented approach exists but is incomplete, not fully deployed, or not regularly reviewed.
+- Evidence: Draft policies; partial records; inconsistent application across departments.
+- **Action required:** Complete documentation, extend coverage, and schedule review.
 
-| Ref | Requirement | Score (0-4) | Evidence / Notes | Gap Owner | Target Date |
-|---|---|---|---|---|---|
-| 5.1 ext | Top management commitment to PIMS demonstrated | | | | |
-| 5.2 ext | Approved Privacy Policy signed by senior management | | | | |
-| 5.3 ext | DPO appointed where required | | | | |
-| 5.3 ext | Privacy roles and responsibilities defined and communicated | | | | |
+### Score 3 — Largely Conformant
+- The requirement is substantially addressed. Minor gaps may exist in evidence, coverage, or review frequency.
+- Evidence: Documented procedures; most records present; recent review on file.
+- **Action required:** Close minor gaps; ensure full evidence trail before audit.
 
-### Clause 6 — Planning
-
-| Ref | Requirement | Score (0-4) | Evidence / Notes | Gap Owner | Target Date |
-|---|---|---|---|---|---|
-| 6.1 ext | Privacy risk assessment methodology documented | | | | |
-| 6.1 ext | Privacy risk assessment conducted for all PII processing activities | | | | |
-| 6.1 ext | Privacy risk treatment options selected and documented | | | | |
-| 6.1 ext | Statement of Applicability completed for all 49 Annex A/B controls | | | | |
-| 6.2 ext | Measurable Privacy Objectives established and monitored | | | | |
-
-### Clause 7 — Support
-
-| Ref | Requirement | Score (0-4) | Evidence / Notes | Gap Owner | Target Date |
-|---|---|---|---|---|---|
-| 7.2 ext | Staff competence in privacy assessed and evidenced | | | | |
-| 7.3 ext | Privacy awareness programme for all relevant staff | | | | |
-| 7.4 ext | Privacy communications plan (internal and external) in place | | | | |
-| 7.5 ext | Documented information controlled and retained per PIMS requirements | | | | |
-
-### Clause 8 — Operation
-
-| Ref | Requirement | Score (0-4) | Evidence / Notes | Gap Owner | Target Date |
-|---|---|---|---|---|---|
-| 8.1 ext | Documented procedures for all PII processing activities | | | | |
-| 8.1 ext | DPIAs conducted for high-risk processing activities | | | | |
-| 8.1 ext | Consent management procedure in place | | | | |
-| 8.1 ext | Data subject rights (DSAR) procedure in place | | | | |
-| 8.1 ext | Privacy breach response procedure in place | | | | |
-| 8.1 ext | Data retention and disposal policy in place | | | | |
-| 8.1 ext | Third-party processors assessed and bound by appropriate contracts | | | | |
-| 8.1 ext | Cross-border PII transfers documented with transfer mechanisms | | | | |
-| 8.1 ext | Privacy by design embedded in new projects and system changes | | | | |
-
-### Clause 9 — Performance Evaluation
-
-| Ref | Requirement | Score (0-4) | Evidence / Notes | Gap Owner | Target Date |
-|---|---|---|---|---|---|
-| 9.1 ext | Privacy KPIs monitored and reported | | | | |
-| 9.2 ext | Annual PIMS internal audit conducted | | | | |
-| 9.3 ext | PIMS management review conducted at least annually | | | | |
-
-### Clause 10 — Improvement
-
-| Ref | Requirement | Score (0-4) | Evidence / Notes | Gap Owner | Target Date |
-|---|---|---|---|---|---|
-| 10.1 ext | Nonconformities logged and corrective actions tracked | | | | |
-| 10.2 ext | Continual improvement of the PIMS demonstrated | | | | |
+### Score 4 — Full Conformant
+- The requirement is fully met. Robust evidence, consistent application, regular review, and management oversight are demonstrated.
+- Evidence: Complete, current documentation; audit trail; management sign-off.
+- **Action required:** Maintain; schedule next review per document control cycle.
 
 ---
 
-## Section 2 — Annex A: PII Controller Controls (31 Controls)
+## 5. Calculating Clause and Overall Scores
 
-### A.7 — Conditions for Collection and Processing
+### 5.1 Clause Score
 
-| Control | Requirement | Score (0-4) | Evidence / Notes | Gap Owner |
-|---|---|---|---|---|
-| A.7.2.1 | Lawful basis for processing PII identified and documented | | | |
-| A.7.2.2 | Purposes for PII processing determined and documented | | | |
-| A.7.2.3 | Necessity and proportionality of processing determined | | | |
-| A.7.2.4 | Privacy risk assessed for each processing activity | | | |
-| A.7.2.5 | Privacy impact assessments conducted where required | | | |
-| A.7.2.6 | Joint controller contracts documented | | | |
-| A.7.2.7 | Records of PII processing maintained | | | |
-| A.7.2.8 | Special category PII identified with additional protections applied | | | |
-| A.7.3.1 | Purpose limitation applied — PII used only for stated purposes | | | |
-| A.7.4.1 | Consent obtained where required; records maintained | | | |
-| A.7.4.2 | Consent withdrawal mechanism in place | | | |
-| A.7.4.3 | Consent records linked to processing activities | | | |
+For each ISO/IEC 27701:2025 clause or Annex section:
 
-### A.8 — Obligations to PII Principals
+```
+Clause Score (%) = (Sum of actual scores / (Number of requirements x 4)) x 100
+```
 
-| Control | Requirement | Score (0-4) | Evidence / Notes | Gap Owner |
-|---|---|---|---|---|
-| A.8.1.1 | Privacy notice provided to PII principals at point of collection | | | |
-| A.8.1.2 | Privacy notice updated when processing changes | | | |
-| A.8.2.1 | Process to handle access requests (DSARs) in place | | | |
-| A.8.2.2 | DSARs fulfilled within regulatory timeframe | | | |
-| A.8.3.1 | Rectification requests handled | | | |
-| A.8.3.2 | Erasure requests handled (right to be forgotten) | | | |
-| A.8.3.3 | Data portability requests handled | | | |
-| A.8.3.4 | Objection requests handled | | | |
-| A.8.3.5 | Restriction of processing requests handled | | | |
-| A.8.4.1 | Automated decision-making safeguards in place | | | |
-| A.8.4.2 | Profiling safeguards implemented | | | |
-| A.8.5.1 | Data minimisation applied to all PII collection | | | |
-| A.8.5.2 | PII accuracy and quality maintained | | | |
-| A.8.5.3 | PII retained only for as long as necessary | | | |
-| A.8.5.4 | PII securely disposed of at end of retention period | | | |
-| A.8.5.5 | Temporary files and copies identified and controlled | | | |
-| A.8.5.6 | PII transmission encrypted and protected | | | |
-| A.8.5.7 | Anonymisation and pseudonymisation applied where appropriate | | | |
-| A.8.5.8 | Access to PII restricted to authorised individuals | | | |
+**Example:** Clause 6 has 8 requirements. Scores are: 4, 3, 2, 4, 3, 1, 4, 3.
+- Sum = 24
+- Maximum = 8 x 4 = 32
+- Clause Score = (24 / 32) x 100 = **75%**
+
+### 5.2 Overall PIMS Maturity Score
+
+```
+Overall Score (%) = (Total actual scores across all requirements / (Total requirements x 4)) x 100
+```
+
+### 5.3 Maturity Band
+
+| Score Range | Band | Interpretation |
+|-------------|------|----------------|
+| 0-24% | Level 1 - Absent | PIMS does not exist. Significant remediation required before certification. |
+| 25-49% | Level 2 - Developing | Foundational elements in place but major gaps across multiple clauses. |
+| 50-74% | Level 3 - Defined | Core PIMS implemented; gaps in Annex A/B controls or operational procedures. |
+| 75-89% | Level 4 - Managed | Well-established PIMS; minor gaps; ready for internal audit and pre-assessment. |
+| 90-100% | Level 5 - Optimising | Fully mature PIMS; continuous improvement cycle operating; certification-ready. |
 
 ---
 
-## Section 3 — Annex B: PII Processor Controls (18 Controls)
+## 6. Gap Priority Classification
 
-### B.8 — PII Processor Obligations
+Assign each identified gap a priority based on the combination of clause criticality and score:
 
-| Control | Requirement | Score (0-4) | Evidence / Notes | Gap Owner |
-|---|---|---|---|---|
-| B.8.1.1 | Written agreement with PII controller in place | | | |
-| B.8.1.2 | Processing performed only per controller instructions | | | |
-| B.8.1.3 | Obligations to assist controller with data subject rights documented | | | |
-| B.8.2.1 | Sub-processors engaged only with controller authorisation | | | |
-| B.8.2.2 | Sub-processors bound by equivalent data protection obligations | | | |
-| B.8.2.3 | Register of sub-processors maintained | | | |
-| B.8.3.1 | PII returned or deleted on contract termination | | | |
-| B.8.3.2 | Evidence of deletion/return provided to controller | | | |
-| B.8.4.1 | Privacy breaches reported to controller within agreed timeframe | | | |
-| B.8.4.2 | Breach records maintained by processor | | | |
-| B.8.5.1 | Cross-border transfers performed only with controller authorisation | | | |
-| B.8.5.2 | Transfer mechanism documented and compliant | | | |
-| B.8.5.3 | Disclosure to third parties limited to controller-authorised recipients | | | |
-| B.8.5.4 | PII not used for processor's own purposes | | | |
-| B.8.5.5 | Processor staff bound by confidentiality obligations | | | |
-| B.8.5.6 | Processor provides controller with necessary information for compliance | | | |
-| B.8.5.7 | Processor supports controller's obligation to conduct DPIAs | | | |
-| B.8.5.8 | Processor notifies controller of any legally binding disclosure requests | | | |
+| Priority | Criteria | Target Completion |
+|----------|----------|-------------------|
+| P1 - Critical | Score 0 on a mandatory clause (4-10, Annex A/B); or a clause required for GDPR/data protection compliance | Within 30 days |
+| P2 - High | Score 1 on mandatory clauses; or score 0-1 on significant Annex controls | Within 60 days |
+| P3 - Medium | Score 2 on any clause; or score 0-1 on advisory Annex controls | Within 90 days |
+| P4 - Low | Score 3 with minor documentation gaps; style or formatting improvements | Within 180 days |
 
 ---
 
-## Gap Assessment Summary
+## 7. Building the Remediation Roadmap
 
-| Section | Total Requirements | Score 4 | Score 3 | Score 2 | Score 1 | Score 0 | Gaps (0-2) |
-|---|---|---|---|---|---|---|---|
-| Clause Extensions (4-10) | 28 | | | | | | |
-| Annex A — Controller | 31 | | | | | | |
-| Annex B — Processor | 18 | | | | | | |
-| **Total** | **77** | | | | | | |
+### Step 1: Export Gap Data
+Transfer all scores from the PIMS-GAP-ASSESSMENT-CHECKLIST.md into a spreadsheet. Add columns for: Owner, Priority, Target Date, and Status.
 
-### Priority Action Plan
+### Step 2: Identify P1 Critical Gaps
+Filter for score 0 or 1 on Clauses 4-10 and Annex A/B. These represent items that must be resolved before any certification attempt.
 
-| Priority | Gap Reference | Requirement | Recommended Action | Owner | Target Date |
-|---|---|---|---|---|---|
-| High | | | | | |
-| High | | | | | |
-| Medium | | | | | |
+### Step 3: Group by Theme
+Cluster gaps into themes (e.g., Policy documentation, DPIA process, Third-party controls) to enable efficient batch remediation.
+
+### Step 4: Assign Owners
+Allocate each gap to a named owner with a realistic completion date. The DPO should hold overall accountability.
+
+### Step 5: Track Progress
+Review the remediation tracker monthly. Re-score completed items against the checklist and recalculate clause and overall scores.
+
+### Step 6: Pre-Audit Self-Check
+When the overall score reaches Level 4 (>=75%), conduct an internal audit using Section 8 of this toolkit before engaging an external certification body.
 
 ---
 
-*ISO/IEC 27701:2019 PIMS Toolkit | Gap Assessment Checklist | PIMS-GAP-001*
+## 8. Evidence Requirements by Clause
+
+| Clause | Minimum Evidence Required |
+|--------|---------------------------|
+| 4 - Context | Scope statement; interested parties register; legal/regulatory requirements register |
+| 5 - Leadership | Signed leadership commitment; DPO ToR; RACI matrix; Privacy Policy |
+| 6 - Planning | Risk assessment methodology; risk register; risk treatment plan; SoA |
+| 7 - Support | Document master list; training register; competence records; communications plan |
+| 8 - Operation | DPIA records; DSR logs; consent records; breach register; third-party assessments; ROPA |
+| 9 - Performance | Internal audit report; management review minutes; KPI dashboard |
+| 10 - Improvement | NCR/CAR register; continual improvement log |
+| Annex A | Completed Annex A controls with applicability statements and evidence references |
+| Annex B | Completed Annex B controls with applicability statements and evidence references |
+
+---
+
+## 9. Interpreting Annex A and B Controls
+
+### Annex A - PII Controller Controls
+These controls apply when the organisation acts as a **PII Controller** (i.e., it determines the purposes and means of processing personal data). Mark each control as:
+- **Applicable:** Organisation acts as controller and the control is relevant.
+- **Not Applicable:** Organisation does not act as controller for the processing in scope (provide justification).
+
+### Annex B - PII Processor Controls
+These controls apply when the organisation acts as a **PII Processor** (i.e., it processes personal data on behalf of another organisation). Mark each control as:
+- **Applicable:** Organisation acts as processor and the control is relevant.
+- **Not Applicable:** Organisation does not act as processor (provide justification).
+
+### Dual Role
+If the organisation acts as both controller and processor, both Annex A and Annex B apply. Score each set independently.
+
+---
+
+## 10. Linking Gaps to the Statement of Applicability (SoA)
+
+Each Annex A/B control in the SoA (PIMS-PLN-003) should reference its gap assessment score. Where a control is marked Not Applicable, the justification must be documented in both the SoA and the gap assessment.
+
+---
+
+## 11. Common Scoring Errors to Avoid
+
+1. **Over-scoring based on intent:** Score what is implemented, not what is planned.
+2. **Ignoring evidence:** A policy exists but is not signed off or communicated -- score 2, not 4.
+3. **Clause conflation:** Score each requirement independently even if they share a common owner.
+4. **Ignoring Annex B if processor:** Many organisations underestimate processor obligations. Apply Annex B rigorously.
+5. **Static scoring:** Re-score after each remediation cycle; the checklist is a living document.
+
+---
+
+## 12. Integration with Python GRC Scripts
+
+The repository includes automated scoring tools in `13-SCRIPTS/`:
+
+- **`pims_gap_checker.py`** -- Parses checklist CSV exports and calculates clause scores, overall maturity score, and gap distribution. Outputs a prioritised remediation summary.
+- **`dpia_risk_scorer.py`** -- Scores individual DPIA entries and flags high-risk processing activities requiring escalation.
+- **`pims_soa_tracker.py`** -- Tracks SoA control applicability and implementation status across Annex A and B.
+
+To use the gap checker:
+```bash
+python 13-SCRIPTS/pims_gap_checker.py --input gap_assessment_export.csv --output remediation_report.txt
+```
+
+---
+
+## 13. Version History
+
+| Version | Date | Author | Change Description |
+|---------|------|--------|--------------------|
+| 1.0 | 2025-01-01 | DPO | Initial release -- ISO/IEC 27701:2025 |
+
+---
+
+*ISO/IEC 27701:2025 PIMS Toolkit | Gap Assessment Scoring Guide | PIMS-SCR-001*
