@@ -243,6 +243,7 @@ This toolkit cross-maps ISO 27701:2025 controls to:
 | Version | Date | Changes |
 |---------|------|---------|
 | 2.2 | April 2025 | Comprehensive audit and fix — replaced incorrect placeholder content in 11 files with correct docs; completed THIRD-PARTY-PRIVACY-ASSESSMENT.md; fixed all ISO/IEC 27701:2019 body/footer refs to 2025; fixed dpia_risk_scorer.py version refs |
+| 2.3 | April 2025 | Final deep audit — fixed wrong content in GAP-ASSESSMENT-SCORING-GUIDE (was showing checklist, now proper scoring guide PIMS-SCR-001); updated ISO/IEC 27701:2019 → 2025 in 17 additional files (body text, footer citations, document titles, contributing guidelines) — all 63 files now fully consistent with 2025 edition |
 | 2.1 | April 2025 | Fixed file reference errors — Annex A/B now correctly reference ANNEX-A-PII-CONTROLLER-CONTROLS.md and ANNEX-B-PII-PROCESSOR-CONTROLS.md |
 | 2.0 | April 2025 | Updated to ISO/IEC 27701:2025 — HLS alignment, expanded controls, DPIA enhancements, TIA, joint controller provisions, ISO 31700 cross-reference |
 | 1.0 | 2024 | Initial release — ISO/IEC 27701:2019 edition |
