@@ -82,4 +82,4 @@ Violations may result in disciplinary action up to and including dismissal, pers
 
 ---
 
-*ISO/IEC 27701:2019 PIMS Toolkit | Privacy Acceptable Use Policy | PIMS-LDR-004*
+*ISO/IEC 27701:2025 PIMS Toolkit | Privacy Acceptable Use Policy | PIMS-LDR-004*
