@@ -151,4 +151,4 @@ After consultation between DPO and Legal Counsel (Priya Sharma):
 ---
 
 *Worked example. NFS is a fictional organisation.*  
-*ISO/IEC 27701:2019 PIMS Toolkit | NFS Breach Log Entry | NFS-BREACH-2025-007*
+*ISO/IEC 27701:2025 PIMS Toolkit | NFS Breach Log Entry | NFS-BREACH-2025-007*
