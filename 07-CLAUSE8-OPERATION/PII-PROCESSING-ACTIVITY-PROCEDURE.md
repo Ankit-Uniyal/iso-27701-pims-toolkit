@@ -11,7 +11,7 @@
 
 ## 1. Purpose
 
-This procedure defines how the organisation identifies, documents, approves, monitors, and controls all activities involving the processing of Personally Identifiable Information (PII). It ensures that PII processing is lawful, transparent, purpose-limited, and aligned with ISO/IEC 27701:2019 and applicable data protection regulations.
+This procedure defines how the organisation identifies, documents, approves, monitors, and controls all activities involving the processing of Personally Identifiable Information (PII). It ensures that PII processing is lawful, transparent, purpose-limited, and aligned with ISO/IEC 27701:2025 and applicable data protection regulations.
 
 ---
 
@@ -207,4 +207,4 @@ The following records shall be maintained:
 
 ---
 
-*ISO/IEC 27701:2019 PIMS Toolkit | PII Processing Activity Procedure | PIMS-OPS-004*
+*ISO/IEC 27701:2025 PIMS Toolkit | PII Processing Activity Procedure | PIMS-OPS-004*
