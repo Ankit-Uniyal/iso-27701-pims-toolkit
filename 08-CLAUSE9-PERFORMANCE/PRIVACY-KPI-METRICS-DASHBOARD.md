@@ -11,7 +11,7 @@
 
 ## 1. Purpose
 
-This dashboard defines the Key Performance Indicators (KPIs) and metrics used to monitor, measure, and report on the effectiveness of the Privacy Information Management System (PIMS). It supports ISO/IEC 27701:2025 Clause 9.1 (Monitoring, measurement, analysis, and evaluation) and provides evidence for the This dashboard defines the Key Performance Indicators (KPIs) and metrics used to monitor, measure, and report on the effectiveness of the Privacy Information Management System (PIMS). It supports ISO/IEC 27701:2025 Clause 9.1 (Monitoring, measurement, analysis, and evaluation) and provides evidence for the Management Review.supports ISO/IEC 27701:2019 Clause 9.1 (Monitoring, measurement, analysis, and evaluation) and provides evidence for the Management Review.
+This dashboard defines the Key Performance Indicators (KPIs) and metrics used to monitor, measure, and report on the effectiveness of the Privacy Information Management System (PIMS). It supports ISO/IEC 27701:2025 Clause 9.1 (Monitoring, measurement, analysis, and evaluation) and provides evidence for the This dashboard defines the Key Performance Indicators (KPIs) and metrics used to monitor, measure, and report on the effectiveness of the Privacy Information Management System (PIMS). It supports ISO/IEC 27701:2025 Clause 9.1 (Monitoring, measurement, analysis, and evaluation) and provides evidence for the Management Review.supports ISO/IEC 27701:2025 Clause 9.1 (Monitoring, measurement, analysis, and evaluation) and provides evidence for the Management Review.
 
 ---
 
@@ -169,7 +169,7 @@ This dashboard defines the Key Performance Indicators (KPIs) and metrics used to
 | Version | Date | Author | Change Description |
 |---------|------|--------|--------------------|
 | 2.0 | April 2025 | DPO | Updated for ISO/IEC 27701:2025 — standard reference corrected, new 2025 KPIs added (TIA completion, joint controller agreements, consent refresh compliance, A.8.3.2) |
-| 1.0 | 2024 | DPO | Initial release — ISO/IEC 27701:2019 |
+| 1.0 | 2024 | DPO | Initial release — ISO/IEC 27701:2025 |
 
 ---
 
