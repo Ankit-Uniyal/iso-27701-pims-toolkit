@@ -159,4 +159,4 @@ For each user interaction with the CMP, capture and retain:
 
 ---
 
-*ISO/IEC 27701:2019 PIMS Toolkit | Cookie Consent Management Guide | PIMS-SUP-015*
+*ISO/IEC 27701:2025 PIMS Toolkit | Cookie Consent Management Guide | PIMS-SUP-015*
