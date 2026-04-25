@@ -11,7 +11,7 @@
 
 ## 1. Purpose
 
-This policy establishes the organisation's approach to retaining and securely disposing of Personally Identifiable Information (PII) in accordance with the storage limitation principle under ISO/IEC 27701:2019 Clause 7.4.6, GDPR Article 5(1)(e), and applicable data protection regulations. PII shall not be retained for longer than necessary for the specified purpose.
+This policy establishes the organisation's approach to retaining and securely disposing of Personally Identifiable Information (PII) in accordance with the storage limitation principle under ISO/IEC 27701:2025 Clause 7.4.6, GDPR Article 5(1)(e), and applicable data protection regulations. PII shall not be retained for longer than necessary for the specified purpose.
 
 ---
 
@@ -197,4 +197,4 @@ Failure to comply with this policy may constitute a breach of data protection la
 
 ---
 
-*ISO/IEC 27701:2019 PIMS Toolkit | Data Retention and Disposal Policy | PIMS-OPS-006*
+*ISO/IEC 27701:2025 PIMS Toolkit | Data Retention and Disposal Policy | PIMS-OPS-006*
