@@ -11,14 +11,14 @@
 
 ## 1. Purpose
 
-This Internal Audit Programme defines the planned schedule, scope, methodology, and resources for conducting PIMS internal audits in accordance with ISO/IEC 27701:2019 Clause 9.2. It ensures systematic, periodic evaluation of the PIMS to confirm its conformance, effectiveness, and alignment with legal and regulatory requirements.
+This Internal Audit Programme defines the planned schedule, scope, methodology, and resources for conducting PIMS internal audits in accordance with ISO/IEC 27701:2025 Clause 9.2. It ensures systematic, periodic evaluation of the PIMS to confirm its conformance, effectiveness, and alignment with legal and regulatory requirements.
 
 ---
 
 ## 2. Audit Objectives
 
 The PIMS internal audit programme aims to:
-- Verify conformance of the PIMS with ISO/IEC 27701:2019 requirements
+- Verify conformance of the PIMS with ISO/IEC 27701:2025 requirements
 - Assess compliance with GDPR, UAE PDPL, and other applicable regulations
 - Evaluate the effectiveness of implemented privacy controls
 - Identify non-conformities, gaps, and opportunities for improvement
@@ -168,4 +168,4 @@ External auditors may be engaged for specialist areas or if independence cannot 
 
 ---
 
-*ISO/IEC 27701:2019 PIMS Toolkit | PIMS Internal Audit Programme | PIMS-PER-002*
+*ISO/IEC 27701:2025 PIMS Toolkit | PIMS Internal Audit Programme | PIMS-PER-002*
