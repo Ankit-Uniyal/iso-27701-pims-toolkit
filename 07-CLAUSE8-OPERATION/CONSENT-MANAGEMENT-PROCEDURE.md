@@ -11,7 +11,7 @@
 
 ## 1. Purpose
 
-This procedure defines how the organisation obtains, records, manages, and honours consent from data subjects for PII processing activities where consent is the chosen legal basis. It ensures compliance with ISO/IEC 27701:2019 Clause 7.3.3, GDPR Articles 6–7, and the organisation's commitment to transparency and individual autonomy over personal data.
+This procedure defines how the organisation obtains, records, manages, and honours consent from data subjects for PII processing activities where consent is the chosen legal basis. It ensures compliance with ISO/IEC 27701:2025 Clause 7.3.3, GDPR Articles 6–7, and the organisation's commitment to transparency and individual autonomy over personal data.
 
 ---
 
@@ -195,4 +195,4 @@ For special category processing under GDPR Article 9 (health, racial/ethnic orig
 
 ---
 
-*ISO/IEC 27701:2019 PIMS Toolkit | Consent Management Procedure | PIMS-OPS-005*
+*ISO/IEC 27701:2025 PIMS Toolkit | Consent Management Procedure | PIMS-OPS-005*
