@@ -1,5 +1,7 @@
 # ISO/IEC 27701:2025 PIMS Toolkit
 
+> **Edition notice, August 2026.** The headline is correct: ISO/IEC 27701:2025 is the current edition, published 14 October 2025, and 27701:2019 is withdrawn. The content below has not caught up with it. This repository still follows the 2019 structure, an Annex A for PII controllers and a separate Annex B for PII processors, and the control identifiers in the cross-mapping folder still use 2019 numbering. The 2025 edition reorganised controller, processor and shared controls into a single restructured Annex A and repurposed Annex B as implementation guidance, so clause references here will not line up with the standard you hold. Until the re-mapping lands, treat this as a 27701:2019 toolkit carrying a 2025 label, and verify every control ID against your own copy of the standard. If you have forked this repository, the same applies to your fork.
+
 > A practical, audit-ready implementation toolkit for **ISO/IEC 27701:2025** Privacy Information Management Systems — extending **ISO 27001:2022** and ISO 27002:2022 with privacy-specific controls for PII controllers and PII processors. Updated for the 2025 edition with expanded Annex A/B controls, enhanced DPIA requirements, joint-controller provisions, and full alignment to ISO 27001:2022 (HLS/Annex SL).
 
 > **Updated:** April 2025 | **Standard Version:** ISO/IEC 27701:2025 | **Replaces:** ISO/IEC 27701:2019
