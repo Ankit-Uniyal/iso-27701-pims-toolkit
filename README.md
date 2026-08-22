@@ -1,10 +1,10 @@
-# ISO/IEC 27701:2025 PIMS Toolkit
+# ISO/IEC 27701:2019 PIMS Toolkit
 
-> **Edition notice, August 2026.** The title is correct: ISO/IEC 27701:2025 is the current edition, published 14 October 2025, and 27701:2019 is withdrawn. The content below has not caught up with it. ISO's own foreword states that the second edition cancels and replaces 27701:2019 and that the main change is that **the document has been redrafted as a stand-alone management system standard**. That is a structural break, not a refresh: the 2019 edition was written as an extension to ISO/IEC 27001 and 27002, which is exactly how this toolkit is built and how the description below still frames it. Clause and control references throughout this repository follow the 2019 edition and will not line up with the 2025 text. Treat this as a 27701:2019 toolkit carrying a 2025 label, and verify every identifier against your own copy of the standard before using it for certification, audit or client work. If you have forked this repository, the same applies to your fork. Source: [ISO Online Browsing Platform](https://www.iso.org/obp/ui/en/#iso:std:iso-iec:27701:ed-2:v1:en).
+> **Edition notice, August 2026.** This toolkit is built on **ISO/IEC 27701:2019**, which ISO has withdrawn. It was replaced by **ISO/IEC 27701:2025**, published 14 October 2025. ISO's own foreword states that the second edition cancels and replaces 27701:2019 and that the main change is that **the document has been redrafted as a stand-alone management system standard**. That is a structural break, not a refresh: the 2019 edition was written as an extension to ISO/IEC 27001 and 27002, which is how everything here is built. None of it has been re-mapped to the 2025 text, so in August 2026 this repository was retitled to name the edition it actually covers rather than the one it claimed. Use it as a 27701:2019 reference, and verify every clause and control identifier against your own copy of the standard before certification, audit or client work. If you forked this repository before August 2026, your copy still carries the old 2025 title. Source: [ISO Online Browsing Platform](https://www.iso.org/obp/ui/en/#iso:std:iso-iec:27701:ed-2:v1:en).
 
-> A practical, audit-ready implementation toolkit for **ISO/IEC 27701:2025** Privacy Information Management Systems — extending **ISO 27001:2022** and ISO 27002:2022 with privacy-specific controls for PII controllers and PII processors. Updated for the 2025 edition with expanded Annex A/B controls, enhanced DPIA requirements, joint-controller provisions, and full alignment to ISO 27001:2022 (HLS/Annex SL).
+> A practical, audit-ready implementation toolkit for **ISO/IEC 27701:2019** Privacy Information Management Systems, extending **ISO/IEC 27001:2022** and ISO/IEC 27002:2022 with privacy-specific controls for PII controllers and PII processors. Covers the 2019 Annex A and Annex B control sets, DPIA templates, privacy notice and consent management, joint-controller provisions, and alignment to the ISO 27001:2022 high-level structure.
 
-> **Updated:** April 2025 | **Standard Version:** ISO/IEC 27701:2025 | **Replaces:** ISO/IEC 27701:2019
+> **Covers:** ISO/IEC 27701:2019 (withdrawn) | **Superseded by:** ISO/IEC 27701:2025 | **Re-mapped to 2025:** not yet | **Retitled:** August 2026
 
 > ---
 
@@ -24,6 +24,8 @@
 - Cross-mapping to GDPR Articles, NIST Privacy Framework 1.0, ISO 29100:2011, and ISO 31700
 
 ## Key Changes: ISO/IEC 27701:2025 vs. 2019
+
+> **Unverified.** The 2025 column below was written before the standard was consulted and has not been checked against the published text. ISO's own foreword lists one main change: the document was redrafted as a stand-alone management system standard. Treat every 2025 claim in this table as an expectation, not a fact, until someone with a copy confirms it.
 
 | Area | 2019 Edition | 2025 Edition |
 |------|-------------|-------------|
